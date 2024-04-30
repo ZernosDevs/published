@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_page=self.webpackChunkmy_page||[]).push([[5080],{5080:(e,s,a)=>{a.d(s,{Pauser:()=>n});var t=a(4409);class n extends t.sJ{constructor(e){super(e),this.handleClickMode=e=>{if("pause"!==e)return;const s=this.container;s.animationStatus?s.pause():s.play()}}clear(){}init(){}interact(){}isEnabled(){return!0}reset(){}}}}]);
+//# sourceMappingURL=5080.819e6868.chunk.js.map
