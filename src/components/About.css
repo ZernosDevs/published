@@ -1,0 +1,307 @@
+.about-layout {
+    margin-top:20%;
+    position:relative;
+    display:flex;
+    height:auto;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 30px;
+    align-items: center;
+}
+    .about-layout > div {
+        max-width: 1450px;
+        height:auto;
+ 
+    }
+    .about-title{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+        .title-en {
+            font-size: clamp(4vw, 5vw, 7vw);
+            color:#ffffff;
+            font-family: 'Roboto';
+            font-weight:800;
+        }
+        .title-jp {
+            font-size: clamp(4vw, 5vw, 7vw);
+            color:#ffffff;
+            font-family: 'Noto Sans JP';
+            font-weight:800;
+        }
+        .underline {
+            margin-top: 5%;
+            width: 110%;
+            height:4px;
+            background-color: #ffffff;
+            border-radius: 50%;
+        }
+    .step-en {
+        font-size: clamp(20px, 4vw, 60px);
+        color:#ffffff;
+        font-style: normal;
+        font-weight: 200;
+        letter-spacing: -0.72px;
+        margin-top:5%;
+        max-width:60%;
+        text-align: center;
+        font-family: 'Roboto';
+        opacity: 0; /* Start hidden */
+        transform: translateX(20px); /* Start slightly off position */
+        transition: all 0.5s ease-in-out; /* Smooth transition */
+        animation-delay: 1s;
+    }
+    .step-jp {
+        font-size: clamp(20px, 4vw, 50px);
+        color:#ffffff;
+        font-style: normal;
+        font-weight: 300;
+        letter-spacing: -0.72px;
+        margin-top:5%;
+        max-width:60%;
+        text-align: center;
+        font-family: 'Zen Kaku Gothic New';
+        opacity: 0; /* Start hidden */
+        transform: translateX(20px); /* Start slightly off position */
+        transition: all 0.5s ease-in-out; /* Smooth transition */
+        animation-delay: 1s;
+    }
+    .section-content {
+        margin-top:5%;
+        display:flex;
+        flex-direction: column;
+        width:75%;
+    }
+
+        .background-content {
+            margin-top: 10%;
+            display:flex;
+            flex-direction: row;
+            opacity: 0; /* Start hidden */
+            transform: translateX(-20px); /* Start slightly off position */
+            transition: all 0.5s ease-in-out; /* Smooth transition */
+        }
+        .background-content2 {
+            margin-top: 10%;
+            display:flex;
+            flex-direction: row;
+            opacity: 0; /* Start hidden */
+            transform: translateX(20px); /* Start slightly off position */
+            transition: all 0.5s ease-in-out; /* Smooth transition */
+        }
+        .animate-in {
+            opacity: 1; /* Fully visible */
+            transform: translateX(0); /* Reset translation */
+          }
+          
+         .about-text-en {
+            font-size: clamp(10px, 2vw, 20px);
+            color:#ffffff; 
+            font-family: 'Inter';
+            font-weight:200;
+            line-height: clamp(24px, 3vw, 48px);
+            text-align:justify;
+            margin-top: 10%;
+        }
+        .about-text-jp {
+            font-size: clamp(10px, 2vw, 20px);
+            color:#ffffff; 
+            font-family: 'Zen Kaku Gothic New';
+            font-weight:300;
+            line-height: clamp(24px, 3vw, 48px);
+            text-align:justify;
+            margin-top: 10%;
+        }
+        .section-text {
+            flex: 1 1 auto;
+            height:auto;
+        }
+        .text-2 {
+            text-align: end;
+        }
+            .job {
+                display:flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .text-2 > .job {
+                justify-content: flex-end;
+            }
+                .past-en {
+                    margin-top:5%;
+                    font-size: clamp(2vw, 4vw, 6vw);
+                    color:#ffffff;
+                    font-family: 'Roboto';
+                    font-style:normal;
+                    font-weight:500;
+                }
+                .past-jp {
+                    margin-top:5%;
+                    font-size: clamp(2vw, 3vw, 6vw);
+                    color:#ffffff;
+                    font-family: 'Noto Sans JP' sans-serif;
+                    font-style:normal;
+                    font-weight:500;
+                }
+                .indicator {
+                    margin-top:5%;
+                    width: clamp(1vw, 2vw, 3vw); /* Changes width responsively */
+                    height: clamp(1vw, 2vw, 3vw); 
+                    border-radius: 50%; /* Makes the div a circle */
+                    background-color: #FFA500; /* The color of the circle */
+                    margin-right: 5%; /* Spacing between the circle and the h1 */
+                }
+                
+                .date-en {
+                    margin-left: 10%;
+                    margin-top:8%;
+                    font-size: clamp(16px, 3vw, 48px);
+                    color:#ffffff;
+                    font-family: 'Roboto';
+                    font-style:normal;
+                    font-weight:300;
+                }
+                .date-jp {
+                    margin-left: 10%;
+                    margin-top:8%;
+                    font-size: clamp(16px, 3vw, 48px);
+                    color:#ffffff;
+                    font-family: 'Noto Sans JP';
+                    font-style:normal;
+                    font-weight:300;
+                }
+                .place-en {
+                    margin-left: 10%;
+                    margin-top:4%;
+                    font-size: clamp(12px, 2vw, 24px);
+                    color:#ffffff;
+                    font-family: 'Roboto';
+                    font-style:normal;
+                    font-weight:300;
+                }
+                .place-jp {
+                    margin-left: 10%;
+                    margin-top:4%;
+                    font-size: clamp(12px, 2vw, 24px);
+                    color:#ffffff;
+                    font-family: 'Noto Sans JP';
+                    font-style:normal;
+                    font-weight:300;
+                }
+
+        .section-image {
+            display:flex;
+            flex: 1 1 auto;
+        }
+        .image-1 {
+            justify-content: flex-end;
+        }
+        .image-2 {
+            justify-content:flex-start;
+        }
+        .image-3 {
+            justify-content: flex-end;
+        }
+        .image-1 .circle-container {
+            border: 6px solid #10B981;
+            animation: float 4s ease-in-out infinite;
+            animation-delay: 3s;
+            transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+        }
+        .image-2 .circle-container{
+            animation: float 4s ease-in-out infinite;
+            animation-delay: 0.5s;
+            border: 6px solid #7C3AED;
+            transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+        }
+        .image-3 .circle-container{
+            animation: float 4s ease-in-out infinite;
+            animation-delay: 2s;
+            border: 6px solid #B45309;
+            transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+        }
+        .circle-container {
+            width: clamp(15vw, 25vw, 35vw); /* Changes width responsively */
+            height: clamp(15vw, 25vw, 35vw); /* Changes height responsively */
+            border-radius: 50%;  /* Makes the div circular */
+            overflow: hidden;    /* Hides anything outside the circle */
+            display: flex;       /* Ensures the image stays centered */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            position:relative;
+            pointer-events: auto;
+        }
+        .circle-container:hover{
+            width: clamp(15vw, 30vw, 35vw);        /* Set the width of the circle */
+            height: clamp(15vw, 30vw, 35vw);
+            transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+        }
+            .circle-container a {
+                display: block;
+                width: 100%;  /* Ensures the anchor tag fills the container */
+                height: 100%; /* Ensures the anchor tag fills the container */
+            }
+                .circle-container img {
+                    display:block;
+                    width: auto;  /* Adjust width to auto if the image is too stretched */
+                    height: 100%; /* Adjust height to 100% if you need to cover the full circle height */
+                    min-width: 100%; /* Ensures the image covers the width completely */
+                    min-height: 100%; /* Ensures the image covers the height completely */
+                    object-fit: cover; /* Ensures the image covers the circle completely, cropping if necessary */
+                    transform: translate(-10%, 0%);
+                    transform: translateX(-1%); /* Shifts the image upward by 10% */
+
+                }
+                figcaption {
+                    position: absolute;
+                    top: 30;
+                    width: 100%;
+                    text-align: center;
+                    color: white;
+                    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+                    font-size: 18px;
+                    padding: 5px 0;
+                }
+                .circle-container a:hover figcaption {
+                    opacity:1;
+                }
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5%); /* Adjust the value to control the amplitude */
+    }
+}
+
+/* Media Query Start */
+@media (max-width: 1000px) {
+    .about-layout {
+        margin-top:-50%;
+    }
+    .section-content {
+        width:100%;
+    }
+    .about-layout > h1 {
+        max-width:80%;
+    }
+    .circle-container {
+        width: clamp(150px, 25vw, 35vw); /* Changes width responsively */
+        height: clamp(150px, 25vw, 35vw); /* Changes height responsively */
+        border-radius: 50%;  /* Makes the div circular */
+        overflow: hidden;    /* Hides anything outside the circle */
+        display: flex;       /* Ensures the image stays centered */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        position:relative;
+        pointer-events: auto;
+    }
+    .circle-container:hover{
+        width: clamp(200px, 30vw, 35vw);        /* Set the width of the circle */
+        height: clamp(200px, 30vw, 35vw);
+        transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    }
+}

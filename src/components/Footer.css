@@ -1,0 +1,121 @@
+.footer-layout {
+    margin-top:50%;
+    position:relative;
+    display:flex;
+    height:auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-image {
+    width:100%;
+    height:auto;
+    margin-right:5%;
+}
+.footer-image > img {
+    width:100%;
+    height:100%;
+    margin-top:10%;
+}
+.contacts-title{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+    .contacts-title h2{
+        font-size: clamp(3vw, 5vw, 7vw);
+        color:#ffffff;
+        font-family: 'Roboto';
+        font-weight:800;
+    }
+    .title-jp4 {
+        font-size: clamp(3vw, 5vw, 7vw);
+        color:#ffffff;
+        font-family: 'Noto Sans JP';
+        font-weight:800;
+    }
+    .title-en4 {
+        font-size: clamp(3vw, 5vw, 7vw);
+        color:#ffffff;
+        font-family: 'Roboto';
+        font-weight:800;
+    }
+    .underline {
+        margin-top: 5%;
+        width: 110%;
+        height:4px;
+        background-color: #ffffff;
+        border-radius: 50%;
+    }
+.contacts-container {
+    display:flex;
+    flex-direction:row;
+    max-width:1450px;
+    width:100%;
+    margin-top:10%;
+}
+.contact-form {
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 2%;
+}
+.contact-form h2 {
+    margin-top:5%;
+    font-size: clamp(20px, 3vw, 40px);
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 700;
+}
+
+.contact-jp {
+    font-size: clamp(20px, 3vw, 45px);
+    color: #ffffff;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 500;
+}
+.contact-en {
+    font-size: clamp(20px, 3vw, 45px);
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 700;
+}
+.social-container {
+    display:flex;
+    flex-direction: row;
+    
+}
+.social-container a {
+    display:block;
+    color:#ffffff;
+    margin:30px;
+}
+
+.social-container a:hover {
+    color:gray;
+}
+
+
+@media (max-width:1700px) {
+    .contact-form {
+        padding-right: 0%;
+    }
+
+}
+
+@media (max-width:1500px) {
+    .contacts-container {
+        display:flex;
+        flex-direction:column;
+        width:100%;
+    }
+    .margin-add {
+        margin-top:10%;
+    }
+
+}

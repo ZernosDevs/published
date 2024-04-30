@@ -1,0 +1,272 @@
+.workflow-wrap {
+    margin-top: 20%;
+    position: relative;
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 30px;
+    align-items: center;
+    }
+
+    .workflow-title{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+    .title-en3 {
+        font-size: clamp(3vw, 5vw, 7vw);
+        color:#ffffff;
+        font-family: 'Roboto';
+        font-weight:800;
+    }
+    .title-jp3 {
+        font-size: clamp(3vw, 4vw, 5vw);
+        color:#ffffff;
+        font-family: 'Noto Sans JP';
+        font-weight:800;
+    }
+        .underline {
+            margin-top: 5%;
+            width: 110%;
+            height:4px;
+            background-color: #ffffff;
+            border-radius: 50%;
+        }
+    .intro-en {
+        margin-top:10%;
+        font-size: clamp(25px, 4vw, 60px);
+        color:#ffffff;
+        font-style: normal;
+        font-weight: 200;
+        letter-spacing: -0.72px;
+        margin-top:5%;
+        max-width:60%;
+        text-align: center;
+        font-family: 'Roboto';
+    }
+    .intro-jp{
+        margin-top:10%;
+        font-size: clamp(20px, 4vw, 60px);
+        color:#ffffff;
+        font-style: normal;
+        font-weight: 300;
+        letter-spacing: -0.72px;
+        margin-top:5%;
+        max-width:70%;
+        text-align: center;
+        font-family: 'Zen Kaku Gothic New';
+    }
+
+.workflow-layout{
+    max-width:1450px;
+    overflow:hidden;
+    position:relative;
+    margin:auto;
+    height:auto;
+}
+
+.slider {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.slide {
+    width:100%;
+    opacity: 0; /* Start hidden */
+    transform: translateY(30px); /* Start slightly off position */
+    transition: all 0.5s ease-in-out; /* Smooth transition */
+  }
+  
+  /* Animation class applied by Intersection Observer */
+  .animate-in {
+    opacity: 1; /* Fully visible when animated */
+    transform: translateY(0); /* Reset translation */
+  }
+
+.slide-content {
+    width:100%;
+    display:flex;
+    margin-top:7%;
+}
+
+
+.slide-title-en {
+    margin-top:20%;
+    font-size: clamp(20px, 4vw, 60px);
+    color:#ffffff;
+    font-family: 'Roboto';
+    font-style:normal;
+    font-weight:500;
+}
+.slide-title-jp {
+    margin-top:20%;
+    font-size: clamp(20px, 4vw, 60px);
+    color:#ffffff;
+    font-family: 'Noto Sans JP';
+    font-style:normal;
+    font-weight:500;
+}
+
+.subtext-title-jp{
+    font-size: clamp(15px, 2vw, 40px);
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+}
+.subtext-title-en {
+    font-size: clamp(15px, 2vw, 40px);
+    color: #ffffff;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 500;
+}
+.sub-content {
+    width:100%;
+    max-width:1450px;
+    display:flex;
+    flex-direction: row;
+    gap:5%;
+}
+.sub-content2 {
+    margin-bottom:5%;
+}
+.sub-content2 .sub-img {
+    width:100%;
+}.sub-content2 .sub-text {
+    width:100%;
+}
+.sub-img {
+    width:50%;
+    display:flex;
+    
+}
+.sub-img img{
+    max-width: 100%;
+    border-radius :clamp(12px, 2vw, 20px);
+    flex: auto;
+}
+.sub-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+.sub-text2 {
+    width: 100%;
+}
+.sub-text2 p{
+    margin-top:2%;
+    font-size: clamp(12px, 2vw, 20px);
+    color: #ffffff;
+    font-family: 'Inter';
+    font-weight: 200;
+    line-height: clamp(24px, 3vw, 48px);
+    text-align: start;
+}
+.sub-text2 p > a{
+    font-size: clamp(16px, 2vw, 20px);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.sub-text2 h2 {
+    margin-top:5%;
+}
+
+.sub-text-en {
+    margin-top:5%;
+    font-size: clamp(12px, 2vw, 20px);
+    color: #ffffff;
+    font-family: 'Inter';
+    font-weight: 200;
+    line-height: clamp(24px, 3vw, 48px);
+    text-align: start;
+}
+.sub-text-jp {
+    margin-top:5%;
+    font-size: clamp(12px, 2vw, 20px);
+    color: #ffffff;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight: 200;
+    line-height: clamp(24px, 3vw, 48px);
+    text-align: start;
+}
+.sub-text p > a{
+    font-size: clamp(16px, 2vw, 20px);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media (max-width: 1500px) {
+    
+    .workflow-wrap {
+        margin-top: 50%;
+    }
+    .workflow-layout{
+        overflow:hidden;
+        position:relative;
+        margin:auto;
+        height:auto;
+    }
+    .step-title {
+        max-width:80%;
+    }
+    .slider {
+        width:100%;
+        display:flex;
+        flex-direction:column;
+    }
+    
+    .slide {
+        width:100%;
+        
+    }
+    .slide-content {
+        width:100%;
+        display:flex;
+        margin-top:10%;
+    
+    }
+    .slide-content h2 {
+        text-align: center;
+    }
+    .slide-content h2 {
+        margin-top:7%;
+    }
+    .sub-content {
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        gap:0;
+    }
+    .sub-content2 .sub-img {
+        width:100%;
+    }.sub-content2 .sub-text {
+        width:100%;
+    }
+    .sub-content .sub-img {
+        order: 1;
+        width:50%;
+        margin:auto;
+    }
+    .sub-content .sub-text {
+        order: 2;
+        width:100%;
+    }
+    
+
+    .sub-text p > a{
+        font-size: clamp(16px, 2vw, 20px);
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+}

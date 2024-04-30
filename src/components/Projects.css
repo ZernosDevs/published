@@ -1,0 +1,113 @@
+.project-layout {
+    margin-top: 50%;
+    position: relative;
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 30px;
+    align-items: center;
+}
+.project-title{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.title-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-en2 {
+    font-size: clamp(3vw, 5vw, 7vw);
+    color:#ffffff;
+    font-family: 'Roboto';
+    font-weight:800;
+}
+.title-jp2 {
+    font-size: clamp(3vw, 4vw, 5vw);
+    color:#ffffff;
+    font-family: 'Noto Sans JP';
+    font-weight:800;
+}
+    .underline2 {
+        margin-top: 5%;
+        width: 110%;
+        height:4px;
+        background-color: #ffffff;
+        border-radius: 50%;
+    }
+
+.project-layout .container {
+    display:flex;
+    flex-direction: column;
+    max-width: 1450px;
+    margin: auto;
+}
+
+.columns {
+    max-width:1450px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    opacity: 0; /* Start hidden */
+    transform: translateY(30px); /* Start slightly off position */
+    transition: all 0.5s ease-in-out; /* Smooth transition */
+}
+.animate-in {
+    opacity: 1; /* Fully visible when animated */
+    transform: translateY(0); /* Reset translation */
+  }
+.project-image {
+    margin-top:15%;
+}
+
+
+.columns:nth-child(1){
+    margin-top:12%;
+}
+.single-title h1{
+    margin-top:7%;
+    font-size: clamp(20px, 4vw, 60px);
+    color:#ffffff;
+    font-family: 'Roboto';
+    font-style:normal;
+    font-weight:500;
+}
+
+
+.project-text-en {
+    font-size: clamp(12px, 2vw, 20px);
+    color:#ffffff;
+    font-family: 'Inter';
+    font-weight:200;
+    line-height: clamp(24px, 3vw, 48px);
+    text-align:start;
+    margin-top:3%;
+}
+.project-text-jp {
+    font-size: clamp(12px, 2vw, 20px);
+    color:#ffffff;
+    font-family: 'Zen Kaku Gothic New';
+    font-weight:300;
+    line-height: clamp(24px, 3vw, 48px);
+    text-align:start;
+    margin-top:3%;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Adjust the value to control the amplitude */
+    }
+}
+
+
+

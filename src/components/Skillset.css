@@ -1,0 +1,229 @@
+/*
+.logos {
+    margin-top:400px;
+    width:100%;
+    height: auto;
+    overflow:hidden;
+    white-space:nowrap;
+}
+.logos-slide {
+    display: inline-block;
+    animation: 45s slide infinite linear;
+    margin-right: 80px;
+}
+
+.logos-slide img {
+    display: inline-block;
+    margin-right:200px;
+}
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+ @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  } 
+*/
+.skillset-layout {
+    margin-top: 50%;
+    position: relative;
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.skillset-title{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.title-en1 {
+    font-size: clamp(3vw, 5vw, 7vw);
+    color:#ffffff;
+    font-family: 'Roboto';
+    font-weight:800;
+}
+.title-jp1 {
+    font-size: clamp(3vw, 5vw, 7vw);
+    color:#ffffff;
+    font-family: 'Noto Sans JP';
+    font-weight:800;
+}
+    .underline {
+        margin-top: 5%;
+        width: 110%;
+        height:4px;
+        background-color: #ffffff;
+        border-radius: 50%;
+    }
+.frame {
+    max-width: 1450px;
+    width:100%;
+    display:flex;
+    margin:auto;
+    flex-direction: row;
+    opacity: 0; /* Start hidden */
+    transform: translateY(30px); /* Start slightly off position */
+    transition: all 0.5s ease-in-out; /* Smooth transition */
+}
+.animate-in {
+    opacity: 1; /* Fully visible when animated */
+    transform: translateY(0); /* Reset translation */
+  }
+.content-left {
+    width: 60%;
+    height:auto;
+}
+.skilltext-en {
+    font-size: clamp(25px, 4vw, 60px);
+    color:#ffffff;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: -0.72px;
+    margin-top:30%;
+}
+.skilltext-jp {
+    font-size: clamp(25px, 4vw, 60px);
+    color:#ffffff;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: -0.72px;
+    margin-top:30%;
+    font-family: 'Noto Sans JP';
+}
+.content-right {
+    display:flex;
+    width: 45%;
+}
+
+
+.column img {
+    margin-top:10%;
+    
+}
+.column:nth-child(1) img {
+    margin-right: 7%;
+}
+.column:nth-child(2) img {
+    margin-right: 8%;
+}
+.column:nth-child(3) img {
+    margin-right: 3%;
+}
+
+
+
+
+.img-1 {
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 3s;
+}
+.img-2 {
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 2s;
+}
+
+.img-3 {
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.img-4 {
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 5s;
+}
+
+.img-5 {
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 3s;
+}
+
+.img-7 {
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 4s;
+}
+
+.img-8 {
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.img-9 {
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 2s;
+}
+
+.img-10 {
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 4s;
+}
+
+.img-11 {
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.img-12 {
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 2s;
+}
+
+.img-13 {
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 3s;
+}
+
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Adjust the value to control the amplitude */
+    }
+}
+
+
+
+@media (max-width: 1600px) {
+    .frame {
+        width:100%;
+        display:flex;
+        margin:auto;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .content-left {
+        width: 100%;
+        height:auto;
+    }
+    .content-right {
+        display:flex;
+        width: 100%;
+    }
+    .content-right > h1 {
+        margin-top:10%;
+    }
+    .column {
+        display:flex;
+        flex-direction: row;
+        width:100%;
+        justify-content: center;
+    }
+    .column img {
+        width: clamp(10%, 1vw, 100%);
+        margin: 2% 5%;
+        margin-right:0;
+    }
+}

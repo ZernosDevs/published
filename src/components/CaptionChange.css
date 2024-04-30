@@ -1,0 +1,52 @@
+/* Define hover effect for the thumbnail with smooth scaling */
+.thumbnails {
+    position: relative; /* To position the caption absolutely within the thumbnail */
+  }
+  
+  .thumbnail-desktop {
+
+  }
+  .thumbnail-tablet {
+    margin:auto;
+  }
+  
+  .captions {
+    position: absolute;
+    top: 45%; /* Position the caption at the bottom of the image */
+    left: 0;
+    width: 100%;
+    text-align: center; /* Center the text */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white; /* White text for visibility */
+    padding: 5px; /* Padding for the text */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for showing/hiding */
+    font-size: clamp(10px, 1vw, 20px);
+  }
+  
+  .thumbnails:hover .captions {
+    opacity: 1; /* Show the caption on hover */
+  }
+  .desktops{
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 3s;
+    width: clamp(103px, 45vw, 716px);
+    height: clamp(76px, 35vw, 530px);
+    border-radius: clamp(5px, 2vw, 15px);
+    
+}
+.tablets {
+    width: clamp(100px, 25vw, 370px);
+    height: clamp(120px 30vw, 446px);
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 2s;
+    border-radius: clamp(2px, 1vw, 10px);
+}
+
+.mobiles {
+    width: clamp(50px, 10vw, 192px);
+    height: clamp(104px, 25vw, 398px);
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 1s;
+    border-radius: clamp(1px, 1vw, 5px);
+}
