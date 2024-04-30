@@ -1,5 +1,5 @@
 .project-layout {
-    margin-top: 50%;
+    margin-top: 25%;
     position: relative;
     display: flex;
     height: auto;
@@ -22,13 +22,13 @@
     align-items: center;
 }
 .title-en2 {
-    font-size: clamp(3vw, 5vw, 7vw);
+    font-size: clamp(30px, 5vw, 70px);
     color:#ffffff;
     font-family: 'Roboto';
     font-weight:800;
 }
 .title-jp2 {
-    font-size: clamp(3vw, 4vw, 5vw);
+    font-size: clamp(30px, 5vw, 70px);
     color:#ffffff;
     font-family: 'Noto Sans JP';
     font-weight:800;
@@ -108,6 +108,9 @@
         transform: translateY(-10px); /* Adjust the value to control the amplitude */
     }
 }
+
+
+
 
 
 

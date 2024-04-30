@@ -48,13 +48,13 @@
     margin-bottom: 5%;
 }
 .title-en1 {
-    font-size: clamp(3vw, 5vw, 7vw);
+    font-size: clamp(30px, 5vw, 70px);
     color:#ffffff;
     font-family: 'Roboto';
     font-weight:800;
 }
 .title-jp1 {
-    font-size: clamp(3vw, 5vw, 7vw);
+    font-size: clamp(30px, 5vw, 70px);
     color:#ffffff;
     font-family: 'Noto Sans JP';
     font-weight:800;
@@ -225,5 +225,11 @@
         width: clamp(10%, 1vw, 100%);
         margin: 2% 5%;
         margin-right:0;
+    }
+    .skilltext-en {
+        text-align: center;
+    }
+    .skilltext-jp {
+        text-align: center;
     }
 }

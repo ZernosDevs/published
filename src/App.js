@@ -59,7 +59,7 @@ const { i18n } = useTranslation();
                         value: "transparent",
                     },
                 },
-                fpsLimit: 120,
+                fpsLimit: 80,
                 interactivity: {
                     events: {
                         onClick: {
@@ -67,7 +67,7 @@ const { i18n } = useTranslation();
                             mode: "push",
                         },
                         onHover: {
-                            enable: true,
+                            enable: false,
                             mode: "repulse",
                         },
                         resize: true,

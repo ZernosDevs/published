@@ -20,13 +20,13 @@
         align-items: center;
     }
         .title-en {
-            font-size: clamp(4vw, 5vw, 7vw);
+            font-size: clamp(30px, 5vw, 70px);
             color:#ffffff;
             font-family: 'Roboto';
             font-weight:800;
         }
         .title-jp {
-            font-size: clamp(4vw, 5vw, 7vw);
+            font-size: clamp(30px, 5vw, 70px);
             color:#ffffff;
             font-family: 'Noto Sans JP';
             font-weight:800;

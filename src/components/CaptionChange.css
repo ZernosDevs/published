@@ -30,23 +30,24 @@
   .desktops{
     animation: float 4s ease-in-out infinite;
     animation-delay: 3s;
-    width: clamp(103px, 45vw, 716px);
-    height: clamp(76px, 35vw, 530px);
+    width: clamp(65.9px, 45vw, 716px);
+    height: clamp(48.6px, 35vw, 530px);
     border-radius: clamp(5px, 2vw, 15px);
     
 }
 .tablets {
-    width: clamp(100px, 25vw, 370px);
-    height: clamp(120px 30vw, 446px);
+    width: clamp(60px, 25vw, 370px);
+    height: clamp(80px 30vw, 446px);
     animation: float 4s ease-in-out infinite;
     animation-delay: 2s;
     border-radius: clamp(2px, 1vw, 10px);
 }
 
 .mobiles {
-    width: clamp(50px, 10vw, 192px);
-    height: clamp(104px, 25vw, 398px);
+    width: clamp(30.7px, 10vw, 192px);
+    height: clamp(64px, 25vw, 398px);
     animation: float 4s ease-in-out infinite;
     animation-delay: 1s;
     border-radius: clamp(1px, 1vw, 5px);
 }
+
