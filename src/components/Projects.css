@@ -109,8 +109,12 @@
     }
 }
 
+@media (max-width: 1500px) {
+    .project-text-en {
+        text-align: justify;
+    }
+    .project-text-jp {
+        text-align: justify;
+    }
 
-
-
-
-
+}
