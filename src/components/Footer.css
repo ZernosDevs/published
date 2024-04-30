@@ -6,17 +6,14 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 25%;
 }
 .footer-image {
     width:100%;
     height:auto;
-    margin-right:5%;
 }
 .footer-image > img {
     width:100%;
     height:100%;
-    margin-top:10%;
 }
 .contacts-title{
     display:flex;
@@ -117,6 +114,7 @@
     }
     .margin-add {
         margin-top:10%;
+        margin-bottom:10%;
     }
 
 }
