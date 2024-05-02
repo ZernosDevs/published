@@ -71,6 +71,7 @@ function About() {
                 <a href="https://elifesciences.org/articles/81418#content" target='_blank'>
                     <img src={ Neuro } alt="Neuro"></img>
                 </a>
+                <figcaption>View my published paper</figcaption>
             </figure>
           </div>
         </div >
@@ -80,6 +81,7 @@ function About() {
                 <a href="https://www.youtube.com/@zernos8368" target='_blank'>
                     <img src={ Esport } alt="Esport"></img>
                 </a>
+                <figcaption>View my esports coaching youtube channel</figcaption>
             </figure>
           </div>
           <div className='section-text text-2'>
@@ -106,6 +108,7 @@ function About() {
                 <a href="https://www.nanumschool.com/" target='_blank'>
                     <img src={ Dev } alt="Dev"></img>
                 </a>
+                <figcaption>View the company I worked at</figcaption>
             </figure>
           </div>
         </div >

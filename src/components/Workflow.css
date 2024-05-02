@@ -140,6 +140,20 @@
 }.sub-content2 .sub-text {
     width:100%;
 }
+.sub-img figcaption {
+    opacity: 0;
+    position:absolute;
+    top:40%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white; /* White text for visibility */
+    padding: 5px; /* Padding for the text */
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.sub-img:hover figcaption {
+    opacity: 1;
+}
 .sub-img {
     width:50%;
     display:flex;
@@ -169,11 +183,16 @@
     line-height: clamp(24px, 3vw, 48px);
     text-align: start;
 }
-.sub-text2 p > a{
-    font-size: clamp(16px, 2vw, 20px);
+.sub-text2 > a{
+    display:block;
+    font-size: clamp(26px, 2vw, 30px);
     color: #ffffff;
     text-decoration: none;
     font-weight: 600;
+    margin-top:2%;
+}
+.sub-text2 > a:hover {
+    color: rgb(102,165,55);
 }
 .sub-text2 h2 {
     margin-top:5%;

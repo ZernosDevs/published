@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 function Main() {
   const { t, i18n } = useTranslation();
   const isJapanese = i18n.language.startsWith('ja');
-  const writeClass = isJapanese ? 'handwrite-jp' : 'handwrite';
+  const writeClass = isJapanese ? 'handwrite-jp' : 'handwrite-en';
   const nameClass = isJapanese ? 'name-jp' : 'name-en';
   const profClass = isJapanese ? 'prof-jp' : 'prof-en';
   const motoClass = isJapanese ? 'moto-jp' : 'moto-en';

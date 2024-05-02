@@ -34,8 +34,8 @@ function Footer() {
           <div className='contact-form margin-add'>
             <h1 className={contactClass}>{t('socials')}</h1>
             <div className='social-container'> 
-              <a href='https://www.linkedin.com/in/joo-hyun-park-b3b785273' target='_blank'> <FontAwesomeIcon icon={faLinkedin} size="3x" /> </a>
-              < a href='discordapp.com/users/534246926842069076' target='_blank'><FontAwesomeIcon icon={faDiscord} size="3x" /> </a>
+              <a href='https://www.linkedin.com/in/robinpark-designs' target='_blank'> <FontAwesomeIcon icon={faLinkedin} size="3x" /> </a>
+              < a href='https://discordapp.com/users/534246926842069076' target='_blank'><FontAwesomeIcon icon={faDiscord} size="3x" /> </a>
               <a href='https://twitter.com/Zernos_Park' target='_blank'><FontAwesomeIcon icon={faTwitter} size="3x" /></a>
             </div>
           </div>

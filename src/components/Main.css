@@ -17,11 +17,10 @@
     width: 50%;
     margin-top:7%;
 }
-.handwrite {
+.handwrite-en {
     align-self: flex-end;
     display:block;
     width:300px;
-    transform: rotate(30deg);
     margin-bottom:15%;
     text-align: start;
     font-size: 2rem;
@@ -32,7 +31,6 @@
     align-self: flex-end;
     display:block;
     width:300px;
-    transform: rotate(30deg);
     margin-bottom:15%;
     text-align: start;
     font-size: 1.2rem;
@@ -47,14 +45,14 @@
     font-size: clamp(50px, 3vw, 70px);
     color:#ffffff;
     font-weight: 800;
-    margin-top: -100px;
+    margin-top: -50px;
     font-family: 'Roboto';
 }
 .name-jp {
     font-size: clamp(50px, 3vw, 70px);
     color:#ffffff;
     font-weight: 800;
-    margin-top: -100px;
+    margin-top: -50px;
     font-family: 'Noto Sans JP';
 }
 .prof-en {
@@ -137,15 +135,14 @@
         margin-top:12%;
         padding: 0 30px;
     }
-    .handwrite {
+    .handwrite-en {
         align-self: flex-end;
         display:block;
         width:clamp(200px, 1vw, 300px);
-        transform: rotate(30deg);
         margin-bottom:20%;
         text-align: start;
     }
-    .handwrite > p {
+    .handwrite-en > p {
         font-size: clamp(16px, 2vw, 30px);
         color: #ffffff;
         font-family: 'Nanum Pen Script';
@@ -154,7 +151,6 @@
         align-self: flex-end;
         display:block;
         width:clamp(200px, 1vw, 300px);
-        transform: rotate(30deg);
         margin-bottom:20%;
         text-align: start;
     }

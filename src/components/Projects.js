@@ -20,7 +20,7 @@ function Projects() {
   const isJapanese = i18n.language.startsWith('ja');
   const titleClass = isJapanese ? 'title-jp2' : 'title-en2';
   const projectText = isJapanese ? 'project-text-jp' : 'project-text-en';
-
+  const projectLabel = isJapanese ? 'label-en' : 'label-jp';
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -81,7 +81,11 @@ function Projects() {
                 altText="unibuzz mobile" />
         </div> 
         <div className='columns single-title' ref={(el) => (columnRefs.current[1] = el)}>
-          <h1>Unibuzz</h1>
+          <div className='holders'>
+            <h1>Unibuzz</h1>
+            <h2 className={projectLabel}>{t('project-label1')}
+            </h2>
+          </div>
         </div>
         <div className='columns' ref={(el) => (columnRefs.current[2] = el)}> 
           <p className={ projectText }>{t('proText1')}</p>
@@ -107,7 +111,11 @@ function Projects() {
                 />
         </div> 
         <div className='columns single-title' ref={(el) => (columnRefs.current[4] = el)}>
-          <h1>Esportsmaestro</h1>
+          <div className='holders'>
+            <h1>Esportsmaestro</h1>
+            <h2 className={projectLabel}>{t('project-label2')}
+            </h2>
+          </div>
         </div>
         <div className='columns' ref={(el) => (columnRefs.current[5] = el)}>
         <p className={ projectText }>{t('proText2')}</p>
@@ -133,7 +141,11 @@ function Projects() {
                 />
         </div> 
         <div className='columns single-title' ref={(el) => (columnRefs.current[7] = el)}>
-          <h1>Sip at Home</h1>
+          <div className='holders'>
+            <h1>Sip at Home</h1>
+            <h2 className={projectLabel}>{t('project-label3')}
+            </h2>
+          </div>
         </div>
         <div className='columns' ref={(el) => (columnRefs.current[8] = el)}>
         <p className={ projectText }>{t('proText3')}</p>

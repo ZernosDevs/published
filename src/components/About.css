@@ -238,6 +238,20 @@
             height: clamp(15vw, 30vw, 35vw);
             transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
         }
+            .circle-container figcaption{
+                position:absolute;
+                opacity: 0;
+                top:50%;
+                text-align: center;
+                background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+                color: white; /* White text for visibility */
+                padding: 5px; /* Padding for the text */
+                font-size: 20px;
+                transition: all 0.5s ease;
+            }
+            .circle-container:hover figcaption {
+                opacity: 1;
+            }
             .circle-container a {
                 display: block;
                 width: 100%;  /* Ensures the anchor tag fills the container */

@@ -80,7 +80,22 @@
     font-weight:500;
 }
 
-
+.label-en {
+    margin-top: 2%;
+    font-size: clamp(15px, 3vw, 30px);
+    color:#ffffff;
+    font-family: 'Roboto';
+    font-style:normal;
+    font-weight:400;
+}
+.label-jp {
+    margin-top: 2%;
+    font-size: clamp(15px, 3vw, 30px);
+    color:#ffffff;
+    font-family: 'Noto Sans JP';
+    font-style:normal;
+    font-weight:400;
+}
 .project-text-en {
     font-size: clamp(12px, 2vw, 20px);
     color:#ffffff;

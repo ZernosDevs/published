@@ -2,8 +2,7 @@
     "background": "Background",
     "projects": "Projects",
     "workflow": "Workflow",
-    "contacts": "Contacts",
-
+    "contacts": "Contact",
 
     "handwrite": "Designed in Figma and coded in React. 100% fully responsive.",
     "name": "Robin Park",
@@ -12,8 +11,8 @@
     
     
     "about": "Background",
-    "about-intro": "My diverse background drives innovative, user-focused, design solutions.",
-    "past1": "Neuroscientist",
+    "about-intro": "My diverse background allows me to create innovative, user-focused design solutions.",
+    "past1": "Researcher",
     "date1": "2019 - 2020",
     "place1": "Nagoya University",
     "past2": "Esports Coach",
@@ -23,84 +22,81 @@
     "past3": "Frontend Developer",
     "date3": "2021 - 2022",
     "place3": "Nanum Digital Design Institute",
-    "about-text": "As a former neuroscience researcher, esports coach, and front-end developer, I've carved a unique path to becoming a self-taught UI/UX designer. My journey has given me a unique set of skills that I bring to every design project. My background in neuroscience has deeply influenced my design philosophy. It's taught me how the mind works and how important details are, helping me build interfaces that are not just good to look at but easy to use. As an esports coach, I've learned to think strategically and communicate effectively, skills that have been crucial in crafting engaging user experiences and working smoothly with different teams. My experience in front-end development ensures that my designs are not only visually appealing but also technically feasible and grounded in practicality.",
-
+    "about-text": "My previous experiences in neuroscience research, esports, and frontend  development have given me a unique and varied set of skills that I can bring with me to every design project I work on. Conducting research in a neuroscience laboratory has taught me valuable analytical skills, as well as the importance of drawing information from the finer details which can help us learn more about the overall picture. As an esports coach, I faced many interpersonal challenges while working with teammates and management, which trained my critical thinking skills and pushed me to think more strategically so that I could take the logical steps necessary to achieve an ideal resolution for any given conflict. Lastly, my experiences in frontend development have given me the technical expertise to create visually appealing web interfaces from scratch, a skill invaluable to any UX / UI designer. ",
 
     "skillset": "Skillset",
-    "skill-text": "Using an ever-growing list of technologies that match industry standards.",
+    "skill-text": "Using an ever-growing list of technologies  that match industry standards.",
 
     "project": "Projects",
-    "proText1": "As the sole product designer at Unibuzz, I was charged with the formidable task of turning a concept into reality: to transform university life through a unified social media platform designed specifically for students and faculty. This monumental project demanded extensive research, a deep understanding of social media usability, and a keen eye for the right design style. The project is ongoing, and I continue to refine and enhance the designs based on user feedback and collaborative efforts with the development team.",
-    "proText2":"A friend who manages an Esports team approached me to address a common issue in the recruitment process for esports athletes and personnel: we predominantly relied on informal direct messaging through platforms like Twitter (X) or discord. Recognizing the need for a dedicated recruiting platform tailored to the esports market, we wanted a website that was not only easy to navigate but also specifically catered to gamers' UI preferences. Having first-hand experience with the esports world, I stepped in to offer my services, helping bring our vision to life.",
-    "proText3":"'Sip at Home' is a passion project born from my frustration with the unavailability of online alcohol delivery services compared to other consumables. Recognizing a gap in the market, I designed preliminary mockups for a general alcohol delivery service catering to all beverage types. These designs are intended for potential entrepreneurs interested in developing this idea further. ",
+    "project-label1": "Social Network Platform for University Students", 
+    "project-label2": "Recruitment Platform for Esports Professionals",
+    "project-label3": " Alcoholic Beverage Delivery Service",
+    "proText1": "As a Co-Founder and the sole Product Designer at the startup organization Unibuzz, I was tasked with turning an idea into reality: transform university life through a unified social media platform, designed specifically for students and faculty. Everything from idea conception, UX research, framework planning, designing, etc., was handled and supervised by yours truly . The project is currently ongoing, and I am continuing to refine and enhance the designs based on both developer and user feedback. ",
+    "proText2":"A friend who manages an esports  team approached me to address a common issue in the recruitment process for esports athletes and personnel: we predominantly rely on informal direct messaging through platforms such as Twitter/X or Discord. Recognizing the need for a dedicated recruiting platform tailored to the esports market, we wanted a website that was not only easy to navigate, but also specifically catered to gamers' UI preferences. Having first-hand experience with the esports world, I stepped in to offer my services and help bring our vision to life.",
+    "proText3":"'Sip at Home' is a passion project born from my frustration with the lack of options for online alcohol delivery services compared to other consumables. Recognizing a gap in the market, I designed preliminary mockups for an alcoholic beverage delivery service that contains a catalog of all beverage types. These designs are intended for potential entrepreneurs interested in developing this idea further. ",
 
-
-    "workflow-intro":"A 7-step standardized design workflow applied to all my projects.",
+    "workflow-intro": "A 7-step standardized design workflow applied to all my projects.",
 
     "slide-1": "1) Project Overview",
-    "subtext-title1": "Identifying the goal of the project",
-    "subtext-1": "The first and most important step. Identifying the goal of a UX/UI project is like setting the compass before a journey. It means really digging into what the project is meant to achieve, understanding who it's for, and figuring out what will make it a success. Through conversations with stakeholders and potential users, I capture the needs and define the key outcomes. This step creates a shared vision that keeps everyone on the same page, guiding all my future design choices.",
+    "subtext-title1": "Identifying the Goal of the Project",
+    "subtext-1": "The first and most important step of my standardized workflow. Here I identify the goal of the project, what it’s meant to achieve, who it’s for, and what elements are needed to make it a success. Through multiple conversations with stakeholders and potential users, I create a shared vision that keeps everyone on the same page. This step guides all my future design choices. ",
     "subtext-title2":"Brainstorming Phase",
-    "subtext-2": "After defining the goals and objectives for the project, I jot down as many ideas as possible. To keep things organized, I encourage everyone to contribute to a single Figma or FigJam file. This centralized collection of ideas serves as the preliminary building blocks of the project. The goal of brainstorming is to lay out everything that comes up in our minds, quantity over quality.",
+    "subtext-2": "The brainstorming phase is where everyone involved with the project contributes their own ideas and shares their vision for the project.  Here is where I note down as many things that come to my mind as possible. To keep things organized between other people's ideas, I encourage everyone to contribute to a single Figma or FigJam file to hold a centralized collection. The goal of this step is to assemble all the preliminary building blocks of the project, regardless of quality. ",
 
     "slide-2": "2) UX Research",
-    "subtext-title3": "Begin UX Research with Value Proposition",
-    "subtext-3": "Once the project outline has been set and the ideas flowing, I enter the UX research phase. I gather insights into user needs, behaviors, and motivations. I start by describing the unique value a product or service offers through a value proposition. This will outline the benefits, features, and experiences users can expect, aligning with their needs and desires.",
+    "subtext-title3": " Value Proposition",
+    "subtext-3": "Once the project outline has been set and ideas are flowing, I enter the UX research phase. I first start by gathering insights into user needs, behaviors, and motivations. Then, I create a value proposition for the product which describes how the user’s needs and desires will be fulfilled, as well as outline the benefits, features, and experiences users can expect from the product. ",
     "subtext-title4": "SWOT Analysis",
-    "subtext-4": "A classic strategic tool in UX research, SWOT analysis is used to evaluate a project's strengths, weaknesses, opportunities, and threats. This helps me understand the internal and external factors affecting a product's success. I am able to leverage strengths, address weaknesses, capitalize on opportunities, and mitigate threats. Ultimately design a successful user-centered product.",
+    "subtext-4": "A classic strategic tool in UX research. SWOT analysis is used to evaluate a project's strengths, weaknesses, opportunities, and threats. This helps me understand the internal and external factors affecting a product's success. I am able to leverage strengths, address weaknesses, capitalize on opportunities, and mitigate threats, which allow me to ultimately design a successful user-centered product. ",
     "subtext-title5": "Competitive Audit",
-    "subtext-5": "A competitive audit evaluates competing products or services to understand their strengths, weaknesses, and unique features. This analysis helps me understand what users expect from similar products and where a new or existing product can offer more value. I use this tool to gather insights into industry standards, identify gaps in the market, and uncover opportunities for differentiation.",
+    "subtext-5": "While similar to a SWOT analysis, a competitive audit evaluates the product further by comparing it to competing products or services, understanding their strengths, weaknesses, and unique features. This analysis helps me understand what users expect from similar products and what areas a new or existing product may be able to offer more value. I use this tool to gather insights into industry standards, identify gaps in the market, and uncover opportunities for differentiation.",
     "subtext-title6": "User Feedback Survey",
-    "subtext-6": "By gathering user opinions and experiences I can understand user satisfaction, pain points, and capture real suggestions for improvement. Surveys can answer the questions I directly want from users, providing quantitative and qualitative data. Survey responses can not only be used during the development phase but also after the product has been launched.",
-
+    "subtext-6": "By gathering user opinions and experiences I can understand user satisfaction, pain points, and capture concrete suggestions for improvement. Surveys can answer the questions I directly want from users, providing quantitative and qualitative data. Survey responses can be used not only during the development phase, but also at later stages after the product has been launched.",
 
     "slide-3": "3) Visual Exploration",
     "subtext-title7": "Initial Visualization with Sketches",
-    "subtext-7": "With all the foundations laid out by the previous steps, I can now start making basic sketches.These sketches will allow me to rapidly explore multiple design ideas without committing to specific details or structures. It is a good way to check with the team if certain design ideas or frameworks are okay or not.",
+    "subtext-7": "With all the foundations laid out by the previous steps, I can now start making basic sketches. These sketches allow me to explore multiple design ideas without committing to specific details or structures. It is also a good way to check with the team if certain design ideas or frameworks are satisfactory or not.",
     "subtext-title8": "Product Sitemap",
     "subtext-8": "Sitemaps provide a visual and textual representation of a website's structure, outlining the relationships between pages and content areas. They help in mapping out the website's hierarchy which allows me to know the scope of the work as well as which pages I should start wireframing.",
     "subtext-title9": "User Flowchart",
     "subtext-9": "User flowcharts help me visualize and understand the paths users take while interacting with the product UI. They show a clear picture of user navigation compared to sitemaps, promoting a deeper understanding of user journeys.",
-    "subtext-title10": "Greyscale Wireframe",
-    "subtext-10": "With the sitemap and sketches, I can now create wireframes that act as blueprints for low fidelity designs. They will outline the structure and organization of a page or screen without detailed design elements. This also helps communicate the design flow better to stakeholders and developers. ",
-
+    "subtext-title10": "Grayscale Wireframe",
+    "subtext-10": "With the sitemap and sketches completed, I can now create wireframes that act as blueprints for low fidelity designs. They will outline the structure and organization of a page or screen without detailed design elements. This also helps to better communicate the design flow to stakeholders and developers. ",
 
     "slide-4": "4) Design System",
     "subtext-title11": "Deciding Color, Shape, Feel",
-    "subtext-11": "Through multiple meetings, inspiration + mood boards, and UX research, its time to decide on the color, fonts, and shape of the product. Once this has been set, individual components can be created by integrating my extensive design system:",
+    "subtext-11": "After multiple meetings, inspiration flashes, mood boards, and UX research, it’s time to decide on the shape of the product, as well as what colors and fonts it will use. Once this has been set, individual components can be created by integrating my extensive design system.", 
     "subtext-title12": "Incorporation with Batch Styler",
-    "subtext-12": "The Batch styler allows me to streamline and simplify the process of incorporating my design system components and templates to an individual project. It is a fast and efficient way to globally change fonts and colors. After batch styler does its work, individual components can be modified to match the project's needs.",
-
+    "subtext-12": "The Batch Styler allows me to simplify the process of incorporating my design system components and templates for an individual project. It is a fast and efficient way to globally change fonts and colors. After Batch Styler does its work, individual components can be further modified to match the project's needs.",
 
     "slide-5": "5) Style Guide",
     "subtext-title13": "Creating Reusable Components",
-    "subtext-13": "With the design system integrated and modified to the project, I can now create reusable, interactive components for rapid designing and future prototyping. Components allow me to use ready-made navigations, buttons, links, images etc. This will improve efficiency and reduce repetitive design tasks.",
+    "subtext-13": "With the design system integrated and modified to fit the project, I can now create reusable, interactive components for efficient designing and future prototyping. Components allow me to use ready-made navigations, buttons, links, images etc. This will allow me to save time and reduce repetitive design tasks.",
     "subtext-title14": "Illustrations and Media",
-    "subtext-14": "By this point I should have a grasp of the general look of the designs, which should allow me to create the appropriate illustrations and media in Adobe Illustrator and Adobe Photoshop. The illustrations are reviewed by the team and approved before usage in high fidelity designs.",
-    "subtext-title15": "Low fidelity Designs",
-    "subtext-15": "At this phase of the project, early-stage design concepts are put to the test. I create full visualizations of how the final product might look at launch. The low fidelity designs are reviewed by the team and stakeholders, with any requested changes applied on the spot. Once the changes have also been reviewed and approved I transition to creating the high fidelity designs.",
-
+    "subtext-14": "By this point, I should have a grasp of the general look of the designs, which allows me to create the appropriate illustrations and media required for the project in Adobe Illustrator and Adobe Photoshop. The illustrations are reviewed by the team and approved before usage in high fidelity designs.",
+    "subtext-title15": "Low Fidelity Designs",
+    "subtext-15": "At this phase of the project, early-stage design concepts are put to the test. I create full visualizations of how the final product might look at launch. Low fidelity designs are reviewed by the team and stakeholders, with any requested changes applied on the spot. Once said changes have also been reviewed and approved, I transition to creating the high fidelity designs.",
 
 
     "slide-6": "6) High Fidelity Design",
-    "subtext-title16": "Review of Hi-fi Designs",
-    "subtext-16": "High fidelity designs closely resemble the final product, offering a realistic representation of the user interface. I first have the static designs reviewed by stakeholders and the rest of the team. Additional changes are applied if necessary.",
+    "subtext-title16": "Review of High Fidelity Designs",
+    "subtext-16": "High fidelity designs closely resemble the final product, offering a realistic representation of the user interface. I first have the static designs reviewed by stakeholders and the rest of the team. Additional changes are applied as necessary.",
     "subtext-title17": "Review of Prototypes",
-    "subtext-17": "Once the static pages have been approved, the remaining interactive elements, animations and transitions are included in the static pages. These prototypes will simulate the user experience once the product is launched. This level of interaction is essential for evaluating usability, navigation, and user engagement.",
+    "subtext-17": "Once the static pages have been approved, the remaining interactive elements, animations and transitions are applied to the static pages. These prototypes will simulate the user experience once the product is launched. This level of interaction is essential for evaluating usability, navigation, and user engagement.",
     "subtext-title18": "Version History",
-    "subtext-18": "At any stage of the design process, version history is important to keep records of previous designs and iterations. Figma provides autosaved and manually saved version of designs for every single file, all stored in the cloud. I take a combined approach of 'date + feature' to name each each version.",
-
+    "subtext-18": "At any stage of the design process, version history is important to keep records of previous designs and iterations. Figma provides autosaved and manually saved version of designs for every single file, all stored in the cloud. I take a combined approach of 'date + feature' to name each version.",
 
     "slide-7": "7) Developer Handover",
     "subtext-title19": "Zeplin",
-    "subtext-19": "The final step in my standardized workflow, I upload my high-fidelity designs to zeplin. Zeplin ensures design consistency and allows for color codes, fonts, spacing, margins, and other properties to be accessed by the development team. If the developers have any problems, I can also assist them with my own coding experience.",
+    "subtext-19": "The final step in my standardized workflow. I upload my high fidelity designs to Zeplin. Zeplin ensures design consistency and allows for color codes, fonts, spacing, margins, and other properties to be accessed by the development team. If the developers have any problems, I can also provide direct assistance thanks to my own coding experience.",
     "subtext-title20": "Continuous Review and Redesign",
-    "subtext-20": "As the developers work on the project, I have the final task of ensuring that implementation of the design's visual and functional elements are accurately translated. The design process never ends. It is a continuous loop that reflects the evolving nature of user needs, business requirements, and technology. Special thanks to unibuzz.org for allowing me to showcase my workflow through their materials! ",
+    "subtext-20": "As the developers work on the project, I am tasked with ensuring that the implementation of the design's visual and functional elements are accurately translated. The design process never ends. It is a continuous loop that reflects the evolving nature of user needs, business requirements, and technology. Special thanks to unibuzz.org for allowing me to showcase my workflow through their materials! ",
 
-
-    "contact": "Contacts",
+    "contact": "Contact",
     "phone": "Phone",
     "email": "Email",
     "socials": "Socials"
     
 }
+
+

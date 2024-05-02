@@ -60,38 +60,9 @@ const { i18n } = useTranslation();
                     },
                 },
                 fpsLimit: 80,
-                interactivity: {
-                    events: {
-                        onClick: {
-                            enable: false,
-                            mode: "push",
-                        },
-                        onHover: {
-                            enable: false,
-                            mode: "repulse",
-                        },
-                        resize: true,
-                    },
-                    modes: {
-                        push: {
-                            quantity: 2,
-                        },
-                        repulse: {
-                            distance: 200,
-                            duration: 0.4,
-                        },
-                    },
-                },
                 particles: {
                     color: {
                         value: ['#ffffff', '#2EB83A', '#BF1E68', '#4ABADE', '#78C6DF', '#E5A628', '#723890']
-                    },
-                    links: {
-                        color: "#ffffff",
-                        distance: 150,
-                        enable: false,
-                        opacity: 0.5,
-                        width: 1,
                     },
                     move: {
                         direction: "top",
@@ -136,7 +107,7 @@ const { i18n } = useTranslation();
                         }
                     },
                 },
-                detectRetina: true,
+                detectRetina: false,
             }}
         />, 
      <Main />,
