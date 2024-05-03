@@ -34,14 +34,14 @@ function Footer() {
           <div className='contact-form margin-add'>
             <h1 className={contactClass}>{t('socials')}</h1>
             <div className='social-container'> 
-              <a href='https://www.linkedin.com/in/robinpark-designs' target='_blank'> <FontAwesomeIcon icon={faLinkedin} size="3x" /> </a>
-              < a href='https://discordapp.com/users/534246926842069076' target='_blank'><FontAwesomeIcon icon={faDiscord} size="3x" /> </a>
-              <a href='https://twitter.com/Zernos_Park' target='_blank'><FontAwesomeIcon icon={faTwitter} size="3x" /></a>
+              <a href='https://www.linkedin.com/in/robinpark-designs' target='_blank' rel="noreferrer"> <FontAwesomeIcon icon={faLinkedin} size="3x" /> </a>
+              < a href='https://discordapp.com/users/534246926842069076' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faDiscord} size="3x" /> </a>
+              <a href='https://twitter.com/Zernos_Park' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faTwitter} size="3x" /></a>
             </div>
           </div>
       </div>
       <div className='footer-image'>
-        <img src={ FooterNeuron }></img>
+        <img src={ FooterNeuron } alt ='footer-cell'></img>
       </div>
     </div>
   );

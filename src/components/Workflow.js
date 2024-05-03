@@ -255,7 +255,7 @@ function Workflow() {
               <div className='sub-text2'>
                 <h2 className={subtextTitle}>{t('subtext-title11')} </h2>
                 <p className={ subtextPar}>{t('subtext-11')}  </p>
-                <a href='https://www.figma.com/file/KyRpf9gQ6PFF7vN59uE6u5/Design-System?type=design&node-id=0%3A1&mode=design&t=WR4fnnF48BKKQHOi-1' target='_blank'>Design System URL</a>
+                <a href='https://www.figma.com/file/KyRpf9gQ6PFF7vN59uE6u5/Design-System?type=design&node-id=0%3A1&mode=design&t=WR4fnnF48BKKQHOi-1' target='_blank' rel="noreferrer">Design System URL</a>
               </div>
             </div>
           </div>

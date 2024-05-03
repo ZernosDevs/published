@@ -10,11 +10,11 @@ import LoadingScreen from './components/LoadingScreen';
 import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import { useTranslation } from 'react-i18next';
+
 
 const App = () => {
-const { i18n } = useTranslation();
-  const [ init, setInit ] = useState(false);
+
+  const [ , setInit ] = useState(false);
   // this should be run only once per application lifetime
   useEffect(() => {
       initParticlesEngine(async (engine) => {

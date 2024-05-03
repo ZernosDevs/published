@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import './Header.css';
 import logo from '../images/logo.png';
 import { useTranslation } from 'react-i18next';
-import { GB, JP, UK } from 'country-flag-icons/react/3x2'
+import { GB, JP } from 'country-flag-icons/react/3x2'
 
 function Header() {
   const { t, i18n } = useTranslation();

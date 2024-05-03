@@ -68,7 +68,7 @@ function About() {
           </div>
           <div className='section-image image-1'>
             <figure class="circle-container">
-                <a href="https://elifesciences.org/articles/81418#content" target='_blank'>
+                <a href="https://elifesciences.org/articles/81418#content" target='_blank' rel="noreferrer">
                     <img src={ Neuro } alt="Neuro"></img>
                 </a>
                 <figcaption>View my published paper</figcaption>
@@ -78,7 +78,7 @@ function About() {
         <div className='background-content2' ref={(el) => (sectionRefs.current[3] = el)}>
           <div className='section-image image-2'>
             <figure class="circle-container">
-                <a href="https://www.youtube.com/@zernos8368" target='_blank'>
+                <a href="https://www.youtube.com/@zernos8368" target='_blank' rel="noreferrer">
                     <img src={ Esport } alt="Esport"></img>
                 </a>
                 <figcaption>View my esports coaching youtube channel</figcaption>
@@ -105,7 +105,7 @@ function About() {
           </div>
           <div className='section-image image-3'>
             <figure class="circle-container">
-                <a href="https://www.nanumschool.com/" target='_blank'>
+                <a href="https://www.nanumschool.com/" target='_blank' rel="noreferrer">
                     <img src={ Dev } alt="Dev"></img>
                 </a>
                 <figcaption>View the company I worked at</figcaption>
