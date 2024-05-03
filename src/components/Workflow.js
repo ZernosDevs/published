@@ -46,7 +46,7 @@ function Workflow() {
         });
       },
       {
-        threshold: 0.25, // Trigger when 25% of the `slide` is in view
+        threshold: 0.1, // Trigger when 15% of the `slide` is in view
       }
     );
 

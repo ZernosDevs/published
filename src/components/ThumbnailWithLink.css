@@ -24,6 +24,9 @@
     animation: float 4s ease-in-out infinite;
     animation-delay: 3s;
   }
+  .workflow-image {
+    margin:auto;
+  }
   @keyframes float {
     0%, 100% {
         transform: translateY(0);
