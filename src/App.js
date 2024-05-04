@@ -111,10 +111,10 @@ const App = () => {
             }}
         />, 
      <Main />,
-     <About />,
-     <Skillset />,
+     <Workflow />,
      <Projects />,
-     <Workflow />
+     <Skillset />,
+     <About />,
      <Footer/> 
      </>)}
     </div>

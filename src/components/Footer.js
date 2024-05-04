@@ -29,7 +29,7 @@ function Footer() {
           </div>
           <div className='contact-form margin-add'>
             <h1 className={contactClass}>{t('email')}</h1>
-            <h2>parkkanidon@gmail.com</h2>
+            <h2>park.joohyun@outlook.com</h2>
           </div>
           <div className='contact-form margin-add'>
             <h1 className={contactClass}>{t('socials')}</h1>
