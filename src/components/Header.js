@@ -66,9 +66,9 @@ function Header() {
             <p className='divider'>/</p>
             <button onClick={() => changeLanguage('ja')}><JP title="English" className="flag"/></button>
           </div>
-          <a className={ navClass } href="#background">{t('background')}</a>
-          <a className={ navClass } href="#projects">{t('projects')}</a>
           <a className={ navClass } href="#workflow">{t('workflow')}</a>
+          <a className={ navClass } href="#projects">{t('projects')}</a>
+          <a className={ navClass } href="#background">{t('background')}</a>
           <a className={ navClass } href="#contacts">{t('contacts')}</a>
         </nav>
         <div className='language show-tablet'>
@@ -86,13 +86,13 @@ function Header() {
       {menuOpen && (
       <ul className='menu'>
       <li className='submenu'>
-        <a className={ navClass } href="#background">{t('background')}</a>
+        <a className={ navClass } href="#workflow">{t('workflow')}</a>
       </li>
       <li className='submenu'>
         <a className={ navClass } href="#projects">{t('projects')}</a>
       </li>
       <li className='submenu'>
-        <a className={ navClass } href="#workflow">{t('workflow')}</a>
+        <a className={ navClass } href="#background">{t('background')}</a>
       </li>
       <li className='submenu'>
         <a className={ navClass } href="#contacts">{t('contacts')}</a>
