@@ -177,13 +177,8 @@
 .sub-text2 p{
     margin-top:2%;
     margin-bottom: 2%;
-    font-size: clamp(12px, 2vw, 20px);
-    color: #ffffff;
-    font-family: 'Inter';
-    font-weight: 200;
-    line-height: clamp(24px, 3vw, 48px);
-    text-align: start;
 }
+
 .sub-text2 > a{
     font-size: clamp(16px, 2vw, 30px);
     color: #ffffff;

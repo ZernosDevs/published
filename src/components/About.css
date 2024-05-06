@@ -293,9 +293,6 @@
 
 /* Media Query Start */
 @media (max-width: 1000px) {
-    .about-layout {
-        margin-top:-50%;
-    }
     .section-content {
         width:100%;
     }
