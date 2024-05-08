@@ -68,7 +68,7 @@ function Workflow() {
   return (
   <div className='workflow-wrap' >
     <div id='workflow' style={{ width:'3px', height: '15vh' }}></div>
-    <div className='workflow-title' >
+    <div className='workflow-title'>
         <h2 className={titleClass}>{t('workflow')}</h2>
         <div className='underline'></div>
     </div>
