@@ -68,23 +68,22 @@ function Main() {
     <div className='main-layout' id='home'>
       <div className='main-container'>
         <div className='display-text' ref={textRef}>
-          <div className={ writeClass }>
-            <p>{t('handwrite')}</p>
-          </div>
+          
           <h1 className={ nameClass }>{t('name')}</h1>
           <h2 className={ profClass }>{t('prof')}</h2>
           <h3 className={ motoClass }>{t('moto')}</h3>
-          <div className='radial-gradient'></div>
+          <div className={ writeClass }>
+            <p>{t('handwrite')}</p>
+          </div>
         </div>
-
-        <div className='display-image' ref={imageRef}> {/* Conditional rendering */}
+      {/* <div className='display-image' ref={imageRef}> 
           {isSmallScreen && (
-            <div ref={newSvgRef}> {/* Conditional rendering inside display-image */}
-              <NewSvgComponent /> {/* New SVG component for smaller screens */}
+            <div ref={newSvgRef}> 
+              <NewSvgComponent /> 
             </div>
           )}
-          {isSmallScreen ? null : <NeuronAnimation />} {/* NeuronAnimation for larger screens */}
-        </div>
+          {isSmallScreen ? null : <NeuronAnimation />} 
+        </div> */}
       </div>  
     </div>
   );

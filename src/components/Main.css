@@ -14,83 +14,88 @@
     display:flex;
     flex-direction:column;
     flex: 1;
-    width: 50%;
+    width: 100%;
     margin-top:7%;
+    align-items: center;
 }
 .handwrite-en {
-    align-self: flex-end;
     display:block;
-    width:300px;
-    margin-bottom:15%;
+    margin-top:3%;
     text-align: start;
-    font-size: 2rem;
+    font-size: clamp(20px, 2vw, 40px);
     color: #ffffff;
     font-family: 'Nanum Pen Script';
+    text-align: center;
 }
 .handwrite-jp  {
-    align-self: flex-end;
     display:block;
-    width:300px;
-    margin-bottom:15%;
+    margin-top:3%;
     text-align: start;
-    font-size: 1.2rem;
+    font-size: clamp(10px, 1vw, 20px);
     color: #ffffff;
     font-family: 'Noto Sans JP';
+    text-align: center;
 }
 
 
 
 
 .name-en {
-    font-size: clamp(50px, 3vw, 70px);
+    font-size: clamp(30px, 4vw, 70px);
     color:#ffffff;
     font-weight: 800;
-    margin-top: -50px;
+    margin-top: 5%;
     font-family: 'Roboto';
+    text-align: center;
 }
 .name-jp {
-    font-size: clamp(50px, 3vw, 70px);
+    font-size: clamp(30px, 4vw, 70px);
     color:#ffffff;
     font-weight: 800;
-    margin-top: -50px;
+    margin-top: 5%;
     font-family: 'Noto Sans JP';
+    text-align: center;
 }
 .prof-en {
-    font-size: clamp(60px, 4vw, 90px);
+    font-size: clamp(40px, 4vw, 80px);
     color:#ffffff;
     font-family: 'Roboto';
     font-style:normal;
     font-weight:300;
-    background: radial-gradient(50% 30% at 35% 55%, #FFF 0%, #172557 0.2%, #0F152E 100%);
+    margin-top:1%;
+    text-align: center;
 }
 
 .prof-jp {
-    font-size: clamp(60px, 4vw, 90px);
+    font-size: clamp(40px, 4vw, 80px);
     color:#ffffff;
     font-family: 'Noto Sans JP';
     font-style:normal;
     font-weight:300;
-    background: radial-gradient(50% 30% at 35% 55%, #FFF 0%, #172557 0.2%, #0F152E 100%);
+    margin-top:1%;
+    text-align: center;
 }
 
 .moto-en {
-    font-size: clamp(30px, 2vw, 60px);
+    font-size: clamp(25px, 2vw, 50px);
     color:#ffffff;
     font-style: normal;
     font-weight: 200;
     letter-spacing: -0.72px;
-    margin-top:10%;
+    margin-top:5%;
     font-family: 'Roboto';
+    text-align: center;
 }
 
 .moto-jp {
-    font-size: clamp(20px, 1.5vw, 50px);
+    font-size: clamp(15px, 1.5vw, 30px);
     color:#ffffff;
     font-weight: 300;
     letter-spacing: -0.72px;
-    margin-top:10%;
+    margin-top:5%;
     font-family: 'Zen Kaku Gothic New';
     font-style: normal;
+    text-align: center;
 }
 .display-image {
     position:relative;
@@ -104,7 +109,7 @@
 .display-text,
 .display-image {
   opacity: 0; /* Start invisible */
-  transform: translateY(100px); /* Start with downward offset */
+  transform: translateY(-100px); /* Start with downward offset */
   transition: all 1s ease-in-out 1s; /* Smooth transition */
 }
 .in-view {
@@ -113,7 +118,7 @@
   }
 
 
-
+/*
  @media (max-width: 1000px) {
     .main-layout {
         height: auto;
@@ -228,3 +233,5 @@
         font-style: normal;
     }
 }
+
+*/
