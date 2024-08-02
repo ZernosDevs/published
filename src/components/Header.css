@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.links {
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+header nav a.active {
+    color: #111827;
+    font-weight: 900;
+}
+
+.link a{
+    text-decoration: none;
+    color: var(--Neutral-500, #6B7280);
+    text-align: center;
+    font-family: "Noto Sans JP";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 114.286% */
+}
+
+.link a:hover {
+    color: #374151;
+}
