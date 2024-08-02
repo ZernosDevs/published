@@ -1,11 +1,40 @@
-import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { NavLink, Outlet } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import "./Work.css";
+import Video from "../resources/stock video.mp4";
 
 const Work = () => {
 
   const { t } = useTranslation();
+
+  useEffect(() => {
+    const projectLinks = document.querySelectorAll('.project-link');
+
+    projectLinks.forEach(link => {
+      const video = link.querySelector('.hover-video');
+
+      const playVideo = () => video.play();
+      const pauseVideo = () => {
+        video.pause();
+      };
+      const replayVideo = () => {
+        video.currentTime = 0;
+        video.play();
+      };
+
+      link.addEventListener('mouseenter', playVideo);
+      link.addEventListener('mouseleave', pauseVideo);
+      video.addEventListener('ended', replayVideo);
+
+      // Clean up the event listeners on component unmount
+      return () => {
+        link.removeEventListener('mouseenter', playVideo);
+        link.removeEventListener('mouseleave', pauseVideo);
+        video.removeEventListener('ended', replayVideo);
+      };
+    });
+  }, []); 
 
   return (
       <div className='work-layout'>
@@ -24,26 +53,89 @@ const Work = () => {
                 </a>
             </div>
           </section>
-          <div className='display-right'>
+          < div className='display-right'>
             <span className='cyan'></span>
-            <span className='yellow'></span>
+            <span className='purple'></span>
             <span className='magenta'></span>
           </div>
-
         </section>
-      <ul>
-        <li>
-          <Link to="unibuzz">{t('project-1')}</Link>
-        </li>
-        <li>
-          <Link to="sip">{t('project-2')}</Link>
-        </li>
-        <li>
-          <Link to="esports">{t('project-3')}</Link>
-        </li>
-      </ul>
-      <Outlet /> {/* This is where nested project routes will be rendered */}
-    </div>
+        <div className='line-divider'></div>
+        <section className='projects'>
+          <div className='title-container'>
+            <h2>Project Case Study</h2>
+          </div>
+          <div className='project-list'>
+            <NavLink to="unibuzz" className='project-link'>
+            <div className='project-container'>
+              <div className='project-image'>
+              <video className='hover-video' muted>
+                <source src= {Video}  type="video/mp4" />
+                'Your browser does not support the video tag.'
+              </video>
+              </div>
+              <div className='project-text'>
+                <div className='title-row'>
+                  <h4>{t('project-1')}</h4>
+                  <h5>Date:2023-2024</h5>
+                </div>
+                <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
+              </div>
+            </div>
+            </NavLink>
+            <NavLink to="sip" className='project-link'>
+            <div className='project-container'>
+              <div className='project-image'>
+              <video className='hover-video' muted>
+                <source src= {Video}  type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              </div>
+              <div className='project-text'>
+                <div className='title-row'>
+                  <h4>Project Title</h4>
+                  <h5>Date:2023-2024</h5>
+                </div>
+                <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
+              </div>
+            </div>
+            </NavLink>
+            <NavLink to="esports" className='project-link'>
+            <div className='project-container'>
+              <div className='project-image'>
+              <video className='hover-video' muted>
+                <source src= {Video}  type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              </div>
+              <div className='project-text'>
+                <div className='title-row'>
+                  <h4>Project Title</h4>
+                  <h5>Date:2023-2024</h5>
+                </div>
+                <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
+              </div>
+            </div>
+            </NavLink>
+            <div className='project-container'>
+              <div className='project-image'>
+              <video className='hover-video' muted>
+                <source src= {Video}  type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              </div>
+              <div className='project-text'>
+                <div className='title-row'>
+                  <h4>Project Title</h4>
+                  <h5>Date:2023-2024</h5>
+                </div>
+                <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+        <Outlet /> {/* This is where nested project routes will be rendered */}
+        </section>
+        <div className='line-divider'></div>
+      </div>
   );
 };
 

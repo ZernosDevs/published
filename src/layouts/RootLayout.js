@@ -3,12 +3,15 @@ import { Outlet, useRouteError } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ErrorLayout from './ErrorLayout'
+import ScrollToTop from '../components/ScrollTop';
+
 
 const RootLayout = () => {
   const error = useRouteError();
 
   return (
     <div>
+      <ScrollToTop />
       <Header />
       {error ? <ErrorLayout error={error} /> : <Outlet />}
       <Footer />

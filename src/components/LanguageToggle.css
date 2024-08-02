@@ -36,7 +36,7 @@
   position:absolute;
   z-index: 0;
   left:9.5px;
-  background: var(--Neutral-500, #6B7280);
+  background: var(--Neutral-500, #1F2937);
   width: 30px;
   height: 26px;
   border-radius: 360px;
@@ -46,7 +46,7 @@
   position:absolute;
   bottom: 6px;
   z-index:1;
-  color: var(--Neutral-500, #ffffff);
+  color:  #ffffff;
   display: block;
   margin:auto;
   text-align: center;
