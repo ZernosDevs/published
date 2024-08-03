@@ -47,7 +47,7 @@ const Work = () => {
             <div className='sub-display-text'>
                 <h3>I design and oversee end-to-end product development for <b>startups</b> and <b>young companies</b></h3>
                 <a href='/resume.pdf'className='download' download>Download Resume
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <svg className='download-icon' xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path d="M3 13.5L3 14.375C3 15.8247 4.17525 17 5.625 17L14.375 17C15.8247 17 17 15.8247 17 14.375L17 13.5M13.5 10L10 13.5M10 13.5L6.5 10M10 13.5L10 3" stroke="#374151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </a>
@@ -65,70 +65,76 @@ const Work = () => {
             <h2>Project Case Study</h2>
           </div>
           <div className='project-list'>
-            <NavLink to="unibuzz" className='project-link'>
-            <div className='project-container'>
-              <div className='project-image'>
-              <video className='hover-video' muted>
-                <source src= {Video}  type="video/mp4" />
-                'Your browser does not support the video tag.'
-              </video>
-              </div>
-              <div className='project-text'>
-                <div className='title-row'>
-                  <h4>{t('project-1')}</h4>
-                  <h5>Date:2023-2024</h5>
+            <div className='project-row'>
+              <NavLink to="unibuzz" className='project-link'>
+              <div className='project-container'>
+                <div className='project-image'>
+                <video className='hover-video' muted>
+                  <source src= {Video}  type="video/mp4" />
+                  'Your browser does not support the video tag.'
+                </video>
                 </div>
-                <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
+                <div className='project-text'>
+                  <div className='title-row'>
+                    <h4>{t('project-1')}</h4>
+                    <h5>Date:2023-2024</h5>
+                  </div>
+                  <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
+                </div>
               </div>
+              </NavLink>
+              <NavLink to="sip" className='project-link'>
+              <div className='project-container'>
+                <div className='project-image'>
+                <video className='hover-video' muted>
+                  <source src= {Video}  type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                </div>
+                <div className='project-text'>
+                  <div className='title-row'>
+                    <h4>Project Title</h4>
+                    <h5>Date:2023-2024</h5>
+                  </div>
+                  <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
+                </div>
+              </div>
+              </NavLink>
             </div>
-            </NavLink>
-            <NavLink to="sip" className='project-link'>
-            <div className='project-container'>
-              <div className='project-image'>
-              <video className='hover-video' muted>
-                <source src= {Video}  type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              </div>
-              <div className='project-text'>
-                <div className='title-row'>
-                  <h4>Project Title</h4>
-                  <h5>Date:2023-2024</h5>
+            <div className='project-row'>
+              <NavLink to="esports" className='project-link'>
+              <div className='project-container'>
+                <div className='project-image'>
+                <video className='hover-video' muted>
+                  <source src= {Video}  type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
                 </div>
-                <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
-              </div>
-            </div>
-            </NavLink>
-            <NavLink to="esports" className='project-link'>
-            <div className='project-container'>
-              <div className='project-image'>
-              <video className='hover-video' muted>
-                <source src= {Video}  type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              </div>
-              <div className='project-text'>
-                <div className='title-row'>
-                  <h4>Project Title</h4>
-                  <h5>Date:2023-2024</h5>
+                <div className='project-text'>
+                  <div className='title-row'>
+                    <h4>Project Title</h4>
+                    <h5>Date:2023-2024</h5>
+                  </div>
+                  <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
                 </div>
-                <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
               </div>
-            </div>
-            </NavLink>
-            <div className='project-container'>
-              <div className='project-image'>
-              <video className='hover-video' muted>
-                <source src= {Video}  type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              </div>
-              <div className='project-text'>
-                <div className='title-row'>
-                  <h4>Project Title</h4>
-                  <h5>Date:2023-2024</h5>
+              </NavLink>
+              <div className='project-link'>
+                <div className='project-container'>
+                  <div className='project-image'>
+                  <video className='hover-video' muted>
+                    <source src= {Video}  type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                  </div>
+                  <div className='project-text'>
+                    <div className='title-row'>
+                      <h4>Project Title</h4>
+                      <h5>Date:2023-2024</h5>
+                    </div>
+                    <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
+                  </div>
                 </div>
-                <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
               </div>
             </div>
           </div>

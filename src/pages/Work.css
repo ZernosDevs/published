@@ -14,7 +14,6 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
-    flex-shrink: 0;
 }
 
 .display-right {
@@ -93,13 +92,13 @@
 }
 
 .cyan {
-    width: 212px;
-    height: 210px;
+    width: 200px;
+    height: 200px;
     position: absolute;
-    left: 130px;
+    right: 200px;
     top: 132px;
     background: #A5F3FC;
-    filter: blur(25px);
+    filter: blur(25px) brightness(1.2);
     border-radius: 100%;
     mix-blend-mode: multiply;
     animation: floatcyan 60s infinite;
@@ -111,13 +110,13 @@
 }
 
 .purple{
-    width: 212px;
-    height: 210px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     right: 48px;
     top: 141px;
-    background: #cdb4db;
-    filter: blur(25px);
+    background: #FDE68A;
+    filter: blur(25px) brightness(1.2);
     border-radius: 100%;
     mix-blend-mode: multiply;
     animation: floatyellow 60s infinite;
@@ -129,13 +128,13 @@
 }
 
 .magenta {
-    width: 212px;
-    height: 210px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     right: 130px;
     bottom: 125px;
     background: #F9A8D4;
-    filter: blur(25px);
+    filter: blur(25px) brightness(1.2);
     border-radius: 100%;
     mix-blend-mode: multiply;
     animation: floatmagenta 60s infinite;
@@ -148,7 +147,7 @@
 
 @keyframes floatcyan {
     0% { transform: translate(0px, 0px) scale(1); }
-    25% { transform: translate(200px, 0px) scale(1.2); }
+    25% { transform: translate(100px, 0px) scale(1.1); }
     50% { transform: translate(0px, 100px) scale(0.8); }
     75% { transform: translate(100px, 0px) scale(1); }
     100% { transform: translate(0px, 0px) scale(1); }
@@ -164,7 +163,7 @@
   
   @keyframes floatmagenta {
     0% { transform: translate(0px, 0px) scale(1); }
-    25% { transform: translate(50px, 50px) scale(1.3); }
+    25% { transform: translate(50px, 50px) scale(1.1); }
     50% { transform: translate(-100px, 0px) scale(0.7); }
     75% { transform: translate(50px, -50px) scale(1); }
     100% { transform: translate(0px, 0px) scale(1); }
@@ -194,24 +193,33 @@
 
   .project-list {
     display: flex;
-    width: 1216px;
-    padding: 110px 0px;
+    max-width: 1216px;
+    padding: 50px 0px;
     align-items: flex-start;
-    align-content: flex-start;
-    gap: var(--xx-lg, 64px) 32px;
+    align-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
+    gap: 64px;
   }
   
+  .project-row {
+    display:flex;
+    flex: auto;
+    flex-direction: row;
+    gap: 32px;
+  }
+
   .project-link {
+    display:flex;
     text-decoration:none;
+    flex: auto;
   }
 
   .project-container {
     display: flex;
-    width: 592px;
+    max-width: 592px;
     flex-direction: column;
     align-items: flex-start;
-    flex-shrink: 0;
     border-radius: 8px;
     border: 1px solid var(--Neutral-300, #D1D5DB);
   }
@@ -219,7 +227,7 @@
   .project-image {
     display: flex;
     height: 350px;
-    padding: 10px;
+    padding: 24px;
     align-items: flex-start;
     gap: 10px;
     align-self: stretch;
@@ -275,4 +283,114 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+
+  @media (max-width: 1100px) {
+    .projects {
+      margin: auto;
+    }
+    .project-list {
+      gap: 100px;
+    }
+    .project-row {
+      flex-direction: column;
+      gap: 100px;
+    }
+  
+  }
+
+  @media (max-width: 850px) {
+
+      .display {
+        gap: 0px;
+      }
+
+      .display-left {
+        width:100%;
+      }
+      .cyan, .magenta, .purple {
+        mix-blend-mode: darken;
+      }
+  }
+
+
+  @media (max-width: 600px) {
+
+    .display {
+      height: 372px;
+    }
+    .display-left {
+      gap:20px;
+    }
+
+    .main-display-text > h1 {
+      font-size: 28px;
+    }
+
+    .main-display-text > h2 {
+      font-size: 18px;
+    }
+
+    .sub-display-text {
+      gap:10px;
+    }
+
+    .sub-display-text > h3 {
+      font-size: 12px;
+    }
+    
+    .download {
+      font-size:10px;
+      padding: 6px 12px;
+    }
+
+    .download-icon {
+      width:16px;
+      height:16px;
+    }
+    .cyan, .magenta, .purple {
+      width: 100px;
+      height:100px;
+    }
+
+    .title-container {
+      padding: 52px 0px 0px 0px;
+    }
+
+    .title-container > h2 {
+      font-size:16px;
+    }
+
+    .project-list {
+      padding: 32px 0px;
+      gap: 50px;
+      margin-bottom: 30px;
+    }
+
+    .project-row {
+      gap: 50px;
+    }
+
+    .project-image {
+      height:300px;
+      padding: 16px;
+    }
+
+    .project-text {
+      padding: 16px;
+      gap: 8px;
+    }
+
+    .title-row > h4 {
+      font-size: 14px;
+    }
+
+    .title-row > h5 {
+      font-size: 10px;
+    }
+
+    .project-desc {
+      font-size: 12px;
+    }
+
   }
