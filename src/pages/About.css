@@ -1,0 +1,165 @@
+.about-layout {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap:80px;
+}
+
+.about-layout h3 {
+    color: var(--Neutral-800, #1F2937);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+.profile-frame1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+    margin-top:150px;
+}
+
+.profile-frame2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+}
+
+
+.text-container p {
+    color: var(--Neutral-500, #6B7280);
+    font-family: "Noto Sans JP";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* .skillset {
+    margin-top:100px;
+} */
+
+
+
+.skill-logo {
+    margin-top: 24px;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width:400px;
+}
+
+.skill-logo img {
+    width: 56px;
+    height: 56px;
+    margin-right: 40px;
+}
+
+.bullet {
+    margin-top: 20px;
+}
+
+/* .values {
+    margin-top:100px;
+} */
+
+.profile-image {
+    width: 400px;
+    height: 350px;
+    background: #D6D6D6;
+}
+
+.profile-image > img {
+    width: 400px;
+    height:350px;
+}
+
+.text-frame {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+
+
+.text-container {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+
+.profile-frame2 > h4 {
+    color: var(--Neutral-800, #333f50);
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+
+@media (max-width: 1200px) {
+
+    .profile-frame1 {
+        flex-direction:column;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .about-layout {
+        gap: 40px;
+    }
+
+    .profile-frame1 {
+        flex-direction:column;
+        margin-top: 75px;
+        gap: 45px;
+    }
+
+    .about-layout h3 {
+        font-size: 16px;
+    }
+
+    .text-container p {
+        font-size: 12px;
+    }
+
+    .text-container {
+        margin-top: 12px;
+        gap: 12px;
+    }
+
+    .profile-frame2 > h4 {
+        font-size: 28px;
+    }
+
+    .skill-logo {
+        margin-top:12px;
+    }
+
+    .skill-logo img {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+    .bullet {
+        margin-top: 10px;
+    }
+
+    .skillset > h3 {
+        margin-bottom: 12px;
+    }
+}

@@ -1,6 +1,6 @@
 footer {
     display: flex;
-    padding: 72px 0px 72px 0px;
+    padding: 200px 0px 100px 0px;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
@@ -40,7 +40,7 @@ footer > h3 {
 @media (max-width: 600px) {
 
     footer {
-        padding: 32px 0px 72px 0px;
+        padding: 100px 0px 50px 0px;
         gap: 16px;
     }
 

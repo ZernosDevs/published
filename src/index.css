@@ -9,8 +9,8 @@
 html {
   font-family: 'Noto Sans JP', sans-serif;
   width:100%;
-  background: #Ffffff;
-  background-image: url('./resources/45-degree-fabric-light.png');
+  background: #F9FAFB;
+  /* background-image: url('./resources/45-degree-fabric-light.png'); */
   height:100%;
   scroll-behavior: smooth; /* Enable smooth scrolling */
 }
