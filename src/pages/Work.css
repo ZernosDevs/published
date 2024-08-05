@@ -1,3 +1,9 @@
+.work-layout {
+  margin:auto;
+  max-width:1440px;
+  padding:0px 8% 0px 8%;
+}
+
 .display {
     display: flex;
     width: 100%;
@@ -195,13 +201,15 @@
 
   .project-list {
     display: flex;
-    margin-bottom: 100px;
+    
     max-width: 1216px;
     align-items: flex-start;
     align-content: center;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 64px;
+    margin:auto;
+    margin-bottom: 100px;
   }
   
   .project-row {
@@ -367,6 +375,7 @@
     }
 
     .project-list {
+      padding: 32px 0px;
       gap: 50px;
       margin-bottom: 30px;
     }

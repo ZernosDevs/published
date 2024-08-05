@@ -3,6 +3,9 @@
     width: 100%;
     flex-direction: column;
     gap:80px;
+    margin:auto;
+    max-width: 1440px;
+    padding: 0px 8% 0px 8%;
 }
 
 .about-layout h3 {

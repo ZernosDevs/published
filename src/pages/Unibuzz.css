@@ -1,0 +1,58 @@
+
+.banner {
+    width: 100%;
+    margin: 100px 0px 100px 0px;
+    background-color: #861336;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 500px;
+}
+
+.banner > img {
+    max-width: 1440px;
+    padding: 0px 8% 0px 8%;
+}
+
+.case-study {
+    max-width: 1440px;
+    padding: 0px 8% 0px 8%;
+    margin:auto;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.overview h5 {
+    color: var(--Neutral-700, #404040);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.case-p {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.case-p > h2 {
+    color: var(--Neutral-800, #1F2937);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.case-p > p {
+    color: var(--Neutral-700, #404040);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

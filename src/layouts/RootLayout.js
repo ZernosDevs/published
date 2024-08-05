@@ -10,7 +10,7 @@ const RootLayout = () => {
   const error = useRouteError();
 
   return (
-    <div>
+    <div className='rootlayout'>
       <ScrollToTop />
       <Header />
       {error ? <ErrorLayout error={error} /> : <Outlet />}

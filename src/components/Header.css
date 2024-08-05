@@ -1,8 +1,11 @@
 header {
+    max-width:1440px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:auto;
     margin-top: 60px;
+    padding:0px 8% 0px 8%;
 }
 
 nav {
@@ -62,6 +65,10 @@ header nav a.active {
 
 
 @media (max-width: 850px) {
+    
+    header {
+        margin-top:30px;
+    }
     .hamburger {
         display:block;
     }

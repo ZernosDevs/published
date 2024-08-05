@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import React, { useState, useEffect  } from 'react';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import './Header.css';
 import LanguageToggle from './LanguageToggle';
 import DefaultMenu from '../resources/default-menu.png';
@@ -11,6 +11,7 @@ const Header = () => {
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [imageSrc, setImageSrc] = useState( DefaultMenu); // Default state
+  const location = useLocation();
 
   const toggleMenu = () => { 
     setMenuOpen(!menuOpen);
@@ -28,7 +29,15 @@ const Header = () => {
       setImageSrc( DefaultMenu);
     }
   };
-  
+
+  // Close menu when the location changes
+  useEffect(() => {
+    if (menuOpen) {
+      setMenuOpen(false);
+      setImageSrc(DefaultMenu);
+    }
+  }, [location]);
+
   return (
     <header>
       <Link to ="/">
