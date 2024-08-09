@@ -18,8 +18,15 @@ import Wireframe from '../resources/wireframe.png';
 import StyleGuide from '../resources/style-guide.png';
 import DesignSystem from '../resources/design-system.png';
 import FinalUI from '../resources/finalui.png';
+import OldProto2 from '../resources/old-filter-prototype2.gif'
+import OldFilter from '../resources/old-filter.png';
+import NewFilter from '../resources/new-filter.png';
+import NewProto from '../resources/new-filter-prototype.gif';
+import FinalProto from '../resources/final-proto2.gif'
+
 
 const Unibuzz = () => {
+
   return (
     <>
       <div className='banner'>
@@ -158,6 +165,7 @@ const Unibuzz = () => {
         </div>
         <div className='case-p'>
           <h3>Product Architecture</h3>
+          <p>After UX research, i strategically organized the layout of interface elements and flow interactions through sitemaps, user journey flows, and wireframes. </p>
         </div>
         <div className='case-p'>
           <h4>Visual Sitemap</h4>
@@ -222,7 +230,33 @@ const Unibuzz = () => {
         <div className='case-p'>
           <h3>Prototype and Testing</h3>
         </div>
+        <div className='gif-container'>
+          <img className='mobile-gif' src = { OldFilter }></img>
+          <img className='mobile-gif' src = { OldProto2 }></img>
+        </div>
+        <div className='case-p'>
+          <p><b>Problem:</b> During the testing phase I noticed that the drink type selection in mobile screen was unintuitive and confusing. Since you can only select either distilled or fermented drinks, it made little sense for the UI to be two selectable buttons.</p>
+        </div>
+        <div className='gif-container'>
+          <img className='mobile-gif' src = { NewFilter }></img>
+          <img className='mobile-gif' src = { NewProto }></img>
+        </div>
+        <div className='case-p'>
+          <p><b>Solution:</b>To fix this issue, the two selectable buttons were given radio inputs so only one or the other could be selected. Once it is selected, the desired drink in the category can be picked! This is one of the many cases of usability testing that was conducted to create the final working product.</p>
+        </div>
+        <div className='img-container'>
+          <img className= 'width-1200' src = { FinalProto }></img>
+          <h6>Responsive prototype of user purchase and checkout flow</h6>
+        </div>
+        <div className='case-p'>
+          <h3>Final Thoughts</h3>
+          <p> By the end of the project, I was able to successfully deliver a user-centered e-commerce platform for alcoholic beverages that met both business demands and modern UI/UX standards. My client was left thoroughly satisfied with the first iterations of his product and was happy to share the prototypes to other liquor store owners, who may now be interested in forming distribution partnerships.
+          </p>
+          <h4>Lessons Learned</h4>
+          <p>Throughout the project, I learned the critical importance of thorough user research in shaping design decisions. Iterative testing and feedback loops were essential in refining features to meet user expectations effectively. I also had to constantly communicate with the stakeholder's to match their expectations and vision of the product. This was by far the biggest challenge since most communication was done online or through calls. In the future I will make the effort to physically meet the client for more efficient communication.</p>
+        </div>
       </div>
+      
     </>
   );
 };
