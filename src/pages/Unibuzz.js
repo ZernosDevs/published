@@ -6,6 +6,18 @@ import TargetUser from '../resources/target user.png';
 import Stats from '../resources/stats.png';
 import Conbini from '../resources/conbini.png';
 import Requests from '../resources/requests.png'
+import SurveyData from '../resources/survey-data.png';
+import SurveyInsight from '../resources/survey-insight.png';
+import UserInterview from '../resources/user-interview.png';
+import Persona from '../resources/persona.png';
+import MVPDefine from '../resources/mvp-features.png';
+import Sitemap from '../resources/sitemap.png';
+import Journey  from '../resources/user-journey.png';
+import Filter from '../resources/filter.png'
+import Wireframe from '../resources/wireframe.png';
+import StyleGuide from '../resources/style-guide.png';
+import DesignSystem from '../resources/design-system.png';
+import FinalUI from '../resources/finalui.png';
 
 const Unibuzz = () => {
   return (
@@ -18,7 +30,6 @@ const Unibuzz = () => {
             <h5>Role: Product Designer (Responsive Web)</h5>
             <h5>Responsibility: End to end UI UX design</h5>
             <h5>Timeline: April 2024 - June 2024</h5>
-            
         </div>
         <div className='case-p'>
           <h2>Overview</h2>
@@ -49,7 +60,7 @@ const Unibuzz = () => {
           <h3>Project Overview</h3>
         </div>
         <div className='img-container'>
-          <img src = { TargetUser }></img> 
+          <img className= 'width-800' src = { TargetUser }></img> 
         </div>
         <div className='case-p'>
           <h4>Understanding the User</h4> 
@@ -60,22 +71,25 @@ const Unibuzz = () => {
           <h4>Understanding the Business</h4> 
         </div>
         <div className='img-container'>
-          <img src = { Stats }></img>
+          <img className= 'width-800' src = { Stats }></img>
           <h6>Quarterly transaction value of online food and beverages sales in South Korea from the 1st quarter of 2017 to the 1st quarter of 2024, Statista (2024)</h6> 
         </div>
         <div className='case-p'>
           <p>The online food and beverage market in South Korea has experienced remarkable growth, driven by an increasing preference for convenience and technological advancements. Home delivery services have become particularly popular due to the busy lifestyles of South Koreans and the rapid adoption of mobile technology. Although alcohol can be purchased online, it must be picked up at one of the following covenience stores in the country. </p>
         </div>
         <div className='img-container'>
-          <img src = { Conbini }></img>
+          <img className= 'width-800' src = { Conbini }></img>
           <h6>Online alcohol sales are dominated by physical store visits or pickup services provided by convenience store chains.</h6> 
         </div>
         <div className='case-p'>
           <h5 className='emphasis'>An app dedicated to online alcohol home delivery has the potential to become an instant-hit</h5>
         </div>
+        <div className='case-p'>
+          <h4>Business Requests</h4> 
+        </div>
         <div className='img-container'>
-          <img src = { Requests }></img>
-          <h6>Business requests from the stakeholders</h6> 
+          <img className= 'width-1200' src = { Requests }></img>
+          <h6>Stakeholder demands to meet during product development</h6> 
         </div>
         <div className='case-p'>
           <p>Just like any other project, a client or stakeholder will demand certain requests or features to be carried out during the development process. My client requested several key features for the platform: a filter option for the drink catalog based on type, ingredient, and taste; product labels indicating country of origin, rating, and seller count; validation of business requests through both quantitative and qualitative user research; and a responsive design to facilitate future mobile application development. </p>
@@ -85,6 +99,128 @@ const Unibuzz = () => {
           <p>
           Based on my understanding of the target user and the business requirements, I conducted two methods of research to test initial hypothesis and get a better insight into what the users would think of the product’s features.  
           </p>
+        </div>
+        <div className='case-p'>
+          <h4>Quantitative Research: User Survey</h4> 
+          <p><b>Scope:</b> 75 participants undertook an online survey, that consisted of 5 questions which they answered in Likert scale (strongly disagree -> strongly agree). All of the participants were adults over the age of 18, and had a history of drinking alcohol at home. The questions in this survey were formulated based on the business goals I need to accomplish and experience/emotion of our target users. </p>
+        </div>
+        <div className='img-container'>
+          <img className= 'width-1200' src = { SurveyData }></img>
+        </div>
+        <div className='img-container'>
+          <img className= 'width-1200' src = { SurveyInsight }></img>
+        </div>
+        <div className='case-p'>
+          <p><b>Key Findings:</b> Based on the survey data we can infer the following insights: </p>
+          <ul>
+            <li>The current e-commerce experience for alcohol is good, as only 12% of participants felt difficulty using the products for pick-up services. </li>
+            <li>Roughly half of participants had regret when buying alcohol which is an interesting statistic and requires more research. If the current user experience is good why are half of users not satisfied?</li>
+            <li>73% of participants think having a taste filter would for alcohol would be helpful, which signifies its need in the current market. </li>
+            <li>All participants felt home delivery would be more convenient than pick-up services as was expected. This assures the stakeholders the business idea has value in today's market.</li>
+            <li>The current user interface of existing products is generally favorable, although the remaining 31% of participants perhaps felt there could be improvements made. </li>
+          </ul>
+        </div>
+        <div className='case-p'>
+        <h4>Qualitative Research: User Survey</h4> 
+        </div>
+        <div className='img-container'>
+          <img className= 'width-1200' src = { UserInterview }></img>
+        </div>
+        <div className='case-p'>
+            <p><b>Key Findings:</b> 
+            <ul>
+              <li>Users expressed frustration over spending significant amounts on liquor they ultimately didn't enjoy, indicating a need for better information or guidance before making purchasing decisions.</li>
+              <li>Many users highlighted the challenge of buying alcohol without sufficient knowledge, emphasizing that the difficulty lies not in the buying process itself but in the risk associated with choosing unfamiliar products.</li>
+              <li>Users found reviews crucial for understanding the taste of drinks, suggesting that incorporating filters based on taste preferences could enhance their shopping experience significantly. </li>
+              <li>Users expressed reservations about alcohol apps linked primarily to convenience stores, which are not typically associated with offering a wide variety or high-quality selection of alcoholic beverages.</li>
+            </ul>
+          </p>
+        </div>
+        <div className='case-p'>
+          <h5 className='emphasis'>Despite the ease of online alcohol purchasing, some struggle with drink selection.</h5>
+        </div>
+        <div className='case-p'>
+          <h4>User Persona</h4> 
+        </div>
+        <div className='img-container'>
+          <img className= 'width-1200' src = { Persona }></img>
+        </div>
+        <div className='case-p'>
+          <p><b>Meet Mike</b></p>
+          <p>The data and insights gathered through quantitative and qualitative methods gave birth to Mike Kim. Like many young adults in their 20s and 30s (Gen Z) Mike appreciates the convenience of online shopping, yet still faces difficulties making the right selection of alcoholic drinks. Mike wishes to be able to purchase alcohol quickly and efficiently, without having to regret spending money on a drink he might not like. </p> 
+        </div>
+        <div className='case-p'>
+          <h4>Defining the MVP</h4>
+          <p>At this point, I was ready to start defining the features the platform would include. I had got to know my target user, and reaffirmed the business demands set by the stakeholder through UX research. With this information in hand, I set out to define the MVP (minimum viable product).</p> 
+        </div>
+        <div className='img-container'>
+          <img className= 'width-1200' src = { MVPDefine }></img>
+        </div>
+        <div className='case-p'>
+          <h3>Product Architecture</h3>
+        </div>
+        <div className='case-p'>
+          <h4>Visual Sitemap</h4>
+        </div>
+        <div className='img-container'>
+          <img className= 'width-800' src = { Sitemap }></img>
+        </div>
+        <div className='case-p'>
+          <p>With the features of the platform decided, I constructed a visual sitemap of the the main pages. This sitemap was created with developers in mind, instructing them when to keep the user interface elements in the same page without reloading new pages through dynamic updates, or in more technical terms AJAX updates. This should help the design and development team be in sync and reduce miscommunication issues. </p> 
+        </div>
+        <div className='case-p'>
+          <h4>User Journey</h4>
+        </div>
+        <div className='img-container'>
+          <img className= 'width-1200' src = { Journey }></img>
+        </div>
+        <div className='case-p'>
+          <p>To further help define the structure and architecture of the website, I created a User Journey flow of what a typical user of the platform might go through during his experience with the product. User flowcharts help me visualize and understand the paths users take while interacting with the product UI. </p> 
+        </div>
+        <div className='case-p'>
+          <h4>The Custom Filter</h4>
+        </div>
+        <div className='img-container'>
+          <img className= 'width-1200' src = { Filter }></img>
+        </div>
+        <div className='case-p'>
+          <p>With the help of the stakeholders, liquor experts, and alcohol enthusiasts, I was able to create their requested "taste" filter for different types of drinks. Users can select their combination of flavor notes and will be given the selection of alcohol that best matches the combination based on other user reviews. For the MVP, this feature is available for wine, beer, and whiskey as these were the most popular drinks sold in liquor shops nationwide. Filters for other fermented or distilled alcohols will be considered in the future.</p>
+        </div>
+        <div className='case-p'>
+          <h4>Mid-fidelity Wireframe</h4>
+        </div>
+        <div className='img-container'>
+          <img className= 'width-1200' src = { Wireframe }></img>
+        </div>
+        <div className='case-p'>
+          <p>Now that the structure and architecture of the product has been set along with the requested taste filter, I created mid-fidelity responsive wireframes that will act as blueprints for the final UI designs. </p>
+        </div>
+        <div className='case-p'>
+          <h3>UI and Branding</h3>
+          <h4>Style Guide</h4>
+          <p>With the mid-fidelity wireframes ready, I made sure that the design of the site matched the stakeholder’s vision and the message he wanted to send to the users. Below are some keywords that represent the idea or feel of the brand with a mood + inspiration board. </p>
+        </div>
+        <div className='img-container'>
+          <img className= 'width-1200' src = { StyleGuide }></img>
+        </div>
+        <div className='case-p'>
+          <h4>Design System</h4>
+          <p>A design system with the base foundations are set to create the UIs for responsive platform. </p>
+        </div>
+        <div className='img-container'>
+          <img className= 'width-1200' src = { DesignSystem }></img>
+        </div>
+        <div className='case-p'>
+          <h4>UI: Responsive Web</h4>
+          <p>Based on the style guide and design system I built, I designed the user interface of the platform for both desktop and mobile web screens.  </p>
+        </div>
+      </div>
+      <div className='span-banner'>
+        <img src = { FinalUI }></img>
+      </div>
+      <div className='case-study'>
+        <div className='case-p'>
+          <h3>Prototype and Testing</h3>
         </div>
       </div>
     </>
