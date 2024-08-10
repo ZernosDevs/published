@@ -128,7 +128,8 @@ const Sip = () => {
           </ul>
         </div>
         <div className='case-p'>
-        <h4>Qualitative Research: User Survey</h4> 
+        <h4>Qualitative Research: User Interview</h4>
+        <p><b>Scope:</b> 3 participants who undertook the initial survey were asked questions and provide insight into their answers. I asked questions regarding the feeling of regret after buying alcohol online, the use of the taste filter, and the UI of existing products for alcohol e-commerce.</p> 
         </div>
         <div className='img-container'>
           <img className= 'width-1200' src = { UserInterview }></img>
