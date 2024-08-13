@@ -13,7 +13,7 @@
 
 .banner {
     width: 100%;
-    margin: 50px 0px 100px 0px;
+    margin: 0px 0px 100px 0px;
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center;    /* Centers vertically */
@@ -76,6 +76,10 @@
     margin-bottom: 100px;
 }
 
+.baby {
+    margin-bottom: 50px;
+}
+
 .child:last-child {
     margin-bottom:0px;
 }
@@ -96,11 +100,10 @@
 
 .case-p > h3 {
     color: var(--Neutral-800, #861336);
-    font-size: 30px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-bottom:20px;
 }
 
 .case-p > h4 {
@@ -200,14 +203,11 @@
     }
 
     .banner {
-        margin: 25px 0px 50px 0px;
+        margin: 0px 0px 50px 0px;
     }
 
     .span-banner {
         margin: -50px 0px 100px 0px;
-    }
-    .case-study {
-        gap:25px;
     }
     .parent {
         margin-bottom: 75px;
@@ -231,7 +231,7 @@
         margin-bottom: 10px;
     }
     .case-p > h3 {
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 10px;
     }
     .case-p > h4 {

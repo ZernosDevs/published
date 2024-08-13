@@ -23,12 +23,13 @@ import OldFilter from '../resources/old-filter.png';
 import NewFilter from '../resources/new-filter.png';
 import NewProto from '../resources/new-filter-prototype.gif';
 import FinalProto from '../resources/final-proto2.gif'
-
+import ScrollProgress from '../components/ScrollProgress';
 
 const Sip = () => {
 
   return (
     <>
+      <ScrollProgress color="#FDA5AF" />
       <div className='lead-banner'>
         <img src = { Sipbanner }></img>
       </div> 
@@ -38,42 +39,42 @@ const Sip = () => {
             <h5>Responsibility: End to end UI UX design</h5>
             <h5>Timeline: April 2024 - June 2024</h5>
         </div>
-        <section className='child'>
+        <section className='baby'>
         <div className='case-p'>
           <h2>Overview</h2>
-          <p>In South Korea, online alcohol sales are heavily regulated, with delivery currently banned. However, recent policy changes now allow consumers to order online for pick-up at select convenience stores. A client by the name of Mr. Lee, a liquor store owner, plans to launch a platform for online alcohol purchases and delivery, anticipating future policy shifts. 
+          <p>In South Korea, the online sale of alcohol is heavily regulated, with delivery options currently banned. However, recent policy changes now allow consumers to order online for pick-up at select convenience stores. Anticipating a shift towards the legalization of alcohol delivery, my client plans to launch an e-commerce platform centered around alcohol delivery. 
           </p>
+          <span className='space'></span>
           <p>
-          <br></br>
-          Sip at Home is an online marketplace(Ecommerce) for all types of alcoholic beverages. It lets you choose your drink based on type, ingredient, and most importantly taste. As the sole product designer of this project, I was hired as a freelancer to handle everything from logo creation to user experience research and responsive web design. </p>
-          <br></br>
-          <p>*To protect the intellectual rights of the client, all the designs have been modified and translated  for the purposes of this case study.*</p>
+          Sip at Home is an e-commerce site for all types of alcoholic beverages. It lets you choose your drink based on type, ingredient, and most importantly, taste. As the sole product designer for this project, I was hired as a freelancer to handle everything from user experience research to design system creation and responsive web design.</p>
+          <span className='space'></span>
+          <p><i>To protect the client's intellectual property, most of the content presented has been modified for a global audience, and all text has been translated from Korean to English.</i></p>
           
         </div>
         </section>
-        <section className='child'>
+        <section className='baby'>
         <div className='case-p'>
           <h2>Problem</h2>
-          <p>The strict regulations on online alcohol sales and the prohibition of delivery in South Korea limits the business potential of liquor store owners and consumer convenience. Users are frustrated by the inability to have alcohol delivered, relying instead on physical store visits or inconvenient pick-up options. Existing solutions around the restrictions, like online ordering for in-store pick-up, failed to meet the growing demand for home delivery. My task was to design a platform ready to launch once the delivery ban is lifted which would help position my client at the forefront of the market. </p>
+          <p>The strict regulations on online alcohol sales and the prohibition of delivery in South Korea limits the business potential of liquor store owners and affects consumer convenience. Users are frustrated by the inability to have alcohol delivered, relying instead on physical store visits or inconvenient pick-up options. Existing solutions around the restrictions have failed to meet the growing demand for home delivery. My task was to design a platform ready to launch once the delivery ban is lifted which would help position my client at the forefront of the market. </p>
         </div>
         </section>
-        <section className='child'>
+        <section className='baby'>
         <div className='case-p'>
           <h2>Objective</h2>
-          <p>My primary objective was to create a seamless and convenient online alcohol purchasing experience for users, ensuring easy access and delivery once regulations allowed. For the business, the goal was to establish a leading market position and form strategic partnerships with liquor stores nationwide for distribution and sales. I aimed to complete the platform within three months, divided into phases of user research, design development, and final prototyping. Success would be measured by user count and satisfaction, the number of partnerships secured, and the platform’s readiness for launch. </p>
+          <p>The client requested that I first develop the website version before committing to a mobile app, as that would require additional time and costs. Since the business can only operate once the delivery ban is lifted, my client is cautious about investing too much in a venture that cannot be fully assessed even after the MVP is ready. Therefore, my primary objective was to create responsive web designs for the MVP, aiming to provide a seamless online alcohol purchasing experience. The goal was to complete the platform within three months, divided into phases of user research, design development, and final prototyping. Success would be measured by client satisfaction and additional investments received once MVP is launched.  </p>
         </div>
+        </section>
+        <section className='parent'>  
+          <div className='case-p'>
+            <h2>Approach</h2> 
+            <p>Through a simple yet effective design process, I approached this task by understanding the project's scope, conducting user research, preparing user journeys and sitemaps, designing the final UI, and ultimately testing the product through usability tests and prototypes. If stakeholders requested changes, I would revisit and redesign the necessary components.</p>
+          </div>
         </section>   
       </div>
       <div className='banner'>
         <img src = { Approach }></img>
       </div>
       <div className='case-study'>
-       <section className='parent'>  
-          <div className='case-p'>
-            <h2>Approach</h2> 
-            <p>Through a simple yet effective design process, I approached this task by understanding the scope of the project, conducting user research, preparing user journeys and sitemaps, designing the final UI and ultimately testing the product through usability tests and prototypes. If the stakeholders would like to change any part of the product I go back and redesign any components. </p>
-          </div>
-        </section>
         <section className='parent'>
           <div className='case-p'>
             <h3>Project Overview</h3>
@@ -84,7 +85,7 @@ const Sip = () => {
             </div>
             <div className='case-p'>
               <h4>Understanding the User</h4> 
-              <p >Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender and race, although some cultures have banned the consumption of alcohol. </p>
+              <p >Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender, occupation, or location within South Korea. </p>
             </div>
             <div className='case-p'>
               <span className='space'></span>
@@ -105,7 +106,7 @@ const Sip = () => {
               <img className= 'width-800' src = { Conbini }></img>
               <h6>Online alcohol sales are dominated by physical store visits or pickup services provided by convenience store chains.</h6> 
             </div>
-              <p >The online food and beverage market in South Korea has experienced remarkable growth, driven by an increasing preference for convenience and technological advancements. Home delivery services have become particularly popular due to the busy lifestyles of South Koreans and the rapid adoption of mobile technology. Although alcohol can be purchased online, it must be picked up at one of the following covenience stores in the country. </p>
+              <p >The online food and beverage market in South Korea has experienced remarkable growth, driven by an increasing preference for convenience and technological advancements. Home delivery services have become particularly popular due to the busy lifestyles of South Koreans and the rapid adoption of mobile technology. Although alcohol can be purchased online, it must be picked up at convenience stores that provide the service. </p>
             </div>
             
             <div className='case-p'>
@@ -129,7 +130,11 @@ const Sip = () => {
             
             <div className='case-p'>
               <span className='space'></span>
-              <p>Just like any other project, a client or stakeholder will demand certain requests or features to be carried out during the development process. My client requested several key features for the platform: a filter option for the drink catalog based on type, ingredient, and taste; product labels indicating country of origin, rating, and seller count; validation of business requests through both quantitative and qualitative user research; and a responsive design to facilitate future mobile application development. </p>
+              <p>Like any project, clients or stakeholders have specific requests during the development process. My client requested several key features for the platform: filters for the drink catalog based on alcohol type, ingredient, and taste; a comprehensive design system defining colors, typography, etc; an appealing design suitable for all adults legally allowed to drink; and a responsive design that would enable easy transition to a mobile application in the future.</p>
+              <span className='space'></span>
+              <p>
+              Now that I have thoroughly understood the project's overview and business demands, I set out to conduct user research to better understand the needs, behaviors, and pain points of the target audience. This will help me minimize design decisions based on assumption and ultimately deliver a data-driven user experience.   
+              </p>
             </div>
           </section>
         </section>
@@ -137,14 +142,13 @@ const Sip = () => {
           <section className='child'>
             <div className='case-p'>
               <h3>User Research</h3>
-              <p>
-              Based on my understanding of the target user and the business requirements, I conducted two methods of research to test initial hypothesis and get a better insight into what the users would think of the product’s features.  
-              </p>
             </div>
           </section>
           <section className='child'>
             <div className='case-p'>
-              <h4>Quantitative Research: User Survey</h4> 
+              <h4>Quantitative Research: User Survey</h4>
+              <p>In order to better understand the scope of the work, I wanted to know how users felt about current e-commerce for alcohol sale.</p>
+              <span className='space'></span>
               <p><b>Scope:</b> 75 participants undertook an online survey, that consisted of 5 questions which they answered in Likert scale (strongly disagree -> strongly agree). All of the participants were adults over the age of 18, and had a history of drinking alcohol at home. The questions in this survey were formulated based on the business goals I need to accomplish and experience/emotion of our target users. </p>
             </div>
             <div className='img-container'>
@@ -157,13 +161,13 @@ const Sip = () => {
               <p><b>Key Findings:</b> Based on the survey data we can infer the following insights: </p>
               <ul>
                 <br></br>
-                <li>The current e-commerce experience for alcohol is good, as only 12% of participants felt difficulty using the products for pick-up services. </li>
+                <li>The current e-commerce experience for alcohol is good, as only 12% of participants felt difficulty using their services. </li>
                 <br></br>
-                <li>Roughly half of participants had regret when buying alcohol which is an interesting statistic and requires more research. If the current user experience is good why are half of users not satisfied?</li>
+                <li>Roughly half of participants had regrets when purchasing alcohol online which is an interesting statistic and requires more research. If the current user experience for e-commerce is good why are half of users not satisfied with their purchase?</li>
                 <br></br>
-                <li>73% of participants think having a taste filter would for alcohol would be helpful, which signifies its need in the current market. </li>
+                <li>73% of participants think having a taste filter for alcohol would be helpful, which proves the client's business demand matches the user's demand. </li>
                 <br></br>
-                <li>All participants felt home delivery would be more convenient than pick-up services as was expected. This assures the stakeholders the business idea has value in today's market.</li>
+                <li>All participants felt home delivery would be more convenient than pick-up services as was expected. This assures the client the business idea has value in today's market.</li>
                 <br></br>
                 <li>The current user interface of existing products is generally favorable, although the remaining 31% of participants perhaps felt there could be improvements made. </li>
               </ul>
@@ -181,13 +185,13 @@ const Sip = () => {
                 <p><b>Key Findings:</b> 
                 <ul>
                   <br></br>
-                  <li>Users expressed frustration over spending significant amounts on liquor they ultimately didn't enjoy, indicating a need for better information or guidance before making purchasing decisions.</li>
+                  <li>Users expressed frustration over spending significant amounts of money on alcohol they ultimately didn't enjoy, indicating a need for better information or guidance before making purchasing decisions.</li>
                   <br></br>
                   <li>Many users highlighted the challenge of buying alcohol without sufficient knowledge, emphasizing that the difficulty lies not in the buying process itself but in the risk associated with choosing unfamiliar products.</li>
                   <br></br>
                   <li>Users found reviews crucial for understanding the taste of drinks, suggesting that incorporating filters based on taste preferences could enhance their shopping experience significantly. </li>
                   <br></br>
-                  <li>Users expressed reservations about alcohol apps linked primarily to convenience stores, which are not typically associated with offering a wide variety or high-quality selection of alcoholic beverages.</li>
+                  <li>Users expressed reservations about alcohol apps linked primarily to convenience stores, which are not particularly tailored towards the alcohol industry.</li>
                   <br></br>
                 </ul>
               </p>
@@ -209,13 +213,15 @@ const Sip = () => {
              
               <p><b>Meet Mike</b></p>
               <span className='space'></span>
-              <p>The data and insights gathered through quantitative and qualitative methods gave birth to Mike Kim. Like many young adults in their 20s and 30s (Gen Z) Mike appreciates the convenience of online shopping, yet still faces difficulties making the right selection of alcoholic drinks. Mike wishes to be able to purchase alcohol quickly and efficiently, without having to regret spending money on a drink he might not like. </p> 
+              <p>The data and insights gathered through quantitative and qualitative methods gave birth to Mike Kim. Like many young adults in their 20s (Gen Z) and 30s (Millenial) Mike appreciates the convenience of online shopping, yet still faces difficulties making the right selection of alcoholic drinks. Mike wishes to be able to purchase alcohol quickly and efficiently, without having to regret spending money on a drink he might not like. </p> 
             </div>
           </section>
           <section className='child'>
             <div className='case-p'>
               <h4>Defining the MVP</h4>
-              <p>At this point, I was ready to start defining the features the platform would include. I had got to know my target user, and reaffirmed the business demands set by the stakeholder through UX research. With this information in hand, I set out to define the MVP (minimum viable product).</p> 
+              <p>At this point, I was ready to start defining the platform's features. I had gotten to know my target users and reaffirmed the business demands set by the client through UX research. With this information in hand, I set out to define the MVP (minimum viable product).</p>
+              <span className='space'></span>
+              <p>The MVP for <i>Sip at Home</i>  should include essential features like a comprehensive drink catalog, search navigation, payment gateway and more. All of this requires it to be planned out through user journey flows and wireframes as part of the product's architecture. </p> 
             </div>
             <div className='img-container'>
               <img src = { MVPDefine } ></img>
@@ -226,7 +232,7 @@ const Sip = () => {
           <section className='child'>
             <div className='case-p'>
               <h3>Product Architecture</h3>
-              <p>After UX research, i strategically organized the layout of interface elements and flow interactions through sitemaps, user journey flows, and wireframes. </p>
+              
             </div>
           </section>
           <section className='child'>
@@ -248,7 +254,7 @@ const Sip = () => {
               <img className= 'width-1200' src = { Journey }></img>
             </div>
             <div className='case-p'>
-              <p>To further help define the structure and architecture of the website, I created a User Journey flow of what a typical user of the platform might go through during his experience with the product. User flowcharts help me visualize and understand the paths users take while interacting with the product UI. </p> 
+              <p>To further help define the structure and architecture of the website, I created a User Journey flow of what a typical user of the platform might go through during his experience with the product. User flow-charts help me visualize and understand the paths users take while interacting with the product user interface. </p> 
             </div>
           </section>
           <section className='child'>
@@ -259,7 +265,7 @@ const Sip = () => {
               <img  src = { Filter }></img>
             </div>
             <div className='case-p'>
-              <p>With the help of the stakeholders, liquor experts, and alcohol enthusiasts, I was able to create their requested "taste" filter for different types of drinks. Users can select their combination of flavor notes and will be given the selection of alcohol that best matches the combination based on other user reviews. For the MVP, this feature is available for wine, beer, and whiskey as these were the most popular drinks sold in liquor shops nationwide. Filters for other fermented or distilled alcohols will be considered in the future.</p>
+              <p>With the help of my client, liquor experts, and alcohol enthusiasts, I was able to create the requested "taste" filter for different types of drinks. Users can select their combination of flavor notes and will be given the selection of alcohol that best matches the combination based on other user reviews. For the MVP, this feature is available for wine, beer, and whiskey as these were the most popular drinks sold in liquor shops nationwide. Filters for other fermented or distilled alcohols will be considered in the future.</p>
             </div>
           </section>
           <section className='child'>
@@ -271,6 +277,7 @@ const Sip = () => {
             </div>
             <div className='case-p'>
               <p>Now that the structure and architecture of the product has been set along with the requested taste filter, I created mid-fidelity responsive wireframes that will act as blueprints for the final UI designs. </p>
+              
             </div>
           </section>
         </section>
@@ -278,7 +285,7 @@ const Sip = () => {
           <section className='child'> 
             <div className='case-p'>
               <h3>UI and Branding</h3>
-              <p>With the mid-fidelity wireframes ready, I made sure that the design of the site matched the stakeholder’s vision and the message he wanted to send to the users. Below are some keywords that represent the idea or feel of the brand with a mood + inspiration board. </p>
+              
             </div>
             </section>
             <section className='child'>
@@ -286,14 +293,17 @@ const Sip = () => {
                 <h4>Style Guide</h4>
               </div>
               <div className='img-container'>
-                <img className= 'width-1200' src = { StyleGuide }></img>
+                <img className= 'width-800' src = { StyleGuide }></img>
+              </div>
+              <div className='case-p'>
+                <p>With the mid-fidelity wireframes ready, I made sure that the design of the site matched the client's vision and the message he wanted to send to the users. He specifically requested to make the platform look welcoming/accessible to all adults who are able to drink alcohol. This was done through a style guide, a design system and finally the high-fidelity designs of the product. </p>
               </div>
             </section>
           
           <section className='child'>
             <div className='case-p'>
               <h4>Design System</h4>
-              <p>A design system with the base foundations are set to create the UIs for responsive platform. </p>
+              <p>A design system with the base foundations are set to create the UIs for responsive platform. This is essential to any product as it provides a cohesive set of standards, guidelines, and reusable components. This will help main visual and functional uniformity as well as help streamline the design and development process. </p>
             </div>
             <div className='img-container'>
               <img className= 'width-1200' src = { DesignSystem }></img>
@@ -302,7 +312,7 @@ const Sip = () => {
           <section className='child'>
             <div className='case-p'>
               <h4>UI: Responsive Web</h4>
-              <p>Based on the style guide and design system I built, I designed the user interface of the platform for both desktop and mobile web screens.  </p>
+              <p>Based on the style guide and design system I built, I designed the user interface of the platform for both desktop and mobile web screens. With this, all of the business requests were completed before entering the prototype and testing phase. </p>
             </div>
           </section>   
         </section>
@@ -326,7 +336,7 @@ const Sip = () => {
               </div>
             </div>
             <div className='case-p'>
-              <p><b>Problem:</b> During the testing phase I noticed that the drink type selection in mobile screen was unintuitive and confusing. Since you can only select either distilled or fermented drinks, it made little sense for the UI to be two selectable buttons.</p>
+              <p><b>Problem:</b> During the testing phase I noticed that the drink type selection in mobile screen was unintuitive and confusing. Since you can only select either distilled or fermented drinks, it made little sense for the UI to be two selectable dropdowns. The user should only have the choice to select one or the other.</p>
             </div>
           </section>
           <section className='child'>
@@ -340,7 +350,7 @@ const Sip = () => {
               
             </div>
             <div className='case-p'>
-              <p><b>Solution:</b>To fix this issue, the two selectable buttons were given radio inputs so only one or the other could be selected. Once it is selected, the desired drink in the category can be picked! This is one of the many cases of usability testing that was conducted to create the final working product.</p>
+              <p><b>Solution:</b>To fix this issue, the two selectable buttons were given radio inputs so only one or the other could be selected. Once it is selected, the desired drink in the category can be picked. Although a fairly simple fix this was not easy to notice amongst the hundreds of screens that I had to work with when handling the prototypes. This is one of the many cases of usability testing that was conducted to create the final designs for the MVP.</p>
             </div>
           </section>
           <section className='child'>
@@ -353,14 +363,26 @@ const Sip = () => {
           <section className='child'>
             <div className='case-p'>
               <h3>Final Thoughts</h3>
-              <p> By the end of the project, I was able to successfully deliver a user-centered e-commerce platform for alcoholic beverages that met both business demands and modern UI/UX standards. My client was left thoroughly satisfied with the first iterations of his product and was happy to share the prototypes to other liquor store owners, who may now be interested in forming distribution partnerships.
-              </p>
+              
             </div>
             </section>
             <section className='child'>
             <div className='case-p'> 
-              <h4>Lessons Learned</h4>
-              <p>Throughout the project, I learned the critical importance of thorough user research in shaping design decisions. Iterative testing and feedback loops were essential in refining features to meet user expectations effectively. I also had to constantly communicate with the stakeholder's to match their expectations and vision of the product. This was by far the biggest challenge since most communication was done online or through calls. In the future I will make the effort to physically meet the client for more efficient communication.</p>
+              <h4>Conclusion</h4>
+              <p>Throughout the project, I learned the critical importance of thorough user research and  iterative testing. These were essential in refining features to meet user expectations and business demands effectively. I also had to constantly communicate with the client to match his vision of the product. All in all it was a very big project given the span of 3 months and I'm proud I was able to complete the request on time. 
+              </p>
+              <span className='space'></span>
+              <p>By the end of the project, I was able to successfully deliver a user-centered e-commerce platform for alcoholic beverages that met both business demands and modern UI/UX standards. For projects that involve pre-seed startups or entrepreneurs who are just starting out, the most obvious success metric would be the acquisition of funding to eventually develop the product into a profitable business. According to my client he was left thoroughly satisfied with the first iterations of his product and was happy to share the design prototypes to liquor shop owners, who expressed their interest in investing in the product.
+              </p>
+            </div>
+          </section>
+          <section className='child'>
+            <div className='case-p'> 
+              <h4>Next Steps</h4>
+              <p> My client has expressed that he would like me to work on the mobile app version of the product in the future. For now, he is planning to hire developers to handle the server side and frontend application of the product, and wants me to collaborate with them as much as possible for a smooth design to developer handover. 
+              </p>
+              <span className='space'></span>
+              <p>For the meantime, I will continue to occasionally refine and reiterate the designs through multiple rounds of usability tests and make sure the user experience is as intuitive as it can be.</p>
             </div>
           </section>
       </div>
