@@ -80,11 +80,15 @@ const Sip = () => {
           </div>
           <section className='child'>
             <div className='img-container'>
-              <img className= 'width-800' src = { TargetUser } style= {{ margin: '50px 0 50px 0'}}></img> 
+              <img className= 'width-800' src = { TargetUser }></img> 
             </div>
             <div className='case-p'>
               <h4>Understanding the User</h4> 
-              <p>Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender and race, although some cultures have banned the consumption of alcohol. </p>
+              <p >Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender and race, although some cultures have banned the consumption of alcohol. </p>
+            </div>
+            <div className='case-p'>
+              <span className='space'></span>
+              <span className='space'></span>
               <h5 className='emphasis'>Create a product that is inclusive, neutral, and appealing to a wide demographic.</h5>
             </div>
           </section>
@@ -93,28 +97,38 @@ const Sip = () => {
               <h4>Understanding the Business</h4> 
             </div>
             <div className='img-container'>
-              <img className= 'width-800' src = { Stats } style= {{ margin: '50px 0 0px 0'}}></img>
+              <img className= 'width-800' src = { Stats } ></img>
               <h6>Quarterly transaction value of online food and beverages sales in South Korea from the 1st quarter of 2017 to the 1st quarter of 2024, Statista (2024)</h6> 
             </div>
             <div className='case-p'>
-              <p>The online food and beverage market in South Korea has experienced remarkable growth, driven by an increasing preference for convenience and technological advancements. Home delivery services have become particularly popular due to the busy lifestyles of South Koreans and the rapid adoption of mobile technology. Although alcohol can be purchased online, it must be picked up at one of the following covenience stores in the country. </p>
-            </div>
             <div className='img-container'>
-              <img className= 'width-800' src = { Conbini } style= {{ margin: '50px 0 0px 0'}}></img>
+              <img className= 'width-800' src = { Conbini }></img>
               <h6>Online alcohol sales are dominated by physical store visits or pickup services provided by convenience store chains.</h6> 
             </div>
+              <p >The online food and beverage market in South Korea has experienced remarkable growth, driven by an increasing preference for convenience and technological advancements. Home delivery services have become particularly popular due to the busy lifestyles of South Koreans and the rapid adoption of mobile technology. Although alcohol can be purchased online, it must be picked up at one of the following covenience stores in the country. </p>
+            </div>
+            
             <div className='case-p'>
+              <span className='space'></span>
+              <span className='space'></span>
               <h5 className='emphasis'>An app dedicated to online alcohol home delivery has the potential to become an instant-hit</h5>
             </div>
+            
           </section>
           <section className='child'>
             <div className='case-p'>
               <h4>Business Requests</h4> 
+              <span className='space'></span>
+              <span className='space'></span>
             </div>
+            
             <div className='img-container'>
-              <img className= 'width-1200' src = { Requests }></img>
+              <img src = { Requests }>
+              </img> 
             </div>
+            
             <div className='case-p'>
+              <span className='space'></span>
               <p>Just like any other project, a client or stakeholder will demand certain requests or features to be carried out during the development process. My client requested several key features for the platform: a filter option for the drink catalog based on type, ingredient, and taste; product labels indicating country of origin, rating, and seller count; validation of business requests through both quantitative and qualitative user research; and a responsive design to facilitate future mobile application development. </p>
             </div>
           </section>
@@ -175,12 +189,13 @@ const Sip = () => {
                   <br></br>
                   <li>Users expressed reservations about alcohol apps linked primarily to convenience stores, which are not typically associated with offering a wide variety or high-quality selection of alcoholic beverages.</li>
                   <br></br>
-                  <br></br>
                 </ul>
               </p>
             </div>
             <div className='case-p'>
-              <h5 className='emphasis'>Despite the ease of online alcohol purchasing, some struggle with drink selection.</h5>
+              <span className='space'></span>
+              <span className='space'></span>
+              <h5 className='emphasis'  >Despite the ease of online alcohol purchasing, some struggle with drink selection.</h5>
             </div>
           </section>
           <section className='child'>  
@@ -188,10 +203,12 @@ const Sip = () => {
               <h4>User Persona</h4> 
             </div>
             <div className='img-container'>
-              <img className= 'width-1200' src = { Persona }></img>
+              <img className= 'width-1200' src = { Persona } ></img>
             </div>
             <div className='case-p'>
+             
               <p><b>Meet Mike</b></p>
+              <span className='space'></span>
               <p>The data and insights gathered through quantitative and qualitative methods gave birth to Mike Kim. Like many young adults in their 20s and 30s (Gen Z) Mike appreciates the convenience of online shopping, yet still faces difficulties making the right selection of alcoholic drinks. Mike wishes to be able to purchase alcohol quickly and efficiently, without having to regret spending money on a drink he might not like. </p> 
             </div>
           </section>
@@ -201,7 +218,7 @@ const Sip = () => {
               <p>At this point, I was ready to start defining the features the platform would include. I had got to know my target user, and reaffirmed the business demands set by the stakeholder through UX research. With this information in hand, I set out to define the MVP (minimum viable product).</p> 
             </div>
             <div className='img-container'>
-              <img className= 'width-1200' src = { MVPDefine }></img>
+              <img src = { MVPDefine } ></img>
             </div>
           </section> 
         </section>
@@ -217,7 +234,7 @@ const Sip = () => {
               <h4>Visual Sitemap</h4>
             </div>
             <div className='img-container'>
-              <img className= 'width-800' src = { Sitemap }></img>
+              <img className= 'width-800' src = { Sitemap } ></img>
             </div>
             <div className='case-p'>
               <p>With the features of the platform decided, I constructed a visual sitemap of the the main pages. This sitemap was created with developers in mind, instructing them when to keep the user interface elements in the same page without reloading new pages through dynamic updates, or in more technical terms AJAX updates. This should help the design and development team be in sync and reduce miscommunication issues. </p> 
@@ -239,7 +256,7 @@ const Sip = () => {
               <h4>The Custom Filter</h4>
             </div>
             <div className='img-container'>
-              <img className= 'width-800' src = { Filter }></img>
+              <img  src = { Filter }></img>
             </div>
             <div className='case-p'>
               <p>With the help of the stakeholders, liquor experts, and alcohol enthusiasts, I was able to create their requested "taste" filter for different types of drinks. Users can select their combination of flavor notes and will be given the selection of alcohol that best matches the combination based on other user reviews. For the MVP, this feature is available for wine, beer, and whiskey as these were the most popular drinks sold in liquor shops nationwide. Filters for other fermented or distilled alcohols will be considered in the future.</p>
@@ -250,7 +267,7 @@ const Sip = () => {
               <h4>Mid-fidelity Wireframe</h4>
             </div>
             <div className='img-container'>
-              <img className= 'width-1200' src = { Wireframe }></img>
+              <img src = { Wireframe }></img>
             </div>
             <div className='case-p'>
               <p>Now that the structure and architecture of the product has been set along with the requested taste filter, I created mid-fidelity responsive wireframes that will act as blueprints for the final UI designs. </p>
@@ -298,7 +315,7 @@ const Sip = () => {
       <div className='case-study'>
         <section className='parent'>
           <div className='case-p'>
-            <h3>Prototype and Testing</h3>
+            <h3>Prototype/Testing Example</h3>
           </div>
           <section className='child'>
             <div className='gif-container'>
@@ -329,7 +346,7 @@ const Sip = () => {
           <section className='child'>
             <div className='img-container'>
               <img className= 'width-1200' src = { FinalProto }></img>
-              <h6>Responsive prototype of user purchase and checkout flow</h6>
+              <h6 style= {{ margin: '0px'}}>Responsive prototype of user purchase and checkout flow</h6>
             </div>
           </section>
         </section>

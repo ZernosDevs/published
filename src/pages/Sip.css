@@ -21,7 +21,7 @@
 
 .span-banner {
     width: 100%;
-    margin: -100px 0px 150px 0px;
+    margin: -50px 0px 200px 0px;
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center;    /* Centers vertically */
@@ -58,6 +58,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom:50px;
+    gap:20px;
 }
 
 .overview h5 {
@@ -68,11 +69,15 @@
     line-height: normal;
 }
 .parent {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .child {
     margin-bottom: 100px;
+}
+
+.child:last-child {
+    margin-bottom:0px;
 }
 .case-p {
     display:flex;
@@ -161,7 +166,7 @@
     line-height: normal;
     max-width: 800px;
     text-align: center;
-    margin-bottom:50px;
+    margin-bottom:70px;
 }
 
 .emphasis {
@@ -172,7 +177,6 @@
     line-height: normal;
     letter-spacing: 1.5px;
     text-align: justify;
-    margin: 0px 0 50px 0;
 }
 
 .case-p li {
@@ -184,13 +188,39 @@
     line-height: normal;
 }
 
+.space {
+    width: auto;
+    height: 24px;
+}
+
 @media (max-width: 600px) {
+
+    .lead-banner {
+        margin: 50px 0px 50px 0px;
+    }
+
+    .banner {
+        margin: 25px 0px 50px 0px;
+    }
+
+    .span-banner {
+        margin: -50px 0px 100px 0px;
+    }
     .case-study {
         gap:25px;
+    }
+    .parent {
+        margin-bottom: 75px;
+    }
+    .child {
+        margin-bottom: 50px;
     }
 
     .case-p {
         gap:10px;
+    }
+    .overview {
+        margin-bottom: 25px;
     }
     .overview h5 {
         font-size: 12px;
@@ -198,18 +228,22 @@
     }
     .case-p > h2 {
         font-size: 24px;
+        margin-bottom: 10px;
     }
     .case-p > h3 {
         font-size: 20px;
+        margin-bottom: 10px;
     }
     .case-p > h4 {
         font-size: 16px;
+        margin-bottom:10px;
     }
     .case-p > p {
         font-size: 12px;
     }
     .img-container > h6 {
         font-size: 10px;
+        margin-bottom: 35px;
     }
     .emphasis {
         font-size: 20px;
@@ -217,5 +251,16 @@
     .case-p li {
         font-size:12px;
     }
+
+    .gif-container {
+        margin: 25px 0 25px 0;
+    }
     
+    .space {
+        height:12px;
+    }
+
+    .width-1200 {
+        margin: 25px 0 25px 0;
+    }
 }
