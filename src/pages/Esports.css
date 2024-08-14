@@ -1,0 +1,38 @@
+
+
+.lead-banner {
+    width: 100%;
+    margin: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+}
+
+.lead-banner > img {
+    width: 100%;
+    height: auto;   /* Maintain aspect ratio */
+}
+
+
+.step-title {
+    color:  #404040;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+
+.section-title {
+    color: #1F2937;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.esports-case {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

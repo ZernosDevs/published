@@ -122,12 +122,10 @@ const Sip = () => {
               <span className='space'></span>
               <span className='space'></span>
             </div>
-            
             <div className='img-container'>
               <img src = { Requests }>
               </img> 
             </div>
-            
             <div className='case-p'>
               <span className='space'></span>
               <p>Like any project, clients or stakeholders have specific requests during the development process. My client requested several key features for the platform: filters for the drink catalog based on alcohol type, ingredient, and taste; a comprehensive design system defining colors, typography, etc; an appealing design suitable for all adults legally allowed to drink; and a responsive design that would enable easy transition to a mobile application in the future.</p>
@@ -325,7 +323,7 @@ const Sip = () => {
       <div className='case-study'>
         <section className='parent'>
           <div className='case-p'>
-            <h3>Prototype/Testing Example</h3>
+            <h3>Prototype/Testing</h3>
           </div>
           <section className='child'>
             <div className='gif-container'>
@@ -350,7 +348,7 @@ const Sip = () => {
               
             </div>
             <div className='case-p'>
-              <p><b>Solution:</b>To fix this issue, the two selectable buttons were given radio inputs so only one or the other could be selected. Once it is selected, the desired drink in the category can be picked. Although a fairly simple fix this was not easy to notice amongst the hundreds of screens that I had to work with when handling the prototypes. This is one of the many cases of usability testing that was conducted to create the final designs for the MVP.</p>
+              <p><b>Solution: </b>To fix this issue, the two selectable buttons were given radio inputs so only one or the other could be selected. Once it is selected, the desired drink in the category can be picked. Although a fairly simple fix this was not easy to notice amongst the hundreds of screens that I had to work with when handling the prototypes. This is one of the many cases of usability testing that was conducted to create the final designs for the MVP.</p>
             </div>
           </section>
           <section className='child'>
@@ -369,20 +367,20 @@ const Sip = () => {
             <section className='child'>
             <div className='case-p'> 
               <h4>Conclusion</h4>
-              <p>Throughout the project, I learned the critical importance of thorough user research and  iterative testing. These were essential in refining features to meet user expectations and business demands effectively. I also had to constantly communicate with the client to match his vision of the product. All in all it was a very big project given the span of 3 months and I'm proud I was able to complete the request on time. 
+              <p>Throughout the project, I learned the critical importance of thorough user research and  iterative testing. These were essential in refining features to meet user expectations and business demands effectively. Constant communication with the client was  also necessary to align with his vision. Overall, it was a significant project given the three-month timeframe, and I'm proud I completed it on time.
               </p>
               <span className='space'></span>
-              <p>By the end of the project, I was able to successfully deliver a user-centered e-commerce platform for alcoholic beverages that met both business demands and modern UI/UX standards. For projects that involve pre-seed startups or entrepreneurs who are just starting out, the most obvious success metric would be the acquisition of funding to eventually develop the product into a profitable business. According to my client he was left thoroughly satisfied with the first iterations of his product and was happy to share the design prototypes to liquor shop owners, who expressed their interest in investing in the product.
+              <p>By the end of the project, I was able to successfully deliver a user-centered e-commerce platform for alcoholic beverages that met both business demands and modern UI/UX standards. For pre-seed startups or entrepreneurs, acquiring funding is a key success metric. My client was thoroughly satisfied with the initial iterations and was pleased to share the design prototypes with liquor shop owners, who expressed interest in investing in the product.
               </p>
             </div>
           </section>
           <section className='child'>
             <div className='case-p'> 
               <h4>Next Steps</h4>
-              <p> My client has expressed that he would like me to work on the mobile app version of the product in the future. For now, he is planning to hire developers to handle the server side and frontend application of the product, and wants me to collaborate with them as much as possible for a smooth design to developer handover. 
+              <p> My client has expressed that he would like me to work on the mobile app version of the product in the future. For now, he is planning to hire developers to handle the server side and frontend application, and wants me to collaborate with them as much as possible for a smooth design to developer handover. 
               </p>
               <span className='space'></span>
-              <p>For the meantime, I will continue to occasionally refine and reiterate the designs through multiple rounds of usability tests and make sure the user experience is as intuitive as it can be.</p>
+              <p>For the meantime, I will continue to occasionally refine and reiterate the designs through multiple rounds of usability tests and make sure the user experience is as smooth and intuitive as it can be.</p>
             </div>
           </section>
       </div>
