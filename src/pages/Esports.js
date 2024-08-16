@@ -3,8 +3,13 @@ import './Esports.css'
 import ScrollProgress from '../components/ScrollProgress';
 import EsportsBanner from '../resources/esports/esports-banner.png';
 import EsportsApproach from '../resources/esports/esports-approach.png'
-import EsportsProblem from '../resources/esports/esports-problem.png'
+import EsportsProblem from '../resources/esports/esports-problem2.png'
+import EsportsProblem2 from '../resources/esports/esports-problem.png'
 import EsportsUser from '../resources/esports/esports-user.png'
+import EsportsInterview from '../resources/esports/esports-interview.png'
+import EsportsPersona from '../resources/esports/esports-persona.png'
+import EsportsSitemap from '../resources/esports/esports-sitemap.png'
+import EsportsFlow from '../resources/esports/esports-flow.png'
 
 const Esports = () => {
   return (
@@ -32,7 +37,9 @@ const Esports = () => {
           <p>League of Legends is one of the largest esports with various annual tournaments taking place worldwide. On average, 4000 esports professionals compete in a global circuit to have a chance at securing their careers in the field. However, the employment process for these professionals has largely relied on networking through social media sites, most notably Twitter (now known as X). Esports professionals face a wide range of risks and challenges when job hunting through social media sites.  </p>
         </div>
         <div className='img-container'>
-              <img className= 'width-1200' src = { EsportsProblem }></img> 
+              <img className= 'width-1200' src = { EsportsProblem }></img>
+              <p>
+              Every month, 100s of Esports talent post their notices on Twitter for job recruitment.</p>  
         </div>
         </section>
         <section className='baby'>
@@ -92,19 +99,72 @@ const Esports = () => {
             <span className='space'></span>
           </div>
           <div className='case-p'>
-            <p >To understand the user’s needs and pain points I conducted user interviews with esports professionals. A number of these interviews were done in group settings of 5 - 7 people, while some of them were done on a 1-on-1 basis. There were a total of 25 participants. This high participant count was made possible through my connections as a former esports coach for 3 League of Legends teams. The key moments of the interviews were summarized into the points shown below.</p>
+            <p >To understand the user’s needs and pain points I conducted user interviews with esports professionals. A number of these interviews were done in group settings of 5 - 7 people, while some of them were done on a 1-on-1 basis. There were a total of 25 participants. This high participant count was made possible through my connections as a former esports coach for 3 League of Legends teams. The key moments of the interviews were summarized into the user interview log below.</p>
             <span className='space'></span>
             <span className='space'></span>
             <span className='space'></span>
           </div>
           <div className='img-container'>
-              <img className= 'width-800' src = { EsportsUser } ></img>
+              <img className= 'width-1200' src = { EsportsInterview } ></img>
               <span className='space'></span>
-              <h6>
-              The League of Legends (LoL) esports scene is one of the most established and globally recognized competitive gaming ecosystems. </h6> 
-            </div>
+          </div>
           <div className='case-p'>
-            <h5 className='emphasis'>Design a product that resonates with gamers while filling the void present in esports recruitment.</h5>
+            <p>The pain points Esports talent faced on a d</p>
+          </div>
+          <div className='img-container'>
+              <img className= 'width-1200' src = { EsportsProblem2 }></img>
+          </div>
+          <div className='case-p'>
+            <h5 className='emphasis'>Esports talent faced noticeable pain points when it comes to job searching on twitter but had no better alternative.</h5>
+          </div>
+        </section>
+        <section className='child'>
+          <div className='esports-case'>
+              <h3 className='step-title'>DEFINE</h3>
+              <h4 className='section-title'>User Persona</h4> 
+              <span className='space'></span>
+          </div>
+          <div className='img-container'>
+              <img className= 'width-1200' src = { EsportsPersona } ></img>
+              <span className='space'></span>
+          </div>
+          <div className='case-p'>
+            <p><b>Meet Tim</b></p>
+            <span className='space'></span>
+            <p >Tim is the culmination of the qualitative data I gathered through the user interviews. He is a prime example of the typical Esports player looking to accelerate his career to the next level. However the pain points he currently faces serve as a significant obstacle to his goals of securing a career in Esports. It was clear from the user research that there was a need for a platform where Esports talent can find organized job openings and post their own availability for recruitment.</p>
+          </div>
+        </section>
+        <section className='child'>
+          <div className='esports-case'>
+              <h3 className='step-title'>DEFINE</h3>
+              <h4 className='section-title'>Visual Sitemap</h4> 
+              <span className='space'></span>
+          </div>
+          <div className='img-container'>
+              <span className='space'></span>
+              <span className='space'></span>
+              <img className= 'width-800' src = { EsportsSitemap } ></img>
+              <span className='space'></span>
+              <span className='space'></span>
+              <span className='space'></span>
+          </div>
+          <div className='case-p'>
+            <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
+          </div>
+        </section>
+        <section className='child'>
+          <div className='esports-case'>
+              <h3 className='step-title'>DEFINE</h3>
+              <h4 className='section-title'>User Journey Flow</h4> 
+              <span className='space'></span>
+          </div>
+          <div className='img-container'>
+              <span className='space'></span>
+              <img className= 'width-1200' src = { EsportsFlow } ></img>
+              <span className='space'></span>
+          </div>
+          <div className='case-p'>
+            <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
           </div>
         </section>
       </div>
