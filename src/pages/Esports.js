@@ -82,9 +82,29 @@ const Esports = () => {
               The League of Legends (LoL) esports scene is one of the most established and globally recognized competitive gaming ecosystems. </h6> 
             </div>
           <div className='case-p'>
+            <h5 className='emphasis'>Design a product that resonates with gamers while filling the void present in esports recruitment.</h5>
+          </div>
+        </section>
+        <section className='child'>
+          <div className='esports-case'>
+            <h3 className='step-title'>DISCOVERY</h3>
+            <h4 className='section-title'>User Research</h4> 
+            <span className='space'></span>
+          </div>
+          <div className='case-p'>
+            <p >To understand the user’s needs and pain points I conducted user interviews with esports professionals. A number of these interviews were done in group settings of 5 - 7 people, while some of them were done on a 1-on-1 basis. There were a total of 25 participants. This high participant count was made possible through my connections as a former esports coach for 3 League of Legends teams. The key moments of the interviews were summarized into the points shown below.</p>
             <span className='space'></span>
             <span className='space'></span>
-            <h5 className='emphasis'>An app dedicated to online alcohol home delivery has the potential to become an instant-hit</h5>
+            <span className='space'></span>
+          </div>
+          <div className='img-container'>
+              <img className= 'width-800' src = { EsportsUser } ></img>
+              <span className='space'></span>
+              <h6>
+              The League of Legends (LoL) esports scene is one of the most established and globally recognized competitive gaming ecosystems. </h6> 
+            </div>
+          <div className='case-p'>
+            <h5 className='emphasis'>Design a product that resonates with gamers while filling the void present in esports recruitment.</h5>
           </div>
         </section>
       </div>

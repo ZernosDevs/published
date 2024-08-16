@@ -137,7 +137,7 @@ const Sip = () => {
           </section>
         </section>
         <section className='parent'>
-          <section className='child'>
+          <section className='baby'>
             <div className='case-p'>
               <h3>User Research</h3>
             </div>
@@ -227,7 +227,7 @@ const Sip = () => {
           </section> 
         </section>
         <section className='parent'>
-          <section className='child'>
+          <section className='baby'>
             <div className='case-p'>
               <h3>Product Architecture</h3>
               
@@ -280,7 +280,7 @@ const Sip = () => {
           </section>
         </section>
         <section className='parent'>
-          <section className='child'> 
+          <section className='baby'> 
             <div className='case-p'>
               <h3>UI and Branding</h3>
               
@@ -358,7 +358,7 @@ const Sip = () => {
             </div>
           </section>
         </section>
-          <section className='child'>
+          <section className='baby'>
             <div className='case-p'>
               <h3>Final Thoughts</h3>
               
