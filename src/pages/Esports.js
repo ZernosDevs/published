@@ -10,6 +10,9 @@ import EsportsInterview from '../resources/esports/esports-interview.png'
 import EsportsPersona from '../resources/esports/esports-persona.png'
 import EsportsSitemap from '../resources/esports/esports-sitemap.png'
 import EsportsFlow from '../resources/esports/esports-flow.png'
+import EsportsWireframe from '../resources/esports/esports-wireframe.png'
+import EsportsElements from '../resources/esports/esports-elements.png'
+import EsportsUI from '../resources/esports/esports-final.png'
 
 const Esports = () => {
   return (
@@ -167,6 +170,50 @@ const Esports = () => {
             <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
           </div>
         </section>
+        <section className='child'>
+          <div className='esports-case'>
+              <h3 className='step-title'>Ideation</h3>
+              <h4 className='section-title'>Mid-fidelity Wireframes</h4> 
+              <span className='space'></span>
+          </div>
+          <div className='img-container'>
+              <span className='space'></span>
+              <img className= 'width-1200' src = { EsportsWireframe } ></img>
+              <span className='space'></span>
+          </div>
+          <div className='case-p'>
+            <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
+          </div>
+        </section>
+        <section className='child'>
+          <div className='esports-case'>
+              <h3 className='step-title'>Ideation</h3>
+              <h4 className='section-title'>UI elements</h4> 
+              <span className='space'></span>
+          </div>
+          <div className='case-p'>
+            <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
+          </div>
+          <div className='img-container'>
+              <span className='space'></span>
+              <img className= 'width-1200' src = { EsportsElements } ></img>
+              <span className='space'></span>
+          </div>
+          
+        </section>
+        <section className='child'>
+          <div className='esports-case'>
+              <h3 className='step-title'>Designs</h3>
+              <h4 className='section-title'>Final Designs</h4> 
+              <span className='space'></span>
+          </div>
+          <div className='case-p'>
+            <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
+          </div>
+        </section>
+      </div>
+      <div className='lead-banner'>
+        <img src = { EsportsUI }></img>
       </div>
     </main>
   );
