@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Esports.css'
 import ScrollProgress from '../components/ScrollProgress';
 import EsportsBanner from '../resources/esports/esports-banner.png';
@@ -13,8 +13,34 @@ import EsportsFlow from '../resources/esports/esports-flow.png'
 import EsportsWireframe from '../resources/esports/esports-wireframe.png'
 import EsportsElements from '../resources/esports/esports-elements.png'
 import EsportsUI from '../resources/esports/esports-final.png'
+import EsportsProto from '../resources/esports/esports-proto.gif'
 
 const Esports = () => {
+
+  useEffect(() => {
+    const images = [
+      EsportsBanner,
+      EsportsApproach,
+      EsportsProblem,
+      EsportsProblem2,
+      EsportsUser,
+      EsportsInterview,
+      EsportsPersona,
+      EsportsSitemap,
+      EsportsFlow,
+      EsportsWireframe,
+      EsportsElements,
+      EsportsUI,
+      EsportsProto
+    ];
+
+    // Preload all images
+    images.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, []);
+
   return (
     <main>
       <ScrollProgress color="#D4D4D4" />
@@ -185,7 +211,7 @@ const Esports = () => {
             <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
           </div>
         </section>
-        <section className='child'>
+        <section className='baby'>
           <div className='esports-case'>
               <h3 className='step-title'>Ideation</h3>
               <h4 className='section-title'>UI elements</h4> 
@@ -199,7 +225,6 @@ const Esports = () => {
               <img className= 'width-1200' src = { EsportsElements } ></img>
               <span className='space'></span>
           </div>
-          
         </section>
         <section className='child'>
           <div className='esports-case'>
@@ -214,6 +239,36 @@ const Esports = () => {
       </div>
       <div className='lead-banner'>
         <img src = { EsportsUI }></img>
+      </div>
+      <div className='case-study'>
+        <section className='child'>
+        <div className='esports-case'>
+              <h3 className='step-title'>Designs</h3>
+              <h4 className='section-title'>Prototype</h4> 
+              <span className='space'></span>
+          </div>
+            <div className='img-container'>
+              <img className= 'width-1200' src = { EsportsProto }></img>
+              <h6 style= {{ margin: '0px'}}>Responsive prototype of user purchase and checkout flow</h6>
+              <span className='space'></span>
+              <span className='space'></span>
+            </div>
+            <div className='case-p'>
+              <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
+            </div>
+        </section>
+        <section className='child'>
+          <div className='esports-case'>
+              <h3 className='step-title'>Conclusion</h3>
+              <h4 className='section-title'>Final Thoughts</h4> 
+              <span className='space'></span>
+          </div>
+          <div className='case-p'>
+            <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
+          </div>
+          
+
+        </section>
       </div>
     </main>
   );

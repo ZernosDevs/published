@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Sip.css';
 import Sipbanner from '../resources/sipbanner.png';
 import Approach from '../resources/approach.png';
@@ -26,6 +26,20 @@ import FinalProto from '../resources/final-proto2.gif'
 import ScrollProgress from '../components/ScrollProgress';
 
 const Sip = () => {
+  useEffect(() => {
+    // List of images to preload
+    const images = [
+      Sipbanner, Approach, TargetUser, Stats, Conbini, Requests, SurveyData, SurveyInsight,
+      UserInterview, Persona, MVPDefine, Sitemap, Journey, Filter, Wireframe, StyleGuide,
+      DesignSystem, FinalUI, OldProto2, OldFilter, NewFilter, NewProto, FinalProto
+    ];
+
+    // Preload images
+    images.forEach((image) => {
+      const img = new Image();
+      img.src = image;
+    });
+  }, []);
 
   return (
     <>
@@ -358,7 +372,7 @@ const Sip = () => {
             </div>
           </section>
         </section>
-          <section className='baby'>
+          <section className='child'>
             <div className='case-p'>
               <h3>Final Thoughts</h3>
               
