@@ -56,14 +56,14 @@ const Esports = () => {
         <section className='baby'>
         <div className='case-p'>
           <h2>Overview</h2>
-          <p>Esportsmaestro is a platform for esports professionals seeking careers in  League of Legends, the world's largest esport. It facilitates networking between esports talent and organizations, enabling job seekers to share their resumes and employers to list job openings. As one of the UI/UX designers of this project, I worked closely with the stakeholders to conduct user research and create responsive designs for the platform.   
+          <p><i>Esportsmaestro</i> is a platform for Esports professionals seeking careers in  League of Legends, the world's largest Esport. It facilitates networking between Esports talent and organizations, enabling job seekers to share their resumes and employers to list job openings. As one of the UI/UX designers of this project, I worked closely with the stakeholders to conduct user research and create responsive designs for the platform.   
           </p>
         </div>
         </section>
         <section className='baby'>
         <div className='case-p'>
           <h2>Problem</h2>
-          <p>League of Legends is one of the largest esports with various annual tournaments taking place worldwide. On average, 4000 esports professionals compete in a global circuit to have a chance at securing their careers in the field. However, the employment process for these professionals has largely relied on networking through social media sites, most notably Twitter (now known as X). Esports professionals face a wide range of risks and challenges when job hunting through social media sites.  </p>
+          <p>League of Legends is one of the largest Esports with various annual tournaments taking place worldwide. On average, 4000 Esports professionals compete in a global circuit to have a chance at securing their careers in the field. However, the employment process for these professionals has largely relied on networking through social media sites, most notably Twitter (now known as X). Esports professionals face a wide range of risks and challenges when job hunting through social media sites.  </p>
         </div>
         <div className='img-container'>
               <img className= 'width-1200' src = { EsportsProblem }></img>
@@ -74,7 +74,7 @@ const Esports = () => {
         <section className='baby'>
         <div className='case-p'>
           <h2>Objective</h2>
-          <p>Esportsmaestro was designed to address the challenges esports professionals face when job hunting through social media by providing a dedicated, secure, and professional environment tailored specifically to the esports industry. My primary objective was to design an intuitive, user-centered experience that seamlessly connects esports professionals with job opportunities. This involves understanding the unique needs and pain points of users—both job seekers and employers—and designing interfaces that simplify the job search, application, and recruitment processes. </p>
+          <p><i>Esportsmaestro</i> was designed to address the challenges Esports professionals face when job hunting through social media by providing a dedicated, secure, and professional environment tailored specifically to the Esports industry. My primary objective was to design an intuitive, user-centered experience that connects Esports professionals with job opportunities. This involves understanding the unique needs and pain points of job seekers and designing interfaces that simplify the job search, application, and recruitment processes. </p>
         </div>
         </section>
         <section className='parent'>  
@@ -89,7 +89,7 @@ const Esports = () => {
                 <br></br>
                 <li>During Ideation, I produce wireframes and design essential UI elements, iterating on these concepts to refine the user experience. </li>
                 <br></br>
-                <li>Finally, in the Design phase, I translate these ideas into polished, high-fidelity designs and interactive prototypes that effectively address the users' needs and facilitate seamless interactions on the platform.</li>
+                <li>Finally, in the Design phase, I create high-fidelity designs and interactive prototypes that effectively address the users' needs and simulates interactions on the platform.</li>
                 <br></br>
               </ul>
           </div>
@@ -106,7 +106,7 @@ const Esports = () => {
             <span className='space'></span>
           </div>
           <div className='case-p'>
-            <p >Esportsmaestro target user is professional gamers, coaches, and team managers; this has been very clear since the inception of the project. The target audience predominantly comprises males aged 16 to 30, all with a deep-rooted passion for video games. Key traits of our audience include an appreciation for simplicity, a preference for dark mode, and a love for minimalist design. Accordingly, design elements should incorporate futuristic vibe/motif that resonates with the world of technology and gaming.</p>
+            <p ><i>Esportsmaestro</i> target user is professional gamers, coaches, and team managers; this has been very clear since the inception of the project. The target audience predominantly comprises males aged 16 to 30, all with a deep-rooted passion for video games. Key traits of our audience include an appreciation for simplicity, a preference for dark mode, and a love for minimalist design. Accordingly, design elements should incorporate futuristic vibe/motif that resonates with the world of technology and gaming.</p>
             <span className='space'></span>
             <span className='space'></span>
             <span className='space'></span>
@@ -115,10 +115,10 @@ const Esports = () => {
               <img className= 'width-800' src = { EsportsUser } ></img>
               <span className='space'></span>
               <h6>
-              The League of Legends (LoL) esports scene is one of the most established and globally recognized competitive gaming ecosystems. </h6> 
+              The League of Legends (LoL) Esports scene is one of the most established and globally recognized competitive gaming ecosystems. </h6> 
             </div>
           <div className='case-p'>
-            <h5 className='emphasis'>Design a product that resonates with gamers while filling the void present in esports recruitment.</h5>
+            <h5 className='emphasis'>Design a product that resonates with gamers while filling the void present in Esports recruitment.</h5>
           </div>
         </section>
         <section className='child'>
@@ -128,7 +128,7 @@ const Esports = () => {
             <span className='space'></span>
           </div>
           <div className='case-p'>
-            <p >To understand the user’s needs and pain points I conducted user interviews with esports professionals. A number of these interviews were done in group settings of 5 - 7 people, while some of them were done on a 1-on-1 basis. There were a total of 25 participants. This high participant count was made possible through my connections as a former esports coach for 3 League of Legends teams. The key moments of the interviews were summarized into the user interview log below.</p>
+            <p >To understand the user's needs and pain points I conducted user interviews with Esports professionals. A number of these interviews were done in group settings of 5 - 7 people, while some of them were done on a 1-on-1 basis. There were a total of 25 participants. This high participant count was made possible through my connections as a former Esports coach for 3 League of Legends teams. The key moments of the interviews were summarized into the user interview log below.</p>
             <span className='space'></span>
             <span className='space'></span>
             <span className='space'></span>
@@ -138,7 +138,7 @@ const Esports = () => {
               <span className='space'></span>
           </div>
           <div className='case-p'>
-            <p>The pain points Esports talent faced on a d</p>
+            <p>Many Esports professionals find social media, particularly Twitter, convenient for job hunting since it eliminates the need for traditional cover letters and resumes. However it was clear from the user interviews that significant challenges still existed. </p>
           </div>
           <div className='img-container'>
               <img className= 'width-1200' src = { EsportsProblem2 }></img>
@@ -193,7 +193,7 @@ const Esports = () => {
               <span className='space'></span>
           </div>
           <div className='case-p'>
-            <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
+            <p >With the sitemap done I created user journey flows for different scenarios. The flow above begins with the user's onboarding process, where they create a profile and input their gaming credentials. It then guides them through exploring available job listings, filtering opportunities based on their skills and interests, and applying to positions.</p>
           </div>
         </section>
         <section className='child'>
@@ -208,7 +208,7 @@ const Esports = () => {
               <span className='space'></span>
           </div>
           <div className='case-p'>
-            <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
+            <p >Mid fidelity wireframes provide detailed yet simplified visual representations of the platform's layout and functionality. These wireframes go beyond simple sketches but do not offer the same level of detail of high fidelity designs, allowing us to focus on the big picture first.</p>
           </div>
         </section>
         <section className='baby'>
@@ -218,7 +218,7 @@ const Esports = () => {
               <span className='space'></span>
           </div>
           <div className='case-p'>
-            <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
+            <p >The base UI foundations of the platform such as the colors and typography set a guideline to ensure uniformity across the platform's interface. </p>
           </div>
           <div className='img-container'>
               <span className='space'></span>
@@ -233,7 +233,7 @@ const Esports = () => {
               <span className='space'></span>
           </div>
           <div className='case-p'>
-            <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
+            <p >Based on the sitemap, user journey flows, wireframes, and UI elements, I designed the final UI of the platform for stakeholder's review and developer handover.  </p>
           </div>
         </section>
       </div>
@@ -247,15 +247,16 @@ const Esports = () => {
               <h4 className='section-title'>Prototype</h4> 
               <span className='space'></span>
           </div>
+          
             <div className='img-container'>
               <img className= 'width-1200' src = { EsportsProto }></img>
-              <h6 style= {{ margin: '0px'}}>Responsive prototype of user purchase and checkout flow</h6>
+              <h6 style= {{ margin: '0px'}}>Responsive prototype of user job application</h6>
               <span className='space'></span>
               <span className='space'></span>
             </div>
             <div className='case-p'>
-              <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
-            </div>
+            <p >Responsive prototype of a user sending job application on <i>Esportsmaestro</i> demonstrates how the user navigates through job listing, reviews the job details, and sends the filled out application form. This can be viewed dynamically in desktop and mobile interfaces.</p>
+          </div>
         </section>
         <section className='child'>
           <div className='esports-case'>
@@ -264,7 +265,7 @@ const Esports = () => {
               <span className='space'></span>
           </div>
           <div className='case-p'>
-            <p >Having done the research, I constructed a visual sitemap of the the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product. </p>
+            <p ><i>Esportsmaestro</i> is a project that I am incredibly proud to have contributed to, marking my first experience in real product design within a field I'm deeply passionate about. While I encountered challenges in aligning the design style with the diverse opinions of stakeholders, our focus on the target user led us to the conclusion that a "fast, simple, and modern" approach was ideal. This led us to designing a platform that eliminates the frustrations of esports job hunting, and making sure Esports talent are no longer compelled to use social media sites for their job hunting purposes. </p>
           </div>
           
 
