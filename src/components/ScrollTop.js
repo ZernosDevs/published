@@ -1,13 +1,14 @@
-// ScrollToTop.js
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-const ScrollToTop = () => {
+const ScrollToTop = ({ locoScrollRef }) => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+    if (locoScrollRef.current) {
+      locoScrollRef.current.scrollTo(0, { duration: 0, disableLerp: true });
+    }
+  }, [pathname, locoScrollRef]);
 
   return null;
 };

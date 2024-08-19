@@ -4,10 +4,11 @@ import { useTranslation } from 'react-i18next';
 import "./Work.css";
 import Video from "../resources/stock video.mp4";
 
+
 const Work = () => {
 
   const { t } = useTranslation();
-
+  
   useEffect(() => {
     const projectLinks = document.querySelectorAll('.project-link');
 

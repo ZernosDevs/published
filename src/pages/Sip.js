@@ -58,7 +58,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <>
+    <main className='fade-in'>
       <ScrollProgress color="#FDA5AF" />
       <div className='lead-banner'>
         <img src = { Sipbanner }></img>
@@ -388,7 +388,7 @@ useEffect(() => {
             </div>
           </section>
         </section>
-          <section className='child'>
+          <section className='baby'>
             <div className='case-p'>
               <h3>Final Thoughts</h3>
               
@@ -415,7 +415,7 @@ useEffect(() => {
           </section>
       </div>
       
-    </>
+    </main>
   );
 };
 

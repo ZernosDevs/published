@@ -1,3 +1,31 @@
-.rootlayout {
-    margin:auto;
-}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Disable default scrolling */
+  }
+  
+  .rootlayout {
+    height: 100%;
+    overflow: hidden; /* Prevent default scrollbars */
+  }
+  
+  [data-scroll-container] {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  [data-scroll-section] {
+    position: relative;
+  }
+  
+  
+  motion.div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    will-change: opacity, background-color; /* Optimize for transitions */
+  }
+  

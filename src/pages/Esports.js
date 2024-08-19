@@ -42,7 +42,7 @@ const Esports = () => {
   }, []);
 
   return (
-    <main>
+    <main className="fade-in"> 
       <ScrollProgress color="#D4D4D4" />
       <div className='lead-banner'>
         <img src = { EsportsBanner }></img>
