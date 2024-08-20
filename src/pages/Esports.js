@@ -17,35 +17,12 @@ import EsportsProto from '../resources/esports/esports-proto.gif'
 
 const Esports = () => {
 
-  useEffect(() => {
-    const images = [
-      EsportsBanner,
-      EsportsApproach,
-      EsportsProblem,
-      EsportsProblem2,
-      EsportsUser,
-      EsportsInterview,
-      EsportsPersona,
-      EsportsSitemap,
-      EsportsFlow,
-      EsportsWireframe,
-      EsportsElements,
-      EsportsUI,
-      EsportsProto
-    ];
-
-    // Preload all images
-    images.forEach((src) => {
-      const img = new Image();
-      img.src = src;
-    });
-  }, []);
 
   return (
     <main className="fade-in"> 
       <ScrollProgress color="#D4D4D4" />
       <div className='lead-banner'>
-        <img src = { EsportsBanner }></img>
+        <img src = { EsportsBanner } loading='eager'></img>
       </div>
       <div className='case-study'>
         <div className='overview'>

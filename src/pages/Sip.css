@@ -51,7 +51,15 @@
     margin:auto;
     display:flex;
     flex-direction: column;
+    opacity: 0;
+    animation: caseIn 2s forwards;
 }
+@keyframes caseIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
 
 .overview {
     display: flex;

@@ -40,7 +40,7 @@
 .fade-in {
     transform: translateY(100px);
     opacity: 0;
-    animation: fadeIn 1s forwards; /* 2s duration for the fade-in effect */
+    animation: fadeIn 1.5s forwards; /* 2s duration for the fade-in effect */
   }
   
   @keyframes fadeIn {

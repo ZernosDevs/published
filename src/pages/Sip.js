@@ -24,44 +24,17 @@ import NewFilter from '../resources/new-filter.png';
 import NewProto from '../resources/new-filter-prototype.gif';
 import FinalProto from '../resources/final-proto2.gif'
 import ScrollProgress from '../components/ScrollProgress';
-import { debounce } from 'lodash';
 
 
-const images = [
-  Sipbanner, Approach, TargetUser, Stats, Conbini, Requests, SurveyData, SurveyInsight,
-  UserInterview, Persona, MVPDefine, Sitemap, Journey, Filter, Wireframe, StyleGuide,
-  DesignSystem, FinalUI, OldProto2, OldFilter, NewFilter, NewProto, FinalProto
-];
 
-const preloadImages = (imageArray) => {
-  imageArray.forEach((image) => {
-      const img = new Image();
-      img.src = image;
-  });
-};
 
 const Sip = () => {
-  useEffect(() => {
-    preloadImages(images);
-}, []);
-
-useEffect(() => {
-  const handleScroll = debounce(() => {
-      // Your scroll handling logic
-  }, 100);
-
-  window.addEventListener('scroll', handleScroll);
-
-  return () => {
-      window.removeEventListener('scroll', handleScroll);
-  };
-}, []);
 
   return (
     <main className='fade-in'>
       <ScrollProgress color="#FDA5AF" />
       <div className='lead-banner'>
-        <img src = { Sipbanner }></img>
+        <img src = { Sipbanner } loading='eager'></img>
       </div> 
       <div className='case-study'>
         <div className='overview'>
