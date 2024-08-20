@@ -1,0 +1,21 @@
+.unibuzz-case {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.unibuzz-case h4 {
+    color: #6647FF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.unibuzz-case h3 {
+    color: var(--Neutral-800, #1F2937);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}

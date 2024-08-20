@@ -40,37 +40,35 @@ const Unibuzz = () => {
         <div className='overview'>
             <h5>Role: Lead Designer</h5>
             <h5>Responsibility: Responsive Web and Mobile App design</h5>
-            <h5>Timeline: April 2022 - Present</h5>
+            <h5>Timeline: May 2022 - Present</h5>
         </div>
         <section className='baby'>
         <div className='case-p'>
           <h2>Overview</h2>
-          <p>In South Korea, the online sale of alcohol is heavily regulated, with delivery options currently banned. However, recent policy changes now allow consumers to order online for pick-up at select convenience stores. Anticipating a shift towards the legalization of alcohol delivery, my client plans to launch an e-commerce platform centered around alcohol delivery. 
+          <p>Unibuzz is a social network platform for university students that helps with all university related matters from peer networking, online messaging, forums for academic and non-academic purposes, and more. Its goal is to revolutionize university life for the 235 million students across 30,000 universities globally. 
           </p>
           <span className='space'></span>
           <p>
-          Sip at Home is an e-commerce site for all types of alcoholic beverages. It lets you choose your drink based on type, ingredient, and most importantly, taste. As the sole product designer for this project, I was hired as a freelancer to handle everything from user experience research to design system creation and responsive web design.</p>
-          <span className='space'></span>
-          <p><i>To protect the client's intellectual property, most of the content presented has been modified for a global audience, and all text has been translated from Korean to English.</i></p>
-          
+          As the lead designer of this massive startup project I worked closely with the stakeholders to deliver designs and prototypes for responsive web and mobile application. A large part of my responsibilities also included being involved in other sectors of the team such as marketing, development, and administration. </p>      
         </div>
         </section>
         <section className='baby'>
         <div className='case-p'>
           <h2>Problem</h2>
-          <p>The strict regulations on online alcohol sales and the prohibition of delivery in South Korea limits the business potential of liquor store owners and affects consumer convenience. Users are frustrated by the inability to have alcohol delivered, relying instead on physical store visits or inconvenient pick-up options. Existing solutions around the restrictions have failed to meet the growing demand for home delivery. My task was to design a platform ready to launch once the delivery ban is lifted which would help position my client at the forefront of the market. </p>
+          <p>Many students face significant challenges when navigating the transition to university life, including the high cost of professional counseling services and the difficulty of finding authentic, firsthand information about universities and career paths. They often rely on scattered information from various online sources, leading to frustration and inefficiency in managing academic and social interactions. Additionally, students struggle to balance their personal and university lives, often lacking a clear distinction between the two, which can lead to confusion and missed opportunities. The market is overcrowded with numerous unfocused platforms, and no single solution effectively addresses the needs of university life.</p>
         </div>
         </section>
         <section className='baby'>
         <div className='case-p'>
           <h2>Objective</h2>
-          <p>The client requested that I first develop the website version before committing to a mobile app, as that would require additional time and costs. Since the business can only operate once the delivery ban is lifted, my client is cautious about investing too much in a venture that cannot be fully assessed even after the MVP is ready. Therefore, my primary objective was to create responsive web designs for the MVP, aiming to provide a seamless online alcohol purchasing experience. The goal was to complete the platform within three months, divided into phases of user research, design development, and final prototyping. Success would be measured by client satisfaction and additional investments received once MVP is launched.  </p>
+          <p>As a UX/Product Designer, my objective with Unibuzz is to design a platform that meets the unique needs of university students and faculty. My primary focus is on designing a user experience that minimizes the need for multiple apps, and facilitates both academic and non-academic interactions. From a business standpoint, my goal is to drive user engagement and retention through thoughtful design, helping to establish Unibuzz as the preferred platform in the educational sector. To achieve this, I have to deliver high fidelity designs and prototypes for the eventual January 2025 launch. After launch, success will be measured by user engagement metrics, retention rates, and positive feedback on the user experience.</p>
         </div>
         </section>
         <section className='parent'>  
           <div className='case-p'>
             <h2>Approach</h2> 
-            <p>Through a simple yet effective design process, I approached this task by understanding the project's scope, conducting user research, preparing user journeys and sitemaps, designing the final UI, and ultimately testing the product through usability tests and prototypes. If stakeholders requested changes, I would revisit and redesign the necessary components.</p>
+            <p>
+            In developing Unibuzz, our approach is rooted in Agile UX principles. Design and user experience are iteratively refined through continuous feedback and collaboration. Feedback from each iteration will directly inform adjustments and improvements, allowing me to remain responsive to user needs and business goals. Throughout the process, cross-functional collaboration with development, marketing, and design teams will ensure that design decisions align with technical feasibility and project timelines.</p>
           </div>
         </section>   
       </div>
@@ -79,8 +77,10 @@ const Unibuzz = () => {
       </div>
       <div className='case-study'>
         <section className='parent'>
-          <div className='case-p'>
-            <h3>Project Overview</h3>
+          <div className='unibuzz-case'>
+            <h3 className='step-title'>UX RESEARCH</h3>
+            <h4 className='section-title'>Value Proposition</h4> 
+            <span className='space'></span>
           </div>
           <section className='child'>
             <div className='img-container'>
