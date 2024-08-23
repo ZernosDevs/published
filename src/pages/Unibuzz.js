@@ -50,7 +50,7 @@ const Unibuzz = () => {
         <div className='case-p'>
           <h2>Problem</h2>
           <div className='img-container'>
-            <img className= 'width-1200' src = { UnibuzzProblem }></img>
+            <img className= 'width-1200' src = { UnibuzzProblem } style= {{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)'}}></img>
           </div>
           <p>Many students face significant challenges when navigating the transition to university life, including the high cost of professional counseling services and the difficulty of finding authentic, firsthand information about universities and career paths. They often rely on scattered information from various online sources, leading to frustration and inefficiency in managing academic and social interactions. Additionally, students struggle to balance their personal and university lives, often lacking a clear distinction between the two, which can lead to confusion and missed opportunities. The market is overcrowded with numerous unfocused platforms, and no single solution effectively addresses the needs of university life.</p>
         </div>
@@ -59,7 +59,7 @@ const Unibuzz = () => {
         <div className='case-p'>
           <h2>Objective</h2>
           <div className='img-container'>
-            <img className= 'width-1200' src = { UnibuzzObjective }></img>
+            <img className= 'width-1200' src = { UnibuzzObjective } style= {{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)'}}></img>
           </div>
           <p>As a UX/Product Designer, my objective with Unibuzz is to design a platform that meets the unique needs of university students and faculty. My primary focus is on designing a user experience that minimizes the need for multiple apps, and facilitates both academic and non-academic interactions. From a business standpoint, my goal is to drive user engagement and retention through thoughtful design, helping to establish Unibuzz as the preferred platform in the educational sector. To achieve this, I have to deliver high fidelity designs and prototypes for the eventual January 2025 launch. After launch, success will be measured by user engagement metrics, retention rates, and positive feedback on the user experience.</p>
         </div>
@@ -73,7 +73,7 @@ const Unibuzz = () => {
         </section>   
       </div>
       <div className='banner'>
-        <img src = { UnibuzzApproach }></img>
+        <img src = { UnibuzzApproach } ></img>
       </div>
       <div className='case-study'>
         <section className='parent'>
@@ -84,7 +84,7 @@ const Unibuzz = () => {
           </div>
           <section className='child'>
             <div className='img-container'>
-              <img className= 'width-1200' src = { UnibuzzInterview }></img> 
+              <img className= 'width-1200' src = { UnibuzzInterview } style= {{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)'}}></img> 
             </div>
             <div className='case-p'>
               <p >Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender, occupation, or location within South Korea. </p>
@@ -97,7 +97,7 @@ const Unibuzz = () => {
             <span className='space'></span>
           </div>
             <div className='img-container'>
-              <img className= 'width-1200' src = { UnibuzzFlow }></img> 
+              <img className= 'width-1200' src = { UnibuzzFlow } style= {{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)'}}></img> 
             </div>
             <div className='case-p'>
               <p >Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender, occupation, or location within South Korea. </p>
@@ -110,7 +110,7 @@ const Unibuzz = () => {
             <span className='space'></span>
           </div>
             <div className='img-container'>
-              <img className= 'width-1200' src = { UnibuzzSystem }></img> 
+              <img className= 'width-1200' src = { UnibuzzSystem } style= {{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)'}}></img> 
             </div>
             <div className='case-p'>
               <p >Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender, occupation, or location within South Korea. </p>

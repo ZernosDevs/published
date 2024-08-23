@@ -1,61 +1,50 @@
-import React, { useEffect, useRef } from 'react';
-import { useOutletContext } from 'react-router-dom';
+import React from 'react';
+import Slider from 'react-slick';
 import './Slider.css';
+import UnibuzzDesktops1 from '../resources/unibuzz/unibuzz-desktops1.png';
+import UnibuzzDesktops2 from '../resources/unibuzz/unibuzz-desktops2.png';
+import UnibuzzDesktops3 from '../resources/unibuzz/unibuzz-desktops3.png';
+import UnibuzzDesktops4 from '../resources/unibuzz/unibuzz-desktops4.png';
+import UnibuzzDesktops5 from '../resources/unibuzz/unibuzz-desktops5.png';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
-const Slider = () => {
-  const containerRef = useRef(null);
-  const { locoScroll } = useOutletContext();
-
-  useEffect(() => {
-    if (!locoScroll) {
-      console.error('Locomotive Scroll is not initialized');
-      return;
-    }
-
-    const handleScroll = (event) => {
-      if (!containerRef.current) return;
-
-      // Get the current vertical scroll position
-      const scrollTop = event.scroll.y;
-      const maxScrollTop = event.limit.y;
-
-      // Calculate the scroll percentage
-      const scrollPercentage = scrollTop / maxScrollTop;
-
-      // Get the bounding rectangle of the container
-      const containerRect = containerRef.current.getBoundingClientRect();
-
-      // Check if the container is in the viewport
-      if (containerRect.top < window.innerHeight && containerRect.bottom > 0) {
-        // Apply movement when the container is in view
-        const movementFactor = 4000; // Adjust this factor as needed
-        const newScrollPosition = scrollPercentage * movementFactor;
-
-
-        // Move the container right when scrolling down and left when scrolling up
-        containerRef.current.style.transform = `translateX(${newScrollPosition}px)`;
-        
-      }
-    };
-
-    locoScroll.on('scroll', handleScroll);
-
-    return () => {
-      locoScroll.off('scroll', handleScroll);
-    };
-  }, [locoScroll]);
+const SlickSlider = () => {
+  const settings = {
+    infinite: true,
+    speed: 8000,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    pauseOnHover: false,
+    draggable: false,
+    swipe: false,
+    touchMove: false,
+  };
 
   return (
     <div className="scroll-container">
-      <div ref={containerRef} className="scrolling-box">
-        <div className="box red-box"></div>
-        <div className="box green-box"></div>
-        <div className="box blue-box"></div>
-        <div className="box yellow-box"></div>
-        <div className="box purple-box"></div>
-      </div>
+      <Slider {...settings}>
+        <div className="slide">
+          <img src={UnibuzzDesktops1} alt="Unibuzz Desktops 1" />
+        </div>
+        <div className="slide">
+          <img src={UnibuzzDesktops2} alt="Unibuzz Desktops 2" />
+        </div>
+        <div className="slide">
+          <img src={UnibuzzDesktops3} alt="Unibuzz Desktops 3" />
+        </div>
+        <div className="slide">
+          <img src={UnibuzzDesktops4} alt="Unibuzz Desktops 4" />
+        </div>
+        <div className="slide">
+          <img src={UnibuzzDesktops5} alt="Unibuzz Desktops 5" />
+        </div>
+      </Slider>
     </div>
   );
 };
 
-export default Slider;
+export default SlickSlider;
