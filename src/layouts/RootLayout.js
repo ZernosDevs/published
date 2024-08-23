@@ -1,27 +1,46 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Outlet, useRouteError, useLocation } from 'react-router-dom';
 import LocomotiveScroll from 'locomotive-scroll';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ErrorLayout from './ErrorLayout';
 import ScrollToTop from '../components/ScrollTop';
+import ScrollProgress from '../components/ScrollProgress';
 import 'locomotive-scroll/dist/locomotive-scroll.css';
-import './RootLayout.css'
+import './RootLayout.css';
 
 const RootLayout = () => {
   const error = useRouteError();
   const location = useLocation();
   const scrollRef = useRef(null);
   const locoScrollRef = useRef(null);
+  const [isLocoScrollReady, setIsLocoScrollReady] = useState(false); // Track Locomotive Scroll readiness
+
+  // Define color logic based on the current route
+  let scrollProgressColor = '#4caf50'; // Default color
+  const shouldShowScrollProgress = location.pathname !== '/'; // Modify this condition as needed
+
+  if (location.pathname.startsWith('/unibuzz')) {
+    scrollProgressColor = '#6744ff'; // Color for Unibuzz page
+  } else if (location.pathname.startsWith('/sip')) {
+    scrollProgressColor = '#FDA5AF'; // Color for Sip page
+  } else if (location.pathname.startsWith('/esports')) {
+    scrollProgressColor = '#D4D4D4'; // Color for Esports page
+  }
 
   useEffect(() => {
-    // Initialize Locomotive Scroll
-    locoScrollRef.current = new LocomotiveScroll({
-      el: scrollRef.current,
-      smooth: true,
-      smoothMobile: true,
-      inertia: 0.8,
-    });
+    if (scrollRef.current) {
+      // Initialize Locomotive Scroll
+      locoScrollRef.current = new LocomotiveScroll({
+        el: scrollRef.current,
+        smooth: true,
+        smoothMobile: true,
+        inertia: 0.8,
+      });
+
+      // Set Locomotive Scroll as ready
+      setIsLocoScrollReady(true);
+    }
 
     return () => {
       if (locoScrollRef.current) locoScrollRef.current.destroy();
@@ -57,16 +76,20 @@ const RootLayout = () => {
     if (imagesLoaded === totalImages) {
       updateScroll();
     }
-
   }, [location.pathname]);
 
   return (
-    <div ref={scrollRef} data-scroll-container className="rootlayout">
-      <ScrollToTop locoScrollRef={locoScrollRef} />
-      <Header />
-      {error ? <ErrorLayout error={error} /> : <Outlet />}
-      <Footer />
-    </div>
+    <>
+      {shouldShowScrollProgress && isLocoScrollReady && (
+        <ScrollProgress locoScroll={locoScrollRef.current} color={scrollProgressColor} />
+      )}
+      <div ref={scrollRef} data-scroll-container className="rootlayout">
+        <ScrollToTop locoScrollRef={locoScrollRef} />
+        <Header />
+        {error ? <ErrorLayout error={error} /> : <Outlet context={{ locoScroll: locoScrollRef.current }} />}
+        <Footer />
+      </div>
+    </>
   );
 };
 

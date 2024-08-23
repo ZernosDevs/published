@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import './Esports.css'
-import ScrollProgress from '../components/ScrollProgress';
 import EsportsBanner from '../resources/esports/esports-banner.png';
 import EsportsApproach from '../resources/esports/esports-approach.png'
 import EsportsProblem from '../resources/esports/esports-problem2.png'
@@ -20,7 +19,6 @@ const Esports = () => {
 
   return (
     <main className="fade-in"> 
-      <ScrollProgress color="#D4D4D4" />
       <div className='lead-banner'>
         <img src = { EsportsBanner } loading='eager'></img>
       </div>

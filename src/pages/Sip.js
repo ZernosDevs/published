@@ -23,7 +23,6 @@ import OldFilter from '../resources/old-filter.png';
 import NewFilter from '../resources/new-filter.png';
 import NewProto from '../resources/new-filter-prototype.gif';
 import FinalProto from '../resources/final-proto2.gif'
-import ScrollProgress from '../components/ScrollProgress';
 
 
 
@@ -32,7 +31,6 @@ const Sip = () => {
 
   return (
     <main className='fade-in'>
-      <ScrollProgress color="#FDA5AF" />
       <div className='lead-banner'>
         <img src = { Sipbanner } loading='eager'></img>
       </div> 
