@@ -1,12 +1,5 @@
 
 
-.lead-banner {
-    width: 100%;
-    margin: 100px 0px 100px 0px;
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center;    /* Centers vertically */
-}
 
 .lead-banner > img {
     width: 100%;
