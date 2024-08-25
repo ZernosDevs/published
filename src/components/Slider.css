@@ -22,7 +22,16 @@
     gap: 60px;
     pointer-events: none;
   }
-  
+
+  .scrolling-box-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    white-space: nowrap; /* Prevent line breaks */
+    gap: 200px;
+    pointer-events: none;
+  }
+
   .scrolling-image {
     display: inline-block;
     max-width: 4400px;

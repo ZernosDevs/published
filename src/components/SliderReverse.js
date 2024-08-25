@@ -85,7 +85,7 @@ const SliderReverse = () => {
       onMouseUp={endDrag}
 
     > 
-      <div className="scrolling-box">
+      <div className="scrolling-box-mobile">
         <img src={UnibuzzMobiles} alt="Unibuzz Mobiles" className="scrolling-image" />
         <img src={UnibuzzMobiles} alt="Unibuzz Mobiles Clone" className="scrolling-image" />
         <img src={UnibuzzMobiles} alt="Unibuzz Mobiles Clone" className="scrolling-image" />
