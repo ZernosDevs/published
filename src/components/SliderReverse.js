@@ -1,57 +1,94 @@
 import React, { useEffect, useRef } from 'react';
-import { useOutletContext } from 'react-router-dom';
 import './Slider.css';
+import UnibuzzMobiles from '../resources/unibuzz/unibuzz-mobile.png';
 
 const SliderReverse = () => {
   const containerRef = useRef(null);
-  const { locoScroll } = useOutletContext();
+  const isDragging = useRef(false);
+  const startX = useRef(0);
+  const scrollLeft = useRef(0);
+  const animationSpeed = 2; // Control the speed of the auto-scroll
+  const requestId = useRef(null);
 
-  useEffect(() => {
-    if (!locoScroll) {
-      console.error('Locomotive Scroll is not initialized');
-      return;
+  const animateScroll = () => {
+    const container = containerRef.current;
+    if (!container || isDragging.current) return;
+
+    container.scrollLeft -= animationSpeed; // Reverse the direction of scroll
+
+    if (container.scrollLeft <= 0) {
+      container.scrollLeft = container.scrollWidth / 2; // Loop the scrolling back to start
     }
 
-    const handleScroll = (event) => {
-      if (!containerRef.current) return;
+    requestId.current = requestAnimationFrame(animateScroll);
+  };
 
-      // Get the current vertical scroll position
-      const scrollTop = event.scroll.y;
-      const maxScrollTop = event.limit.y;
-
-      // Calculate the scroll percentage
-      const scrollPercentage = scrollTop / maxScrollTop;
-
-      // Get the bounding rectangle of the container
-      const containerRect = containerRef.current.getBoundingClientRect();
-
-      // Check if the container is in the viewport
-      if (containerRect.top < window.innerHeight && containerRect.bottom > 0) {
-        // Apply movement when the container is in view
-        const movementFactor = 4000; // Adjust this factor as needed
-        const newScrollPosition = -scrollPercentage * movementFactor; // Invert the direction
-
-        // Move the container left when scrolling down and right when scrolling up
-        containerRef.current.style.transform = `translateX(${newScrollPosition}px)`;
-        
-      }
-    };
-
-    locoScroll.on('scroll', handleScroll);
+  useEffect(() => {
+    // Start the auto-scrolling
+    requestId.current = requestAnimationFrame(animateScroll);
 
     return () => {
-      locoScroll.off('scroll', handleScroll);
+      if (requestId.current) {
+        cancelAnimationFrame(requestId.current); // Clean up on component unmount
+      }
     };
-  }, [locoScroll]);
+  }, []);
+
+  const startDrag = (e) => {
+    isDragging.current = true;
+
+    if (e.touches && e.touches[0]) {
+      startX.current = e.touches[0].pageX;  // For touch events
+    } else if (e.pageX !== undefined) {
+      startX.current = e.pageX;  // For mouse events
+    } else {
+      return;  // Neither touch nor mouse event, return early to avoid errors
+    }
+
+    scrollLeft.current = containerRef.current.scrollLeft;
+    cancelAnimationFrame(requestId.current); // Stop the scrolling animation while dragging
+  };
+
+  const drag = (e) => {
+    if (!isDragging.current) return;
+
+    let x;
+    if (e.touches && e.touches.length > 0) {
+      x = e.touches[0].pageX;  // For touch events
+    } else if (e.pageX !== undefined) {
+      x = e.pageX;  // For mouse events
+    } else {
+      return;  // If neither is available, exit the function
+    }
+
+    const walk = (x - startX.current) * 1; // Adjust the factor to control drag speed
+    containerRef.current.scrollLeft = scrollLeft.current - walk;
+  };
+
+  const endDrag = () => {
+    isDragging.current = false;
+
+    // Restart scrolling animation after a delay
+    setTimeout(() => {
+      if (!isDragging.current) {
+        requestId.current = requestAnimationFrame(animateScroll);
+      }
+    }, 100); // Small delay before restarting scrolling animation
+  };
 
   return (
-    <div className="scroll-container">
-      <div ref={containerRef} className="scrolling-box2">
-        <div className="box red-box"></div>
-        <div className="box green-box"></div>
-        <div className="box blue-box"></div>
-        <div className="box yellow-box"></div>
-        <div className="box purple-box"></div>
+    <div
+      className="scroll-container"
+      ref={containerRef}
+      onMouseDown={startDrag}
+      onMouseMove={drag}
+      onMouseUp={endDrag}
+
+    > 
+      <div className="scrolling-box">
+        <img src={UnibuzzMobiles} alt="Unibuzz Mobiles" className="scrolling-image" />
+        <img src={UnibuzzMobiles} alt="Unibuzz Mobiles Clone" className="scrolling-image" />
+        <img src={UnibuzzMobiles} alt="Unibuzz Mobiles Clone" className="scrolling-image" />
       </div>
     </div>
   );

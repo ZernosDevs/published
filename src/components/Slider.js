@@ -61,7 +61,7 @@ const Slider = () => {
       return;  // If neither is available, exit the function
     }
   
-    const walk = (x - startX.current) * 2; // Adjust the factor to control drag speed
+    const walk = (x - startX.current) *  1; // Adjust the factor to control drag speed
     containerRef.current.scrollLeft = scrollLeft.current - walk;
   };
   
@@ -83,9 +83,6 @@ const Slider = () => {
       onMouseDown={startDrag}
       onMouseMove={drag}
       onMouseUp={endDrag}
- // Resume scrolling when the mouse leaves the container
-      onTouchMove={drag}
-      onTouchEnd={endDrag}
     >
       <div className="scrolling-box">
         <img src={UnibuzzDesktops} alt="Unibuzz Desktops" className="scrolling-image" />
