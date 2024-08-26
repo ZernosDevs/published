@@ -17,7 +17,7 @@ import ScrollProgress from '../components/ScrollProgress';
 import { useOutletContext } from 'react-router-dom';
 import Slider from '../components/Slider';
 import SliderReverse from '../components/SliderReverse';
-
+import UnibuzzProto from '../resources/unibuzz/unibuzz-proto-final.gif'
 
 
 
@@ -126,6 +126,17 @@ const Unibuzz = () => {
       </div> 
       <Slider locoScroll={locoScroll} />
       <SliderReverse locoScroll={locoScroll} />
+      <div className='case-study'>
+        <section className='child'>
+          <div className='img-container'>
+                  <img className= 'width-1200' src = { UnibuzzProto} ></img> 
+                  <h6>User onboarding sign up prototype flow for web desktop and mobile application.</h6>
+          </div>
+          <div className='case-p'>
+              <p >Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender, occupation, or location within South Korea. </p>
+          </div>
+        </section>
+      </div>
     </main>
   );
 };

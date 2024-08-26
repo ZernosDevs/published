@@ -56,6 +56,10 @@
 
 
   @media (max-width: 600px) {
+
+    .scroll-container {
+        margin-bottom: 50px;
+    }
     .scrolling-image {
         display: inline-block;
         max-width: 2200px;
@@ -63,5 +67,14 @@
       }
     .scrolling-box {
         gap: 30px;
+    }
+
+    .scrolling-image-mobile {
+        max-width: 1700px;
+
+    }
+
+    .scrolling-box-mobile {
+        gap: 80px;
     }
   }

@@ -42,4 +42,15 @@
       transform: translateY(0);
     }
   }
+
+  @media (max-width: 600px) {
+
+    .step-title {
+        font-size: 12px;
+    }
+
+    .section-title {
+        font-size: 16px;
+    }
+  }
   
