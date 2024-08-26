@@ -28,16 +28,21 @@
     align-items: center;
     justify-content: flex-start;
     white-space: nowrap; /* Prevent line breaks */
-    gap: 200px;
+    gap: 160px;
     pointer-events: none;
   }
 
   .scrolling-image {
     display: inline-block;
-    max-width: 4400px;
+    max-width: 5400px;
     pointer-events: none;
   }
   
+  .scrolling-image-mobile {
+    display: inline-block;
+    max-width: 3400px;
+    pointer-events: none;
+  }
   .scroll-container, .scrolling-box, .scrolling-image {
     user-select: none; /* Prevent text/image selection */
     -webkit-user-drag: none; /* Disable dragging on WebKit-based browsers */
