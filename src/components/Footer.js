@@ -9,12 +9,13 @@ import X from '../resources/x.png';
 const Footer = () => {
   return (
     <footer>
+      <div className='profile-frame2'>
+          <h4>Let's Work Together!</h4>
+      </div>
       <div className='socials'>
-        <a  target='_blank' href='#'><div className='media-icon'><img src={Youtube} ></img></div></a>
         <a  target='_blank' href='#'><div className='media-icon'><img src={Linkedin} ></img></div></a>
         <a  target='_blank' href='#'><div className='media-icon'><img src={Dribbble} ></img></div></a>
         <a  target='_blank' href='#'><div className='media-icon'><img src={Instagram} ></img></div></a>
-        <a  target='_blank' href='#'><div className='media-icon'><img src={X} ></img></div></a>
       </div>
       <h3>Email: park.joohyun@outlook.com</h3>
     </footer>

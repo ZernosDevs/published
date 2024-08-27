@@ -58,9 +58,7 @@ const About = () => {
             <p className='bullet'>&#x2022; &nbsp;  I like taking the initiative almost all the time. It sometimes puts me in an uncomfortable spot but I know that if I get through the uncomfortable experience it will stop being uncomfortable and more of a lesson to me. </p>
         </div>
       </div>
-      <div className='profile-frame2'>
-          <h4>Let's Help Each Other Out!</h4>
-      </div>
+      
     </div>
   );
 };

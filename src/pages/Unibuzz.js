@@ -7,17 +7,12 @@ import UnibuzzApproach from '../resources/unibuzz/unibuzz-agile.png';
 import UnibuzzInterview from '../resources/unibuzz/unibuzz-interview.png'
 import UnibuzzSystem from '../resources/unibuzz/unibuzz-system.png'
 import UnibuzzFlow from '../resources/unibuzz/unibuzz-flow.png'
-import FinalUI from '../resources/finalui.png';
-import OldProto2 from '../resources/old-filter-prototype2.gif'
-import OldFilter from '../resources/old-filter.png';
-import NewFilter from '../resources/new-filter.png';
-import NewProto from '../resources/new-filter-prototype.gif';
-import FinalProto from '../resources/final-proto2.gif'
 import ScrollProgress from '../components/ScrollProgress';
 import { useOutletContext } from 'react-router-dom';
 import Slider from '../components/Slider';
 import SliderReverse from '../components/SliderReverse';
 import UnibuzzProto from '../resources/unibuzz/unibuzz-proto-final.gif'
+import UnibuzzTokens from '../resources/unibuzz/unibuzz-tokens.png'
 
 
 
@@ -52,7 +47,7 @@ const Unibuzz = () => {
           <div className='img-container'>
             <img className= 'width-1200' src = { UnibuzzProblem } style= {{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)'}}></img>
           </div>
-          <p>Many students face significant challenges when navigating the transition to university life, including the high cost of professional counseling services and the difficulty of finding authentic, firsthand information about universities and career paths. They often rely on scattered information from various online sources, leading to frustration and inefficiency in managing academic and social interactions. Additionally, students struggle to balance their personal and university lives, often lacking a clear distinction between the two, which can lead to confusion and missed opportunities. The market is overcrowded with numerous unfocused platforms, and no single solution effectively addresses the needs of university life.</p>
+          <p>Many students face significant challenges when navigating the transition to university life which includes finding authentic firsthand information about universities and career paths. They often rely on scattered information from various online sources, leading to frustration and inefficiency in managing academic and social interactions. Once enrolled, university students struggle to balance their personal and university lives. Lacking a clear distinction between the two can lead to confusion and missed opportunities. Currently the market is overcrowded with numerous unfocused platforms, and no single solution effectively addresses the needs of university life.</p>
         </div>
         </section>
         <section className='baby'>
@@ -61,7 +56,7 @@ const Unibuzz = () => {
           <div className='img-container'>
             <img className= 'width-1200' src = { UnibuzzObjective } style= {{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)'}}></img>
           </div>
-          <p>As a UX/Product Designer, my objective with Unibuzz is to design a platform that meets the unique needs of university students and faculty. My primary focus is on designing a user experience that minimizes the need for multiple apps, and facilitates both academic and non-academic interactions. From a business standpoint, my goal is to drive user engagement and retention through thoughtful design, helping to establish Unibuzz as the preferred platform in the educational sector. To achieve this, I have to deliver high fidelity designs and prototypes for the eventual January 2025 launch. After launch, success will be measured by user engagement metrics, retention rates, and positive feedback on the user experience.</p>
+          <p>As a UX/Product Designer, my objective with Unibuzz is to design a platform that meets the unique needs of university students and faculty. My primary focus is on designing a user experience that minimizes the need for multiple apps, and facilitates both academic and non-academic interactions. From a business standpoint, my goal is to output high fidelity designs that can be used to attract possible investors to kickstart the project. With investments acquired, success will be measured by user engagement metrics, retention rates, and positive feedback on the user experience after MVP launch.</p>
         </div>
         </section>
         <section className='parent'>  
@@ -87,7 +82,7 @@ const Unibuzz = () => {
               <img className= 'width-1200' src = { UnibuzzInterview } style= {{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)'}}></img> 
             </div>
             <div className='case-p'>
-              <p >Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender, occupation, or location within South Korea. </p>
+              <p >User interviews were conducted to understand the demand of the product as well as specific user paint points and needs. University students residing in India, Australia, South Korea, Japan, and the United States of America participated in 1-on-1 on-site and remote interviews. The results of these interviews inform and affect all future design decisions.</p>
             </div>
           </section>
           <section className='child'>
@@ -100,7 +95,7 @@ const Unibuzz = () => {
               <img className= 'width-1200' src = { UnibuzzFlow } style= {{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)'}}></img> 
             </div>
             <div className='case-p'>
-              <p >Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender, occupation, or location within South Korea. </p>
+              <p >When I mapped the user journey flow for Unibuzz I focused on understanding every step a student takes while using the app. By mapping out their journey—from logging in and joining groups to posting updates and managing notifications—I was able to pinpoint areas where the user experience could be improved. Detailed user journey flows allows me to streamline interactions and address any potential issues students might face. </p>
             </div>
           </section>
           <section className='child'>
@@ -113,7 +108,7 @@ const Unibuzz = () => {
               <img className= 'width-1200' src = { UnibuzzSystem } style= {{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)'}}></img> 
             </div>
             <div className='case-p'>
-              <p >Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender, occupation, or location within South Korea. </p>
+              <p ><i>Unibuzz</i> design system can be quickly summarized into the foundations of color and typography. We believe that in order to reach as many students around the world as possible, the platform has to be visually accessible to all young adults around the world. By prioritizing clear and inclusive design elements, we strive to make the platform easily accessible and engaging for young adults everywhere. </p>
             </div>
           </section>
           <section className='child'>
@@ -132,10 +127,35 @@ const Unibuzz = () => {
                   <img className= 'width-1200' src = { UnibuzzProto} ></img> 
                   <h6>User onboarding sign up prototype flow for web desktop and mobile application.</h6>
           </div>
-          <div className='case-p'>
-              <p >Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender, occupation, or location within South Korea. </p>
-          </div>
         </section>
+        <section className='child'>
+          <div className='unibuzz-case'>
+            <h3 className='step-title'>Design Tokens</h3>
+            <h4 className='section-title'>Super Fast Designing</h4> 
+            <span className='space'></span>
+          </div>
+            <div className='img-container'>
+              <img className= 'width-1200' src = { UnibuzzTokens } style= {{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)'}}></img> 
+            </div>
+            <div className='img-container'>
+              <img className= 'width-1200' src = { UnibuzzTokens } style= {{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)'}}></img> 
+              <h6>One of the few ways design tokens can save us a lot of time.</h6>
+            </div>
+            <div className='case-p'>
+              <p >Utilizing variables and tokens allows us to maintain a cohesive visual identity while quickly adapting to different contexts and needs. By defining color tokens, we ensure that our color palette remains consistent across various parts of the app. Typography tokens help us apply consistent text styles, which improves readability and user experience. They also allow for some really cool and super time efficient design hacks, such as fast dark mode transitions. </p>
+            </div>
+            </section>
+            <section className='child'>
+              <div className='unibuzz-case'>
+                <h3 className='step-title'>Nest Steps</h3>
+                <h4 className='section-title'>Product Launch: Q1 2025</h4> 
+                <span className='space'></span>
+              </div>
+              <div className='case-p'>
+                <p >As the UX designer for Unibuzz, I'm thrilled about our upcoming launch in 2025. We've been working diligently to create a platform that truly resonates with university students globally. So much time and labor has been poured on this project to ensure that the platform is easy to use and navigate. We've also integrated a lot of feedback from potential users to refine features and interactions. Our goal is to ultimately deliver a platform that supports both academic and social connections effectively to all university students around the world. We're looking forward to seeing how students will engage with <i>Unibuzz</i> and how it can enhance their university experience.</p>
+              </div>
+            </section>
+          
       </div>
     </main>
   );

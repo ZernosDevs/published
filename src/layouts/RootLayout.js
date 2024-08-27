@@ -26,7 +26,11 @@ const RootLayout = () => {
     scrollProgressColor = '#FDA5AF'; // Color for Sip page
   } else if (location.pathname.startsWith('/esports')) {
     scrollProgressColor = '#D4D4D4'; // Color for Esports page
+  } else if (location.pathname.startsWith('/about')) {
+    scrollProgressColor = 'none'; // Color for Esports page
   }
+  
+  
 
   useEffect(() => {
     if (scrollRef.current) {
