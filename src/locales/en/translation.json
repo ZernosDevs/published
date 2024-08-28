@@ -1,7 +1,13 @@
 {
-    "project-1": "this is unibuzz",
-    "project-2": "this is sip at home",
-    "project-3": "this is esportsmaestro"
+    "sub-display-text": "I design and oversee end-to-end product development for <1>startups</1> and <1>young companies</1>",
+    "download": "Download Resume",
+    "section-title": "Project Case Study",
+    "project-date": "2022/05 - Present",
+    "project-desc1": "Responsive web and mobile app design for social media platform for university students",
+    "project-desc2": "End to end responsive web design for alcoholic beverage e-commerce",
+    "project-desc3": "UX research and UI design for recruitment platform for Esports Professionals",
+    "project-desc4": "Mobile app design for trash disposal reminder based in Japan"
+
 }
 
 

@@ -27,7 +27,7 @@ const RootLayout = () => {
   } else if (location.pathname.startsWith('/esports')) {
     scrollProgressColor = '#D4D4D4'; // Color for Esports page
   } else if (location.pathname.startsWith('/about')) {
-    scrollProgressColor = 'none'; // Color for Esports page
+    scrollProgressColor = 'none'; // Color for about page
   }
   
   

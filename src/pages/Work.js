@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
+import {Trans, useTranslation } from 'react-i18next';
 import "./Work.css";
-import Video from "../resources/stock video.mp4";
-
+import Resume from '../resources/robinpark_resume.pdf';
+import Kongomi from '../resources/kongomi.mp4';
+import SipVid from '../resources/sipvid.mp4';
+import UniVid from '../resources/unibuzzvid.mp4';
+import EsportsVid from '../resources/esportsvid.mp4';
 
 const Work = () => {
 
@@ -46,8 +49,12 @@ const Work = () => {
                 <h2>UX/Product Designer</h2>
             </div>
             <div className='sub-display-text'>
-                <h3>I design and oversee end-to-end product development for <b>startups</b> and <b>young companies</b></h3>
-                <a href='/resume.pdf'className='download' download>Download Resume
+                <h3>
+                  <Trans i18nKey="sub-display-text">
+                  I design and oversee end-to-end product development for <b>startups</b> and <b>young companies</b>
+                  </Trans>
+                </h3>
+                <a href={Resume} className='download' download>{t('download')}
                   <svg className='download-icon' xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path d="M3 13.5L3 14.375C3 15.8247 4.17525 17 5.625 17L14.375 17C15.8247 17 17 15.8247 17 14.375L17 13.5M13.5 10L10 13.5M10 13.5L6.5 10M10 13.5L10 3" stroke="#374151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
@@ -63,7 +70,7 @@ const Work = () => {
         <div className='line-divider'></div>
         <section className='projects'>
           <div className='title-container'>
-            <h2>Project Case Study</h2>
+            <h2>{t('section-title')}</h2>
           </div>
           <div className='project-list'>
             <div className='project-row'>
@@ -71,16 +78,16 @@ const Work = () => {
               <div className='project-container'>
                 <div className='project-image'>
                 <video className='hover-video' muted>
-                  <source src= {Video}  type="video/mp4" />
+                  <source src= {UniVid}  type="video/mp4" />
                   'Your browser does not support the video tag.'
                 </video>
                 </div>
                 <div className='project-text'>
                   <div className='title-row'>
-                    <h4>{t('project-1')}</h4>
-                    <h5>Date:2023-2024</h5>
+                    <h4>Unibuzz</h4>
+                    <h5> {t('project-date')}</h5>
                   </div>
-                  <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
+                  <p className='project-desc'> {t('project-desc1')}</p>
                 </div>
               </div>
               </NavLink>
@@ -88,16 +95,16 @@ const Work = () => {
               <div className='project-container'>
                 <div className='project-image'>
                 <video className='hover-video' muted>
-                  <source src= {Video}  type="video/mp4" />
+                  <source src= {SipVid}  type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 </div>
                 <div className='project-text'>
                   <div className='title-row'>
-                    <h4>Project Title</h4>
-                    <h5>Date:2023-2024</h5>
+                    <h4>Sip at Home</h4>
+                    <h5>2024/04 - 2024/06</h5>
                   </div>
-                  <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
+                  <p className='project-desc'>{t('project-desc2')}</p>
                 </div>
               </div>
               </NavLink>
@@ -107,16 +114,16 @@ const Work = () => {
               <div className='project-container'>
                 <div className='project-image'>
                 <video className='hover-video' muted>
-                  <source src= {Video}  type="video/mp4" />
+                  <source src= {EsportsVid}  type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 </div>
                 <div className='project-text'>
                   <div className='title-row'>
-                    <h4>Project Title</h4>
-                    <h5>Date:2023-2024</h5>
+                    <h4>Esportsmaestro</h4>
+                    <h5>2021/03 - 2021/09</h5>
                   </div>
-                  <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
+                  <p className='project-desc'>{t('project-desc3')}</p>
                 </div>
               </div>
               </NavLink>
@@ -124,16 +131,16 @@ const Work = () => {
                 <div className='project-container'>
                   <div className='project-image'>
                   <video className='hover-video' muted>
-                    <source src= {Video}  type="video/mp4" />
+                    <source src= {Kongomi}  type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                   </div>
                   <div className='project-text'>
                     <div className='title-row'>
-                      <h4>Project Title</h4>
-                      <h5>Date:2023-2024</h5>
+                      <h4>Kongomi</h4>
+                      <h5>2023/05 - 2023/06</h5>
                     </div>
-                    <p className='project-desc'>Project description goes here feel free to edit as you like hello world lorem ipsum</p>
+                    <p className='project-desc'>{t('project-desc4')}</p>
                   </div>
                 </div>
               </div>

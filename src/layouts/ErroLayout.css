@@ -1,0 +1,17 @@
+.error-layout {
+    margin:auto;
+    height:100%;
+    max-width:1440px;
+    padding:0px 8% 0px 8%;
+  }
+
+  .error-layout h1 {
+    font-size: 5vw;
+    margin-top:2%;
+  }
+
+  .error-layout p {
+    font-size: 1.5vw;
+    margin-top:2%;
+  }
+

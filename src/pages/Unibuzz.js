@@ -13,6 +13,7 @@ import Slider from '../components/Slider';
 import SliderReverse from '../components/SliderReverse';
 import UnibuzzProto from '../resources/unibuzz/unibuzz-proto-final.gif'
 import UnibuzzTokens from '../resources/unibuzz/unibuzz-tokens.png'
+import UnibuzzMode from '../resources/unibuzz/unibuzz-modes.mp4'
 
 
 
@@ -137,9 +138,11 @@ const Unibuzz = () => {
             <div className='img-container'>
               <img className= 'width-1200' src = { UnibuzzTokens } style= {{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)'}}></img> 
             </div>
-            <div className='img-container'>
-              <img className= 'width-1200' src = { UnibuzzTokens } style= {{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)'}}></img> 
-              <h6>One of the few ways design tokens can save us a lot of time.</h6>
+            <div className='video-container'>
+            <video autoPlay loop muted className="video-content">
+              <source src={UnibuzzMode} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             </div>
             <div className='case-p'>
               <p >Utilizing variables and tokens allows us to maintain a cohesive visual identity while quickly adapting to different contexts and needs. By defining color tokens, we ensure that our color palette remains consistent across various parts of the app. Typography tokens help us apply consistent text styles, which improves readability and user experience. They also allow for some really cool and super time efficient design hacks, such as fast dark mode transitions. </p>

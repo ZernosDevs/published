@@ -29,6 +29,10 @@ nav {
     align-items: center;
     gap: 8px;
 }
+.svg-hover:hover path {
+    stroke: #111827; /* Change this to your desired color */
+    stroke-width: 3.5;
+  }
 
 header nav a.active {
     color: #111827;
