@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
-import {Trans, useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 import "./Work.css";
 import Resume from '../resources/robinpark_resume.pdf';
 import Kongomi from '../resources/kongomi.mp4';
@@ -11,34 +11,55 @@ import EsportsVid from '../resources/esportsvid.mp4';
 const Work = () => {
 
   const { t } = useTranslation();
-  
+
   useEffect(() => {
     const projectLinks = document.querySelectorAll('.project-link');
+    let debounceTimeout;
 
     projectLinks.forEach(link => {
       const video = link.querySelector('.hover-video');
 
-      const playVideo = () => video.play();
-      const pauseVideo = () => {
+      const handleMouseEnter = () => {
+        // Increase size of the link
+        link.style.transform = 'scale(1.03)';
+        link.style.transition = 'transform 0.3s ease';
+
+        // Play video after a short delay
+        clearTimeout(debounceTimeout);
+        debounceTimeout = setTimeout(() => {
+          video.play().catch(error => {
+            console.error('Play request was interrupted:', error);
+          });
+        }, 100);
+      };
+
+      const handleMouseLeave = () => {
+        // Reset size of the link
+        link.style.transform = 'scale(1)';
+
+        // Pause video immediately
+        clearTimeout(debounceTimeout);
         video.pause();
       };
+
       const replayVideo = () => {
         video.currentTime = 0;
         video.play();
       };
 
-      link.addEventListener('mouseenter', playVideo);
-      link.addEventListener('mouseleave', pauseVideo);
+      link.addEventListener('mouseenter', handleMouseEnter);
+      link.addEventListener('mouseleave', handleMouseLeave);
       video.addEventListener('ended', replayVideo);
 
       // Clean up the event listeners on component unmount
       return () => {
-        link.removeEventListener('mouseenter', playVideo);
-        link.removeEventListener('mouseleave', pauseVideo);
+        link.removeEventListener('mouseenter', handleMouseEnter);
+        link.removeEventListener('mouseleave', handleMouseLeave);
         video.removeEventListener('ended', replayVideo);
+        clearTimeout(debounceTimeout);
       };
     });
-  }, []); 
+  }, []);
 
   return (
       <div className='work-layout'>
@@ -61,7 +82,7 @@ const Work = () => {
                 </a>
             </div>
           </section>
-          < div className='display-right'>
+          <div className='display-right'>
             <span className='cyan'></span>
             <span className='purple'></span>
             <span className='magenta'></span>

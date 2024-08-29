@@ -168,7 +168,7 @@ const Esports = () => {
               <span className='space'></span>
           </div>
           <div className='case-p'>
-            <p >With the sitemap done I created user journey flows for different scenarios. The flow above begins with the user's onboarding process, where they create a profile and input their gaming credentials. It then guides them through exploring available job listings, filtering opportunities based on their skills and interests, and applying to positions.</p>
+            <p >With the sitemap done I created user journey flows for different use-cases. The flow above begins with the user's onboarding process, both applicants and employers, where they create a profile and input their information. It then guides them through exploring available job listings, filtering opportunities based on their skills and interests, and matching each other through the messaging system of the platform.</p>
           </div>
         </section>
         <section className='child'>
