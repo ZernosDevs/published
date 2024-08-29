@@ -9,7 +9,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^11.3.28",
-    "gh-pages": "^6.1.1",
     "gsap": "^3.12.5",
     "i18next": "^23.12.2",
     "lenis": "^1.1.9",
@@ -50,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
