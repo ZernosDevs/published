@@ -24,15 +24,12 @@ import NewFilter from '../resources/new-filter.png';
 import NewProto from '../resources/new-filter-prototype.gif';
 import FinalProto from '../resources/final-proto2.gif'
 
-
-
-
 const Sip = () => {
 
   return (
     <main className='fade-in'>
       <div className='lead-banner'>
-        <img src = { Sipbanner } loading='eager'></img>
+        <img src={Sipbanner} loading='eager' alt="Sip banner"></img>
       </div> 
       <div className='case-study'>
         <div className='overview'>
@@ -73,7 +70,7 @@ const Sip = () => {
         </section>   
       </div>
       <div className='banner'>
-        <img src = { Approach }></img>
+        <img src={Approach} alt="Approach" loading="lazy"></img>
       </div>
       <div className='case-study'>
         <section className='parent'>
@@ -82,11 +79,11 @@ const Sip = () => {
           </div>
           <section className='child'>
             <div className='img-container'>
-              <img className= 'width-800' src = { TargetUser }></img> 
+              <img className='width-800' src={TargetUser} alt="Target User" loading="lazy"></img> 
             </div>
             <div className='case-p'>
               <h4>Understanding the User</h4> 
-              <p >Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender, occupation, or location within South Korea. </p>
+              <p>Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender, occupation, or location within South Korea. </p>
             </div>
             <div className='case-p'>
               <span className='space'></span>
@@ -99,23 +96,21 @@ const Sip = () => {
               <h4>Understanding the Business</h4> 
             </div>
             <div className='img-container'>
-              <img className= 'width-800' src = { Stats } ></img>
+              <img className='width-800' src={Stats} alt="Stats" loading="lazy"></img>
               <h6>Quarterly transaction value of online food and beverages sales in South Korea from the 1st quarter of 2017 to the 1st quarter of 2024, Statista (2024)</h6> 
             </div>
-            <div className='case-p'>
             <div className='img-container'>
-              <img className= 'width-800' src = { Conbini }></img>
+              <img className='width-800' src={Conbini} alt="Conbini" loading="lazy"></img>
               <h6>Online alcohol sales are dominated by physical store visits or pickup services provided by convenience store chains.</h6> 
             </div>
-              <p >The online food and beverage market in South Korea has experienced remarkable growth, driven by an increasing preference for convenience and technological advancements. Home delivery services have become particularly popular due to the busy lifestyles of South Koreans and the rapid adoption of mobile technology. Although alcohol can be purchased online, it must be picked up at convenience stores that provide the service. </p>
+            <div className='case-p'>
+              <p>The online food and beverage market in South Korea has experienced remarkable growth, driven by an increasing preference for convenience and technological advancements. Home delivery services have become particularly popular due to the busy lifestyles of South Koreans and the rapid adoption of mobile technology. Although alcohol can be purchased online, it must be picked up at convenience stores that provide the service. </p>
             </div>
-            
             <div className='case-p'>
               <span className='space'></span>
               <span className='space'></span>
               <h5 className='emphasis'>An app dedicated to online alcohol home delivery has the potential to become an instant-hit</h5>
             </div>
-            
           </section>
           <section className='child'>
             <div className='case-p'>
@@ -124,8 +119,7 @@ const Sip = () => {
               <span className='space'></span>
             </div>
             <div className='img-container'>
-              <img src = { Requests }>
-              </img> 
+              <img src={Requests} alt="Business Requests" loading="lazy"></img> 
             </div>
             <div className='case-p'>
               <span className='space'></span>
@@ -151,10 +145,10 @@ const Sip = () => {
               <p><b>Scope:</b> 75 participants undertook an online survey, that consisted of 5 questions which they answered in Likert scale (strongly disagree <span>&#8594;</span> strongly agree). All of the participants were adults over the age of 18, and had a history of drinking alcohol at home. The questions in this survey were formulated based on the business goals I need to accomplish and experience/emotion of our target users. </p>
             </div>
             <div className='img-container'>
-              <img className= 'width-1200' src = { SurveyData }></img>
+              <img className='width-1200' src={SurveyData} alt="Survey Data" loading="lazy"></img>
             </div>
             <div className='img-container'>
-              <img className= 'width-1200' src = { SurveyInsight }></img>
+              <img className='width-1200' src={SurveyInsight} alt="Survey Insight" loading="lazy"></img>
             </div>
             <div className='case-p'>
               <p><b>Key Findings:</b> Based on the survey data we can infer the following insights: </p>
@@ -174,11 +168,11 @@ const Sip = () => {
           </section>
           <section className='child'>
             <div className='case-p'>
-            <h4>Qualitative Research: User Interview</h4>
-            <p><b>Scope:</b> 3 participants who undertook the initial survey were asked questions and provide insight into their answers. I asked questions regarding the feeling of regret after buying alcohol online, the use of the taste filter, and the UI of existing products for alcohol e-commerce.</p> 
+              <h4>Qualitative Research: User Interview</h4>
+              <p><b>Scope:</b> 3 participants who undertook the initial survey were asked questions and provide insight into their answers. I asked questions regarding the feeling of regret after buying alcohol online, the use of the taste filter, and the UI of existing products for alcohol e-commerce.</p> 
             </div>
             <div className='img-container'>
-              <img className= 'width-1200' src = { UserInterview }></img>
+              <img className='width-1200' src={UserInterview} alt="User Interview" loading="lazy"></img>
             </div>
             <div className='case-p'>
                 <p><b>Key Findings:</b> 
@@ -198,7 +192,7 @@ const Sip = () => {
             <div className='case-p'>
               <span className='space'></span>
               <span className='space'></span>
-              <h5 className='emphasis'  >Despite the ease of online alcohol purchasing, some struggle with drink selection.</h5>
+              <h5 className='emphasis'>Despite the ease of online alcohol purchasing, some struggle with drink selection.</h5>
             </div>
           </section>
           <section className='child'>  
@@ -206,10 +200,9 @@ const Sip = () => {
               <h4>User Persona</h4> 
             </div>
             <div className='img-container'>
-              <img className= 'width-1200' src = { Persona } ></img>
+              <img className='width-1200' src={Persona} alt="Persona" loading="lazy"></img>
             </div>
             <div className='case-p'>
-             
               <p><b>Meet Mike</b></p>
               <span className='space'></span>
               <p>The data and insights gathered through quantitative and qualitative methods gave birth to Mike Kim. Like many young adults in their 20s (Gen Z) and 30s (Millenial) Mike appreciates the convenience of online shopping, yet still faces difficulties making the right selection of alcoholic drinks. Mike wishes to be able to purchase alcohol quickly and efficiently, without having to regret spending money on a drink he might not like. </p> 
@@ -223,7 +216,7 @@ const Sip = () => {
               <p>The MVP for Sip at Home should include essential features like a comprehensive drink catalog, search navigation, payment gateway and more. All of this requires it to be planned out through user journey flows and wireframes as part of the product's architecture. </p> 
             </div>
             <div className='img-container'>
-              <img src = { MVPDefine } ></img>
+              <img src={MVPDefine} alt="MVP Define" loading="lazy"></img>
             </div>
           </section> 
         </section>
@@ -231,7 +224,6 @@ const Sip = () => {
           <section className='baby'>
             <div className='case-p'>
               <h3>Product Architecture</h3>
-              
             </div>
           </section>
           <section className='child'>
@@ -239,7 +231,7 @@ const Sip = () => {
               <h4>Visual Sitemap</h4>
             </div>
             <div className='img-container'>
-              <img className= 'width-800' src = { Sitemap } ></img>
+              <img className='width-800' src={Sitemap} alt="Sitemap" loading="lazy"></img>
             </div>
             <div className='case-p'>
               <p>With the features of the platform decided, I constructed a visual sitemap of the the main pages. This sitemap was created with developers in mind, instructing them when to keep the user interface elements in the same page without reloading new pages through dynamic updates, or in more technical terms AJAX updates. This should help the design and development team be in sync and reduce miscommunication issues. </p> 
@@ -250,7 +242,7 @@ const Sip = () => {
               <h4>User Journey</h4>
             </div>
             <div className='img-container'>
-              <img className= 'width-1200' src = { Journey }></img>
+              <img className='width-1200' src={Journey} alt="User Journey" loading="lazy"></img>
             </div>
             <div className='case-p'>
               <p>To further help define the structure and architecture of the website, I created a User Journey flow of what a typical user of the platform might go through during his experience with the product. User flow-charts help me visualize and understand the paths users take while interacting with the product user interface. </p> 
@@ -261,7 +253,7 @@ const Sip = () => {
               <h4>The Custom Filter</h4>
             </div>
             <div className='img-container'>
-              <img  src = { Filter }></img>
+              <img src={Filter} alt="Filter" loading="lazy"></img>
             </div>
             <div className='case-p'>
               <p>With the help of my client, liquor experts, and alcohol enthusiasts, I was able to create the requested "taste" filter for different types of drinks. Users can select their combination of flavor notes and will be given the selection of alcohol that best matches the combination based on other user reviews. For the MVP, this feature is available for wine, beer, and whiskey as these were the most popular drinks sold in liquor shops nationwide. Filters for other fermented or distilled alcohols will be considered in the future.</p>
@@ -272,7 +264,7 @@ const Sip = () => {
               <h4>Mid-fidelity Wireframe</h4>
             </div>
             <div className='img-container'>
-              <img src = { Wireframe }></img>
+              <img src={Wireframe} alt="Wireframe" loading="lazy"></img>
             </div>
             <div className='case-p'>
               <p>Now that the structure and architecture of the product has been set along with the requested taste filter, I created mid-fidelity responsive wireframes that will act as blueprints for the final UI designs. </p>
@@ -292,7 +284,7 @@ const Sip = () => {
                 <h4>Style Guide</h4>
               </div>
               <div className='img-container'>
-                <img className= 'width-800' src = { StyleGuide }></img>
+                <img className='width-800' src={StyleGuide} alt="Style Guide" loading="lazy"></img>
               </div>
               <div className='case-p'>
                 <p>With the mid-fidelity wireframes ready, I made sure that the design of the site matched the client's vision and the message he wanted to send to the users. He specifically requested to make the platform look welcoming/accessible to all adults who are able to drink alcohol. This was done through a style guide, a design system and finally the high-fidelity designs of the product. </p>
@@ -305,7 +297,7 @@ const Sip = () => {
               <p>A design system with the base foundations are set to create the UIs for responsive platform. This is essential to any product as it provides a cohesive set of standards, guidelines, and reusable components. This will help main visual and functional uniformity as well as help streamline the design and development process. </p>
             </div>
             <div className='img-container'>
-              <img className= 'width-1200' src = { DesignSystem }></img>
+              <img className='width-1200' src={DesignSystem} alt="Design System" loading="lazy"></img>
             </div>
           </section>
           <section className='child'>
@@ -318,7 +310,7 @@ const Sip = () => {
       </div>
         
       <div className='span-banner'>
-        <img src = { FinalUI }></img>
+        <img src={FinalUI} alt="Final UI" loading="lazy"></img>
       </div>
       
       <div className='case-study'>
@@ -329,9 +321,9 @@ const Sip = () => {
           <section className='child'>
             <div className='gif-container'>
               <div className='mobile-container'>
-                <img className='mobile-gif' src = { OldFilter }></img></div>
+                <img className='mobile-gif' src={OldFilter} alt="Old Filter" loading="lazy"></img></div>
               <div className='mobile-container'>
-                <img className='mobile-gif' src = { OldProto2 }></img>
+                <img className='mobile-gif' src={OldProto2} alt="Old Prototype" loading="lazy"></img>
               </div>
             </div>
             <div className='case-p'>
@@ -341,10 +333,10 @@ const Sip = () => {
           <section className='child'>
             <div className='gif-container'>
               <div className='mobile-container'>
-                <img className='mobile-gif' src = { NewFilter }></img>
+                <img className='mobile-gif' src={NewFilter} alt="New Filter" loading="lazy"></img>
               </div>
-              <div className= 'mobile-container'>
-                <img className='mobile-gif' src = { NewProto }></img>
+              <div className='mobile-container'>
+                <img className='mobile-gif' src={NewProto} alt="New Prototype" loading="lazy"></img>
               </div>
               
             </div>
@@ -354,8 +346,8 @@ const Sip = () => {
           </section>
           <section className='child'>
             <div className='img-container'>
-              <img className= 'width-1200' src = { FinalProto }></img>
-              <h6 style= {{ margin: '0px'}}>Responsive prototype of user purchase and checkout flow</h6>
+              <img className='width-1200' src={FinalProto} alt="Final Prototype" loading="lazy"></img>
+              <h6 style={{ margin: '0px'}}>Responsive prototype of user purchase and checkout flow</h6>
             </div>
           </section>
         </section>

@@ -2,22 +2,10 @@
 html, body {
     height: 100%;
     margin: 0;
-    overflow: hidden; /* Disable default scrolling */
   }
   
   .rootlayout {
     height: 100%;
-    overflow: hidden; /* Prevent default scrollbars */
-  }
-  
-  [data-scroll-container] {
-    position: relative;
-    overflow: hidden;
-    height: 100%;
-  }
-  
-  [data-scroll-section] {
-    position: relative;
   }
   
   

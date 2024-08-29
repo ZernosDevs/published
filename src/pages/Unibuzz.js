@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Unibuzz.css';
 import UnibuzzBanner from '../resources/unibuzz/unibuzz-banner.png';
 import UnibuzzProblem from '../resources/unibuzz/unibuzz-problem.png'
@@ -7,8 +7,6 @@ import UnibuzzApproach from '../resources/unibuzz/unibuzz-agile.png';
 import UnibuzzInterview from '../resources/unibuzz/unibuzz-interview.png'
 import UnibuzzSystem from '../resources/unibuzz/unibuzz-system.png'
 import UnibuzzFlow from '../resources/unibuzz/unibuzz-flow.png'
-import ScrollProgress from '../components/ScrollProgress';
-import { useOutletContext } from 'react-router-dom';
 import Slider from '../components/Slider';
 import SliderReverse from '../components/SliderReverse';
 import UnibuzzProto from '../resources/unibuzz/unibuzz-proto-final.gif'
@@ -17,10 +15,9 @@ import UnibuzzMode from '../resources/unibuzz/unibuzz-modes.mp4'
 
 const Unibuzz = () => {
 
-  const { locoScroll } = useOutletContext();
+
   return (
     <main className='fade-in'>
-      <ScrollProgress color="#FDA5AF" />
       <div className='lead-banner'>
         <img src={UnibuzzBanner} alt="Unibuzz project banner" loading='eager' />
       </div> 
@@ -45,7 +42,7 @@ const Unibuzz = () => {
           <div className='case-p'>
             <h2>Problem</h2>
             <div className='img-container'>
-              <img className='width-1200' src={UnibuzzProblem} alt="Unibuzz problem statement image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} />
+              <img className='width-1200' src={UnibuzzProblem} alt="Unibuzz problem statement image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} loading="lazy" />
             </div>
             <p>Many students face significant challenges when navigating the transition to university life which includes finding authentic firsthand information about universities and career paths. They often rely on scattered information from various online sources, leading to frustration and inefficiency in managing academic and social interactions. Once enrolled, university students struggle to balance their personal and university lives. Lacking a clear distinction between the two can lead to confusion and missed opportunities. Currently the market is overcrowded with numerous unfocused platforms, and no single solution effectively addresses the needs of university life.</p>
           </div>
@@ -54,7 +51,7 @@ const Unibuzz = () => {
           <div className='case-p'>
             <h2>Objective</h2>
             <div className='img-container'>
-              <img className='width-1200' src={UnibuzzObjective} alt="Unibuzz project objective image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} />
+              <img className='width-1200' src={UnibuzzObjective} alt="Unibuzz project objective image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} loading="lazy" />
             </div>
             <p>As a UX/Product Designer, my objective with Unibuzz is to design a platform that meets the unique needs of university students and faculty. My primary focus is on designing a user experience that minimizes the need for multiple apps, and facilitates both academic and non-academic interactions. From a business standpoint, my goal is to output high fidelity designs that can be used to attract possible investors to kickstart the project. With investments acquired, success will be measured by user engagement metrics, retention rates, and positive feedback on the user experience after MVP launch.</p>
           </div>
@@ -69,7 +66,7 @@ const Unibuzz = () => {
         </section>   
       </div>
       <div className='banner'>
-        <img src={UnibuzzApproach} alt="Unibuzz approach image" />
+        <img src={UnibuzzApproach} alt="Unibuzz approach image" loading="lazy" />
       </div>
       <div className='case-study'>
         <section className='parent'>
@@ -80,7 +77,7 @@ const Unibuzz = () => {
           </div>
           <section className='child'>
             <div className='img-container'>
-              <img className='width-1200' src={UnibuzzInterview} alt="Unibuzz target user interview image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} />
+              <img className='width-1200' src={UnibuzzInterview} alt="Unibuzz target user interview image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} loading="lazy" />
             </div>
             <div className='case-p'>
               <p>User interviews were conducted to understand the demand of the product as well as specific user pain points and needs. University students participated in 1-on-1 on-site or remote interviews. The results of these interviews informed and affected all future design decisions.</p>
@@ -93,7 +90,7 @@ const Unibuzz = () => {
               <span className='space'></span>
             </div>
             <div className='img-container'>
-              <img className='width-1200' src={UnibuzzFlow} alt="Unibuzz user journey flow image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} />
+              <img className='width-1200' src={UnibuzzFlow} alt="Unibuzz user journey flow image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} loading="lazy" />
             </div>
             <div className='case-p'>
               <p>When I mapped the user journey flow for Unibuzz I focused on understanding every step a student takes while using the app. By mapping out their journey—from logging in and joining groups to posting updates and managing notifications—I was able to pinpoint areas where the user experience could be improved. Detailed user journey flows allows me to streamline interactions and address any potential issues students might face.</p>
@@ -106,7 +103,7 @@ const Unibuzz = () => {
               <span className='space'></span>
             </div>
             <div className='img-container'>
-              <img className='width-1200' src={UnibuzzSystem} alt="Unibuzz design system visual identity image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} />
+              <img className='width-1200' src={UnibuzzSystem} alt="Unibuzz design system visual identity image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} loading="lazy" />
             </div>
             <div className='case-p'>
               <p>Unibuzz's design system can be quickly summarized into the foundations of color and typography. We believe that in order to reach as many students around the world as possible, the platform has to be visually accessible to all young adults around the world. By prioritizing clear and inclusive design elements, we strive to make the platform easily accessible and engaging for young adults everywhere.</p>
@@ -120,12 +117,12 @@ const Unibuzz = () => {
           </section>
         </section>
       </div> 
-      <Slider locoScroll={locoScroll} />
-      <SliderReverse locoScroll={locoScroll} />
+      <Slider />
+      <SliderReverse  />
       <div className='case-study'>
         <section className='child'>
           <div className='img-container'>
-            <img className='width-1200' src={UnibuzzProto} alt="Unibuzz high fidelity prototype" />
+            <img className='width-1200' src={UnibuzzProto} alt="Unibuzz high fidelity prototype" loading="lazy" />
             <h6>User onboarding sign up prototype flow for web desktop and mobile application.</h6>
           </div>
         </section>
@@ -136,7 +133,7 @@ const Unibuzz = () => {
             <span className='space'></span>
           </div>
           <div className='img-container'>
-            <img className='width-1200' src={UnibuzzTokens} alt="Unibuzz design tokens image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} />
+            <img className='width-1200' src={UnibuzzTokens} alt="Unibuzz design tokens image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} loading="lazy" />
           </div>
           <div className='video-container'>
             <video autoPlay loop muted className="video-content" aria-label="Unibuzz design mode video">
