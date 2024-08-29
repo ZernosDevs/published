@@ -160,7 +160,7 @@ const Work = () => {
                   <div className='project-text'>
                     <div className='title-row'>
                       <h4>Kongomi</h4>
-                      <h5>2023/05 - 2023/06</h5>
+                      <h5>Coming Soon</h5>
                     </div>
                     <p className='project-desc'>{t('project-desc4')}</p>
                   </div>
