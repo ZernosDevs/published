@@ -37,6 +37,7 @@ const Work = () => {
         // Reset size of the link
         link.style.transform = 'scale(1)';
 
+
         // Pause video immediately
         clearTimeout(debounceTimeout);
         video.pause();
@@ -98,7 +99,7 @@ const Work = () => {
               <NavLink to="unibuzz" className='project-link'>
               <div className='project-container'>
                 <div className='project-image'>
-                <video className='hover-video' muted aria-label="Unibuzz project video">
+                <video className='hover-video' muted>
                   <source src= {UniVid}  type="video/mp4" />
                   'Your browser does not support the video tag.'
                 </video>
@@ -115,7 +116,7 @@ const Work = () => {
               <NavLink to="sip" className='project-link'>
               <div className='project-container'>
                 <div className='project-image'>
-                <video className='hover-video' muted aria-label="Sip at Home project video">
+                <video className='hover-video' muted>
                   <source src= {SipVid}  type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -134,7 +135,7 @@ const Work = () => {
               <NavLink to="esports" className='project-link'>
               <div className='project-container'>
                 <div className='project-image'>
-                <video className='hover-video' muted aria-label="Esportsmaestro project video">
+                <video className='hover-video' muted>
                   <source src= {EsportsVid}  type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -151,7 +152,7 @@ const Work = () => {
               <div className='project-link'>
                 <div className='project-container'>
                   <div className='project-image'>
-                  <video className='hover-video' muted aria-label="Kongomi project video">
+                  <video className='hover-video' muted>
                     <source src= {Kongomi}  type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>

@@ -5,31 +5,31 @@ import Approach from '../resources/approach.png';
 import TargetUser from '../resources/target user.png';
 import Stats from '../resources/stats.png';
 import Conbini from '../resources/conbini.png';
-import Requests from '../resources/requests.png'
+import Requests from '../resources/requests.png';
 import SurveyData from '../resources/survey-data.png';
 import SurveyInsight from '../resources/survey-insight.png';
 import UserInterview from '../resources/user-interview.png';
 import Persona from '../resources/persona.png';
 import MVPDefine from '../resources/mvp-features.png';
 import Sitemap from '../resources/sitemap.png';
-import Journey  from '../resources/user-journey.png';
-import Filter from '../resources/filter.png'
+import Journey from '../resources/user-journey.png';
+import Filter from '../resources/filter.png';
 import Wireframe from '../resources/wireframe.png';
 import StyleGuide from '../resources/style-guide.png';
 import DesignSystem from '../resources/design-system.png';
 import FinalUI from '../resources/finalui.png';
-import OldProto2 from '../resources/old-filter-prototype2.gif'
+import OldProto2 from '../resources/old-filter-prototype2.gif';
 import OldFilter from '../resources/old-filter.png';
 import NewFilter from '../resources/new-filter.png';
 import NewProto from '../resources/new-filter-prototype.gif';
-import FinalProto from '../resources/final-proto2.gif'
+import FinalProto from '../resources/final-proto2.gif';
 
 const Sip = () => {
 
   return (
     <main className='fade-in'>
       <div className='lead-banner'>
-        <img src={Sipbanner} alt="Sip at Home banner" loading='eager' />
+        <img src={Sipbanner} alt="Sip at Home banner" loading='lazy' />
       </div> 
       <div className='case-study'>
         <div className='overview'>
@@ -70,7 +70,7 @@ const Sip = () => {
         </section>   
       </div>
       <div className='banner'>
-        <img src={Approach} alt="Approach diagram" />
+        <img src={Approach} alt="Approach diagram" loading='lazy' />
       </div>
       <div className='case-study'>
         <section className='parent'>
@@ -79,7 +79,7 @@ const Sip = () => {
           </div>
           <section className='child'>
             <div className='img-container'>
-              <img className='width-800' src={TargetUser} alt="Target user demographic" />
+              <img className='width-800' src={TargetUser} alt="Target user demographic" loading='lazy' />
             </div>
             <div className='case-p'>
               <h4>Understanding the User</h4> 
@@ -96,12 +96,12 @@ const Sip = () => {
               <h4>Understanding the Business</h4> 
             </div>
             <div className='img-container'>
-              <img className='width-800' src={Stats} alt="Quarterly transaction value of online food and beverages sales in South Korea" />
+              <img className='width-800' src={Stats} alt="Quarterly transaction value of online food and beverages sales in South Korea" loading='lazy' />
               <h6>Quarterly transaction value of online food and beverages sales in South Korea from the 1st quarter of 2017 to the 1st quarter of 2024, Statista (2024)</h6> 
             </div>
             <div className='case-p'>
             <div className='img-container'>
-              <img className='width-800' src={Conbini} alt="Online alcohol sales by convenience store chains" />
+              <img className='width-800' src={Conbini} alt="Online alcohol sales by convenience store chains" loading='lazy' />
               <h6>Online alcohol sales are dominated by physical store visits or pickup services provided by convenience store chains.</h6> 
             </div>
               <p>The online food and beverage market in South Korea has experienced remarkable growth, driven by an increasing preference for convenience and technological advancements. Home delivery services have become particularly popular due to the busy lifestyles of South Koreans and the rapid adoption of mobile technology. Although alcohol can be purchased online, it must be picked up at convenience stores that provide the service.</p>
@@ -121,7 +121,7 @@ const Sip = () => {
               <span className='space'></span>
             </div>
             <div className='img-container'>
-              <img src={Requests} alt="Business requests and key features" />
+              <img src={Requests} alt="Business requests and key features" loading='lazy' />
             </div>
             <div className='case-p'>
               <span className='space'></span>
@@ -143,10 +143,10 @@ const Sip = () => {
               <p>To gather quantitative data, I distributed a survey to a diverse group of potential users to understand their preferences and behaviors when purchasing alcohol online. The survey provided valuable insights into user expectations, pain points, and desired features.</p>
             </div>
             <div className='img-container'>
-              <img src={SurveyData} alt="Survey data visualization" />
+              <img src={SurveyData} alt="Survey data visualization" loading='lazy' />
             </div>
             <div className='img-container'>
-              <img src={SurveyInsight} alt="Survey insights" />
+              <img src={SurveyInsight} alt="Survey insights" loading='lazy' />
             </div>
             <div className='case-p'>
               <p>The survey results revealed that users highly valued convenience and ease of use. A significant number of respondents expressed frustration with current alcohol purchasing options, particularly the lack of delivery services. The data also highlighted a strong interest in filtering options and personalized recommendations.</p>
@@ -159,7 +159,7 @@ const Sip = () => {
               <p>In addition to the survey, I conducted in-depth interviews with a smaller group of users to gain qualitative insights into their experiences and preferences. This helped to uncover deeper motivations and behaviors that the survey could not fully capture.</p>
             </div>
             <div className='img-container'>
-              <img src={UserInterview} alt="User interviews process" />
+              <img src={UserInterview} alt="User interviews process" loading='lazy' />
             </div>
             <div className='case-p'>
               <p>The interviews provided rich feedback on user expectations and frustrations. Common themes included the desire for a streamlined checkout process, clear product information, and easy access to customer support. Users also expressed a need for a platform that would cater to their specific taste preferences and offer recommendations based on past purchases.</p>
@@ -174,21 +174,21 @@ const Sip = () => {
           </div>
           <section className='child'>
             <div className='img-container'>
-              <img className='width-800' src={Persona} alt="User personas" />
+              <img className='width-800' src={Persona} alt="User personas" loading='lazy' />
             </div>
             <div className='case-p'>
               <h4>User Personas</h4>
               <p>I created user personas to represent the various segments of the target audience. These personas helped to keep the design process focused on the needs and preferences of real users.</p>
             </div>
             <div className='img-container'>
-              <img className='width-800' src={Journey} alt="User journey mapping" />
+              <img className='width-800' src={Journey} alt="User journey mapping" loading='lazy' />
             </div>
             <div className='case-p'>
               <h4>User Journey</h4>
               <p>Mapping out user journeys allowed me to visualize the steps users would take when interacting with the platform, from discovering it to making a purchase. This helped identify potential pain points and areas for improvement in the user experience.</p>
             </div>
             <div className='img-container'>
-              <img className='width-800' src={Sitemap} alt="Sitemap structure" />
+              <img className='width-800' src={Sitemap} alt="Sitemap structure" loading='lazy' />
             </div>
             <div className='case-p'>
               <h4>Sitemap</h4>
@@ -201,28 +201,28 @@ const Sip = () => {
               <p>With a clear understanding of user needs and project goals, I began exploring various design options. This included wireframing, developing a style guide, and creating a design system to ensure consistency across the platform.</p>
             </div>
             <div className='img-container'>
-              <img className='width-800' src={Wireframe} alt="Wireframe design" />
+              <img className='width-800' src={Wireframe} alt="Wireframe design" loading='lazy' />
             </div>
             <div className='case-p'>
               <h4>Wireframes</h4>
               <p>Wireframes were created to outline the basic structure and layout of the platform. This stage allowed me to experiment with different design approaches and gather feedback before moving on to high-fidelity designs.</p>
             </div>
             <div className='img-container'>
-              <img className='width-800' src={StyleGuide} alt="Style guide" />
+              <img className='width-800' src={StyleGuide} alt="Style guide" loading='lazy' />
             </div>
             <div className='case-p'>
               <h4>Style Guide</h4>
               <p>The style guide defined the visual elements of the platform, including color schemes, typography, and iconography. This ensured that the design was cohesive and aligned with the brand identity.</p>
             </div>
             <div className='img-container'>
-              <img className='width-800' src={DesignSystem} alt="Design system" />
+              <img className='width-800' src={DesignSystem} alt="Design system" loading='lazy' />
             </div>
             <div className='case-p'>
               <h4>Design System</h4>
               <p>The design system provided a comprehensive set of guidelines and components for building the platform. This facilitated a consistent and efficient design process and made it easier to maintain and update the platform in the future.</p>
             </div>
             <div className='img-container'>
-              <img className='width-800' src={FinalUI} alt="Final UI design" />
+              <img className='width-800' src={FinalUI} alt="Final UI design" loading='lazy' />
             </div>
             <div className='case-p'>
               <h4>Final UI Design</h4>
@@ -237,35 +237,35 @@ const Sip = () => {
           </div>
           <section className='child'>
             <div className='img-container'>
-              <img className='width-800' src={OldProto2} alt="Old prototype version 2" />
+              <img className='width-800' src={OldProto2} alt="Old prototype version 2" loading='lazy' />
             </div>
             <div className='case-p'>
               <h4>Old Prototype Version 2</h4>
               <p>The second version of the prototype included several design iterations based on initial feedback. It was used for further testing and refinement of the user experience.</p>
             </div>
             <div className='img-container'>
-              <img className='width-800' src={OldFilter} alt="Old filter design" />
+              <img className='width-800' src={OldFilter} alt="Old filter design" loading='lazy' />
             </div>
             <div className='case-p'>
               <h4>Old Filter Design</h4>
               <p>The old filter design was part of the early prototype and was used to test different filtering options with users. Feedback from this phase led to improvements in the final filter design.</p>
             </div>
             <div className='img-container'>
-              <img className='width-800' src={NewFilter} alt="New filter design" />
+              <img className='width-800' src={NewFilter} alt="New filter design" loading='lazy' />
             </div>
             <div className='case-p'>
               <h4>New Filter Design</h4>
               <p>The new filter design incorporated user feedback and provided a more intuitive and effective way for users to find their preferred drinks. This design was implemented in the final prototype.</p>
             </div>
             <div className='img-container'>
-              <img className='width-800' src={NewProto} alt="New prototype version" />
+              <img className='width-800' src={NewProto} alt="New prototype version" loading='lazy' />
             </div>
             <div className='case-p'>
               <h4>New Prototype Version</h4>
               <p>The final prototype included all the improvements and refinements from previous versions. It was used for final testing and to ensure that the design met user needs and expectations.</p>
             </div>
             <div className='img-container'>
-              <img className='width-800' src={FinalProto} alt="Final prototype version" />
+              <img className='width-800' src={FinalProto} alt="Final prototype version" loading='lazy' />
             </div>
             <div className='case-p'>
               <h4>Final Prototype Version</h4>

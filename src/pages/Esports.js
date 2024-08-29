@@ -38,7 +38,7 @@ const Esports = () => {
             <p>League of Legends is one of the largest Esports with various annual tournaments taking place worldwide. On average, 4000 Esports professionals compete in a global circuit to have a chance at securing their careers in the field. However, the employment process for these professionals has largely relied on networking through social media sites, most notably Twitter (now known as X). Esports professionals face a wide range of risks and challenges when job hunting through social media sites.</p>
           </div>
           <div className='img-container'>
-            <img className='width-1200' src={EsportsProblem} alt="Job recruitment notices on Twitter by Esports talent" />
+            <img className='width-1200' src={EsportsProblem} alt="Job recruitment notices on Twitter by Esports talent" loading='lazy' />
             <p>Every month, 100s of Esports talent post their notices on Twitter for job recruitment.</p>
           </div>
         </section>
@@ -63,7 +63,7 @@ const Esports = () => {
         </section>
       </div>
       <div className='banner'>
-        <img src={EsportsApproach} alt="Approach overview for Esportsmaestro project" />
+        <img src={EsportsApproach} alt="Approach overview for Esportsmaestro project" loading='lazy' />
       </div>
       <div className='case-study'>
         <section className='child'>
@@ -79,7 +79,7 @@ const Esports = () => {
             <span className='space'></span>
           </div>
           <div className='img-container'>
-            <img className='width-800' src={EsportsUser} alt="Esports professionals and gaming community" />
+            <img className='width-800' src={EsportsUser} alt="Esports professionals and gaming community" loading='lazy' />
             <span className='space'></span>
             <h6>The League of Legends (LoL) Esports scene is one of the most established and globally recognized competitive gaming ecosystems.</h6>
           </div>
@@ -100,14 +100,14 @@ const Esports = () => {
             <span className='space'></span>
           </div>
           <div className='img-container'>
-            <img className='width-1200' src={EsportsInterview} alt="User interviews with Esports professionals" />
+            <img className='width-1200' src={EsportsInterview} alt="User interviews with Esports professionals" loading='lazy' />
             <span className='space'></span>
           </div>
           <div className='case-p'>
             <p>Many Esports professionals find social media, particularly Twitter, convenient for job hunting since it eliminates the need for traditional cover letters and resumes. However, it was clear from the user interviews that significant challenges still existed.</p>
           </div>
           <div className='img-container'>
-            <img className='width-1200' src={EsportsProblem2} alt="Challenges faced by Esports professionals job hunting on social media" />
+            <img className='width-1200' src={EsportsProblem2} alt="Challenges faced by Esports professionals job hunting on social media" loading='lazy' />
           </div>
           <div className='case-p'>
             <h5 className='emphasis'>Esports talent faced noticeable pain points when it comes to job searching on Twitter but had no better alternative.</h5>
@@ -120,7 +120,7 @@ const Esports = () => {
             <span className='space'></span>
           </div>
           <div className='img-container'>
-            <img className='width-1200' src={EsportsPersona} alt="User persona for Esportsmaestro, Tim" />
+            <img className='width-1200' src={EsportsPersona} alt="User persona for Esportsmaestro, Tim" loading='lazy' />
             <span className='space'></span>
           </div>
           <div className='case-p'>
@@ -138,7 +138,7 @@ const Esports = () => {
           <div className='img-container'>
             <span className='space'></span>
             <span className='space'></span>
-            <img className='width-800' src={EsportsSitemap} alt="Visual sitemap of Esportsmaestro platform" />
+            <img className='width-800' src={EsportsSitemap} alt="Visual sitemap of Esportsmaestro platform" loading='lazy' />
             <span className='space'></span>
             <span className='space'></span>
             <span className='space'></span>
@@ -155,7 +155,7 @@ const Esports = () => {
           </div>
           <div className='img-container'>
             <span className='space'></span>
-            <img className='width-1200' src={EsportsFlow} alt="User journey flow for Esportsmaestro platform" />
+            <img className='width-1200' src={EsportsFlow} alt="User journey flow for Esportsmaestro platform" loading='lazy' />
             <span className='space'></span>
           </div>
           <div className='case-p'>
@@ -170,7 +170,7 @@ const Esports = () => {
           </div>
           <div className='img-container'>
             <span className='space'></span>
-            <img className='width-1200' src={EsportsWireframe} alt="Mid-fidelity wireframes for Esportsmaestro platform" />
+            <img className='width-1200' src={EsportsWireframe} alt="Mid-fidelity wireframes for Esportsmaestro platform" loading='lazy' />
             <span className='space'></span>
           </div>
           <div className='case-p'>
@@ -180,7 +180,7 @@ const Esports = () => {
         <section className='baby'>
           <div className='esports-case'>
             <h3 className='step-title'>Ideation</h3>
-            <h4 className='section-title'>UI elements</h4>
+            <h4 className='section-title'>UI Elements</h4>
             <span className='space'></span>
           </div>
           <div className='case-p'>
@@ -188,7 +188,7 @@ const Esports = () => {
           </div>
           <div className='img-container'>
             <span className='space'></span>
-            <img className='width-1200' src={EsportsElements} alt="UI elements and design foundations for Esportsmaestro" />
+            <img className='width-1200' src={EsportsElements} alt="UI elements and design foundations for Esportsmaestro" loading='lazy' />
             <span className='space'></span>
           </div>
         </section>
@@ -204,7 +204,7 @@ const Esports = () => {
         </section>
       </div>
       <div className='lead-banner'>
-        <img src={EsportsUI} alt="Final UI designs for Esportsmaestro" />
+        <img src={EsportsUI} alt="Final UI designs for Esportsmaestro" loading='lazy' />
       </div>
       <div className='case-study'>
         <section className='child'>
@@ -214,7 +214,7 @@ const Esports = () => {
             <span className='space'></span>
           </div>
           <div className='img-container'>
-            <img className='width-1200' src={EsportsProto} alt="Responsive prototype of Esportsmaestro platform" />
+            <img className='width-1200' src={EsportsProto} alt="Responsive prototype of Esportsmaestro platform" loading='lazy' />
             <h6 style={{ margin: '0px' }}>Responsive prototype of user job application</h6>
             <span className='space'></span>
             <span className='space'></span>
