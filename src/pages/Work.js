@@ -98,7 +98,7 @@ const Work = () => {
               <NavLink to="unibuzz" className='project-link'>
               <div className='project-container'>
                 <div className='project-image'>
-                <video className='hover-video' muted>
+                <video className='hover-video' muted aria-label="Unibuzz project video">
                   <source src= {UniVid}  type="video/mp4" />
                   'Your browser does not support the video tag.'
                 </video>
@@ -115,7 +115,7 @@ const Work = () => {
               <NavLink to="sip" className='project-link'>
               <div className='project-container'>
                 <div className='project-image'>
-                <video className='hover-video' muted>
+                <video className='hover-video' muted aria-label="Sip at Home project video">
                   <source src= {SipVid}  type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -134,7 +134,7 @@ const Work = () => {
               <NavLink to="esports" className='project-link'>
               <div className='project-container'>
                 <div className='project-image'>
-                <video className='hover-video' muted>
+                <video className='hover-video' muted aria-label="Esportsmaestro project video">
                   <source src= {EsportsVid}  type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -151,7 +151,7 @@ const Work = () => {
               <div className='project-link'>
                 <div className='project-container'>
                   <div className='project-image'>
-                  <video className='hover-video' muted>
+                  <video className='hover-video' muted aria-label="Kongomi project video">
                     <source src= {Kongomi}  type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>

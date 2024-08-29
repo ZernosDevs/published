@@ -33,7 +33,7 @@ const About = () => {
           <div className='text-container'>
             <p>I've been a ux/product designer for the past three years, mainly helping startups and entrepreneurs bring their ideas to life! </p>
             <p>I also worked as a frontend developer for a design school and dabbled in Esports coaching. To make it more shocking, I did my education in biological science, completing my bachelor's degree in Japan.</p>
-            <p>How did a former biology student, Esports coach, and frontend developer get into digital product design? I've always had a passion for artistic creation since I was young but never truly realized it until after exploring multiple different interests. Not too long ago, a colleague of mine in the Esports scene had plans to create a website together. We both had no experience and didn't know where to start, so I took design classes and taught myself all the necessary skills to be able to design, plan, and code the website from scratch. From then on, I had a feeling, almost a calling, that I would be fulfilled doing this type of work for the foreseeable future. This feeling would be the thing that cemented my career in product design. </p>
+            <p>How did a former biology student, Esports coach, and frontend developer get into digital product design? I've always had a passion for artistic creation since I was young but never truly realized it until after exploring multiple different interests. Not too long ago, a colleague of mine in the Esports scene had plans to create a website together. We both had no experience and didn't know where to start, so I took design classes and taught myself all the necessary skills to be able to design, plan, and code the website from scratch. From then on, I had a feeling that I would be fulfilled doing this type of work for the foreseeable future. This feeling would be the thing that cemented my career in product design. </p>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@ const About = () => {
         <div className='text-container'>
             <p className='bullet'>&#x2022; &nbsp;  I take my work very seriously. It is very important to me to have a complete understanding of a task before I can start designing. This means understanding the business needs, user needs, stakeholder requirements, product goals and more. If I can have a full understanding of a project, I can truly shine and deliver.</p>
             <p className='bullet'>&#x2022; &nbsp;  One of my biggest fears is not meeting the expectations of those who work with me. I would never let a job go unfinished, as that would sabotage the team's operations. The work comes first before anything else.   </p>
-            <p className='bullet'>&#x2022; &nbsp;  I like taking the initiative almost all the time. It sometimes puts me in an uncomfortable spot but I know that if I get through the uncomfortable experience it will stop being uncomfortable and more of a lesson to me. </p>
+            <p className='bullet'>&#x2022; &nbsp;  I like taking the initiative almost all the time. It sometimes puts me in an uncomfortable spot but I know that if I get through the uncomfortable experience it will become a moment of growth.  </p>
         </div>
       </div>
     </div>
