@@ -16,21 +16,21 @@ const RootLayout = () => {
   const locoScrollRef = useRef(null);
   const [isLocoScrollReady, setIsLocoScrollReady] = useState(false); // Track Locomotive Scroll readiness
 
-  // Define color logic based on the current route
+  // Define color logic based on the current route and set visibility of the scroll progress bar
   let scrollProgressColor = '#4caf50'; // Default color
-  const shouldShowScrollProgress = location.pathname !== '/'; // Modify this condition as needed
+  let shouldShowScrollProgress = false; // Default to not showing the scroll progress bar
 
   if (location.pathname.startsWith('/unibuzz')) {
     scrollProgressColor = '#6744ff'; // Color for Unibuzz page
+    shouldShowScrollProgress = true;
   } else if (location.pathname.startsWith('/sip')) {
     scrollProgressColor = '#FDA5AF'; // Color for Sip page
+    shouldShowScrollProgress = true;
   } else if (location.pathname.startsWith('/esports')) {
     scrollProgressColor = '#D4D4D4'; // Color for Esports page
-  } else if (location.pathname.startsWith('/about')) {
-    scrollProgressColor = 'none'; // Color for about page
+    shouldShowScrollProgress = true;
   }
-  
-  
+  // Note: scrollProgressColor is not needed for 'about' or landing page as the bar is hidden
 
   useEffect(() => {
     if (scrollRef.current) {

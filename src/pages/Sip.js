@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Sip.css';
 import Sipbanner from '../resources/sipbanner.png';
 import Approach from '../resources/approach.png';
@@ -148,7 +148,7 @@ const Sip = () => {
               <h4>Quantitative Research: User Survey</h4>
               <p>In order to better understand the scope of the work, I wanted to know how users felt about current e-commerce for alcohol sale.</p>
               <span className='space'></span>
-              <p><b>Scope:</b> 75 participants undertook an online survey, that consisted of 5 questions which they answered in Likert scale (strongly disagree -> strongly agree). All of the participants were adults over the age of 18, and had a history of drinking alcohol at home. The questions in this survey were formulated based on the business goals I need to accomplish and experience/emotion of our target users. </p>
+              <p><b>Scope:</b> 75 participants undertook an online survey, that consisted of 5 questions which they answered in Likert scale (strongly disagree <span>&#8594;</span> strongly agree). All of the participants were adults over the age of 18, and had a history of drinking alcohol at home. The questions in this survey were formulated based on the business goals I need to accomplish and experience/emotion of our target users. </p>
             </div>
             <div className='img-container'>
               <img className= 'width-1200' src = { SurveyData }></img>
@@ -220,7 +220,7 @@ const Sip = () => {
               <h4>Defining the MVP</h4>
               <p>At this point, I was ready to start defining the platform's features. I had gotten to know my target users and reaffirmed the business demands set by the client through UX research. With this information in hand, I set out to define the MVP (minimum viable product).</p>
               <span className='space'></span>
-              <p>The MVP for <i>Sip at Home</i>  should include essential features like a comprehensive drink catalog, search navigation, payment gateway and more. All of this requires it to be planned out through user journey flows and wireframes as part of the product's architecture. </p> 
+              <p>The MVP for Sip at Home should include essential features like a comprehensive drink catalog, search navigation, payment gateway and more. All of this requires it to be planned out through user journey flows and wireframes as part of the product's architecture. </p> 
             </div>
             <div className='img-container'>
               <img src = { MVPDefine } ></img>
