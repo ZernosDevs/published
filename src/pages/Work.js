@@ -15,53 +15,55 @@ const Work = () => {
   useEffect(() => {
     const projectLinks = document.querySelectorAll('.project-link');
     let debounceTimeout;
-
+  
+    const handleMouseEnter = (link, video) => {
+      link.style.transform = 'scale(1.03)';
+      link.style.transition = 'transform 0.3s ease';
+  
+      clearTimeout(debounceTimeout);
+      debounceTimeout = setTimeout(() => {
+        video.play().catch(error => {
+          console.error('Play request was interrupted:', error);
+        });
+      }, 100);
+    };
+  
+    const handleMouseLeave = (link, video) => {
+      link.style.transform = 'scale(1)';
+      clearTimeout(debounceTimeout);
+      video.pause();
+    };
+  
+    const replayVideo = (video) => {
+      video.currentTime = 0;
+      video.play();
+    };
+  
     projectLinks.forEach(link => {
       const video = link.querySelector('.hover-video');
-
-      const handleMouseEnter = () => {
-        // Increase size of the link
-        link.style.transform = 'scale(1.03)';
-        link.style.transition = 'transform 0.3s ease';
-
-        // Play video after a short delay
-        clearTimeout(debounceTimeout);
-        debounceTimeout = setTimeout(() => {
-          video.play().catch(error => {
-            console.error('Play request was interrupted:', error);
-          });
-        }, 100);
-      };
-
-      const handleMouseLeave = () => {
-        // Reset size of the link
-        link.style.transform = 'scale(1)';
-
-
-        // Pause video immediately
-        clearTimeout(debounceTimeout);
-        video.pause();
-      };
-
-      const replayVideo = () => {
-        video.currentTime = 0;
-        video.play();
-      };
-
-      link.addEventListener('mouseenter', handleMouseEnter);
-      link.addEventListener('mouseleave', handleMouseLeave);
-      video.addEventListener('ended', replayVideo);
-
+  
+      const onMouseEnter = () => handleMouseEnter(link, video);
+      const onMouseLeave = () => handleMouseLeave(link, video);
+      const onVideoEnd = () => replayVideo(video);
+  
+      link.addEventListener('mouseenter', onMouseEnter);
+      link.addEventListener('mouseleave', onMouseLeave);
+      video.addEventListener('ended', onVideoEnd);
+  
       // Clean up the event listeners on component unmount
       return () => {
-        link.removeEventListener('mouseenter', handleMouseEnter);
-        link.removeEventListener('mouseleave', handleMouseLeave);
-        video.removeEventListener('ended', replayVideo);
-        clearTimeout(debounceTimeout);
+        link.removeEventListener('mouseenter', onMouseEnter);
+        link.removeEventListener('mouseleave', onMouseLeave);
+        video.removeEventListener('ended', onVideoEnd);
       };
     });
+  
+    // Cleanup all timeouts on component unmount
+    return () => {
+      clearTimeout(debounceTimeout);
+    };
   }, []);
-
+  
   return (
       <div className='work-layout'>
         <section className='display'>

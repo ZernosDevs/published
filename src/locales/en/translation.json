@@ -6,8 +6,278 @@
     "project-desc1": "Responsive web and mobile app design for social media platform for university students",
     "project-desc2": "End to end responsive web design for alcohol beverage e-commerce",
     "project-desc3": "UX research and UI design for recruitment platform for Esports professionals",
-    "project-desc4": "Mobile app design for Japanese trash disposal reminder"
+    "project-desc4": "Mobile app design for Japanese trash disposal reminder",
+    
+    "about-layout": {
+    "profile-frame1": {
+      "profile-image": {
+        "alt1": "Profile Pic 1",
+        "alt2": "Profile Pic 2",
+        "alt3": "Profile Pic 3",
+        "alt4": "Profile Pic 4",
+        "alt5": "Profile Pic 5"
+      },
+      "text-frame": {
+        "greeting": "Hello my name is Robin!",
+        "introduction": [
+          "I've been a UX/product designer for the past three years, mainly helping startups and entrepreneurs bring their ideas to life!",
+          "I also worked as a frontend developer for a design school and dabbled in Esports coaching. To make it more shocking, I did my education in biological science, completing my bachelor's degree in Japan.",
+          "How did a former biology student, Esports coach, and frontend developer get into digital product design? I've always had a passion for artistic creation since I was young but never truly realized it until after exploring multiple different interests. Not too long ago, a colleague of mine in the Esports scene had plans to create a website together. We both had no experience and didn't know where to start, so I took design classes and taught myself all the necessary skills to be able to design, plan, and code the website from scratch. From then on, I had a feeling that I would be fulfilled doing this type of work for the foreseeable future. This feeling would be the thing that cemented my career in product design."
+        ]
+      }
+    },
+    "skillset": {
+      "title": "My Skillset",
+      "skills": {
+        "design-tools": {
+          "Figma": "Figma",
+          "Illustrator": "Illustrator",
+          "Photoshop": "Photoshop",
+          "Zeplin": "Zeplin",
+          "Chromatic": "Chromatic"
+        },
+        "development-tools": {
+          "HTML": "HTML",
+          "CSS": "CSS",
+          "Javascript": "Javascript",
+          "Reactlogo": "React",
+          "Github": "Github"
+        },
+        "descriptions": [
+          "• 　Expert at Figma: responsive design, prototyping, design systems, variables/tokens, modes, and currently awaiting the Figma AI feature! I keep up with all the latest updates and utilize the newest features!",
+          "• 　Skilled at Adobe Illustrator for handling vector based media, and Adobe Photoshop for editing and embellishing images. For designer-developer collaboration I have experience using Zeplin and Chromatic.",
+          "• 　Frontend development: HTML5, CSS3, Javascript, React. I can code static websites from scratch, and prefer to utilize vanilla Javascript or pure CSS for most tasks.",
+          "• 　This portfolio site was designed, coded, and launched on the public web domain by yours truly."
+        ]
+      }
+    },
+    "values": {
+      "title": "My Values",
+      "descriptions": [
+        "• 　I take my work very seriously. It is very important to me to have a complete understanding of a task before I can start designing. This means understanding the business needs, user needs, stakeholder requirements, product goals and more. If I can have a full understanding of a project, I can truly shine and deliver.",
+        "• 　One of my biggest fears is not meeting the expectations of those who work with me. I would never let a job go unfinished, as that would sabotage the team's operations. The work comes first before anything else.",
+        "• 　I like taking the initiative almost all the time. It sometimes puts me in an uncomfortable spot but I know that if I get through the uncomfortable experience it will become a moment of growth."
+      ]
+    }
+  },
 
-}
-
-
+    "overview": "Overview",
+    "problem": "Problem",
+    "objective": "Objective",
+    "approach": "Approach",
+  
+    "unibuzz-role": "Role: Lead Designer",
+    "unibuzz-responsibility": "Responsibility: Responsive Web and Mobile App design",
+    "unibuzz-timeline": "Timeline: May 2022 - Present",
+    "unibuzz-overview-1": "Unibuzz is a social network platform for university students that helps with all university related matters from peer networking, online messaging, forums for academic and non-academic purposes, and more. Its goal is to revolutionize university life for the 235 million students across 30,000 universities globally.",
+    "unibuzz-overview-2": "As the lead designer of this massive startup project I worked closely with the stakeholders to deliver designs and prototypes for responsive web and mobile application. A large part of my responsibilities also included being involved in other sectors of the team such as marketing, development, and administration.",
+    "unibuzz-problem": "Many students face significant challenges when navigating the transition to university life which includes finding authentic firsthand information about universities and career paths. They often rely on scattered information from various online sources, leading to frustration and inefficiency in managing academic and social interactions. Once enrolled, university students struggle to balance their personal and university lives. Lacking a clear distinction between the two can lead to confusion and missed opportunities. Currently the market is overcrowded with numerous unfocused platforms, and no single solution effectively addresses the needs of university life.",
+    "unibuzz-objective": "As a UX/Product Designer, my objective with Unibuzz is to design a platform that meets the unique needs of university students and faculty. My primary focus is on designing a user experience that minimizes the need for multiple apps, and facilitates both academic and non-academic interactions. From a business standpoint, my goal is to output high fidelity designs that can be used to attract possible investors to kickstart the project. With investments acquired, success will be measured by user engagement metrics, retention rates, and positive feedback on the user experience after MVP launch.",
+    "unibuzz-approach": "In developing Unibuzz, our approach is rooted in Agile UX principles. Design and user experience are iteratively refined through continuous feedback and collaboration. Feedback from each iteration will directly inform adjustments and improvements, allowing me to remain responsive to user needs and business goals. Throughout the process, cross-functional collaboration with development, marketing, and design teams will ensure that design decisions align with technical feasibility and project timelines.",
+  
+    "unibuzz-step-title1": "UX RESEARCH",
+    "unibuzz-section-title1": "Target User Interview",
+    "unibuzz-research": "User interviews were conducted to understand the demand of the product as well as specific user pain points and needs. University students participated in 1-on-1 on-site or remote interviews. The results of these interviews informed and affected all future design decisions.",
+  
+    "unibuzz-step-title2": "Product Architecture",
+    "unibuzz-section-title2": "User Journey Flows",
+    "unibuzz-flow": "When I mapped the user journey flow for Unibuzz I focused on understanding every step a student takes while using the app. By mapping out their journey—from logging in and joining groups to posting updates and managing notifications—I was able to pinpoint areas where the user experience could be improved. Detailed user journey flows allows me to streamline interactions and address any potential issues students might face.",
+  
+    "unibuzz-step-title3": "Design System",
+    "unibuzz-section-title3": "Visual Identity",
+    "unibuzz-system": "Unibuzz's design system can be quickly summarized into the foundations of color and typography. We believe that in order to reach as many students around the world as possible, the platform has to be visually accessible to all young adults around the world. By prioritizing clear and inclusive design elements, we strive to make the platform easily accessible and engaging for young adults everywhere.",
+  
+    "unibuzz-step-title4": "High Fidelity & Prototype",
+    "unibuzz-section-title4": "Design Showcase",
+    "unibuzz-image-text1": "User onboarding sign up prototype flow for web desktop and mobile application.",
+  
+    "unibuzz-step-title5": "Design Tokens",
+    "unibuzz-section-title5": "Super Fast Designing",
+    "unibuzz-tokens": "Utilizing variables and tokens allows us to maintain a cohesive visual identity while quickly adapting to different contexts and needs. By defining color tokens, we ensure that our color palette remains consistent across various parts of the app. Typography tokens help us apply consistent text styles, which improves readability and user experience. They also allow for some really cool and super time efficient design hacks, such as fast dark mode transitions.",
+  
+    "unibuzz-step-title6": "Next Steps",
+    "unibuzz-section-title6": "Product Launch: Q1 2025",
+    "unibuzz-thoughts": "As the UX designer for Unibuzz, I'm thrilled about our upcoming launch in 2025. We've been working diligently to create a platform that truly resonates with university students globally. So much time and labor has been poured on this project to ensure that the platform is easy to use and navigate. We've also integrated a lot of feedback from potential users to refine features and interactions. Our goal is to ultimately deliver a platform that supports both academic and social connections effectively to all university students around the world. We're looking forward to seeing how students will engage with Unibuzz and how it can enhance their university experience.",
+  
+    "sip-role": "Role: Product Designer (Responsive Web)",
+    "sip-responsibility": "Responsibility: End to end UI UX design",
+    "sip-timeline": "Timeline: April 2024 - June 2024",
+  
+    "sip-overview1": "In South Korea, the online sale of alcohol is heavily regulated, with delivery options currently banned. However, recent policy changes now allow consumers to order online for pick-up at select convenience stores. Anticipating a shift towards the legalization of alcohol delivery, my client plans to launch an e-commerce platform centered around alcohol delivery.",
+    "sip-overview2": "Sip at Home is an e-commerce site for all types of alcoholic beverages. It lets you choose your drink based on type, ingredient, and most importantly, taste. As the sole product designer for this project, I was hired as a freelancer to handle everything from user experience research to design system creation and responsive web design.",
+    "sip-overview3": "To protect the client's intellectual property, most of the content presented has been modified for a global audience, and all text has been translated from Korean to English.",
+  
+    "sip-problem1": "The strict regulations on online alcohol sales and the prohibition of delivery in South Korea limits the business potential of liquor store owners and affects consumer convenience. Users are frustrated by the inability to have alcohol delivered, relying instead on physical store visits or inconvenient pick-up options. Existing solutions around the restrictions have failed to meet the growing demand for home delivery. My task was to design a platform ready to launch once the delivery ban is lifted which would help position my client at the forefront of the market.",
+    "sip-objective1": "The client requested that I first develop the website version before committing to a mobile app, as that would require additional time and costs. Since the business can only operate once the delivery ban is lifted, my client is cautious about investing too much in a venture that cannot be fully assessed even after the MVP is ready. Therefore, my primary objective was to create responsive web designs for the MVP, aiming to provide a seamless online alcohol purchasing experience. The goal was to complete the platform within three months, divided into phases of user research, design development, and final prototyping. Success would be measured by client satisfaction and additional investments received once MVP is launched.",
+    "sip-approach1": "Through a simple yet effective design process, I approached this task by understanding the project's scope, conducting user research, preparing user journeys and sitemaps, designing the final UI, and ultimately testing the product through usability tests and prototypes. If stakeholders requested changes, I would revisit and redesign the necessary components.",
+  
+    "sip-title1": "Project Overview",
+    "sip-subtitle1": "Understanding the User",
+    "sip-content1": "Every digital product has a specific audience to target and focus on. In the case of Sip at Home, the target user happens to be every adult who is legally allowed to drink and has access to the internet. This means the age group ranges from 18 years and above, with no specific preference on gender, occupation, or location within South Korea.",
+  
+    "sip-content2": "Create a product that is inclusive, neutral, and appealing to a wide demographic.",
+    "sip-subtitle2": "Understanding the Business",
+    "sip-imagetext1": "Quarterly transaction value of online food and beverages sales in South Korea from the 1st quarter of 2017 to the 1st quarter of 2024, Statista (2024)",
+    "sip-imagetext2": "Online alcohol sales are dominated by physical store visits or pickup services provided by convenience store chains.",
+    "sip-content3": "The online food and beverage market in South Korea has experienced remarkable growth, driven by an increasing preference for convenience and technological advancements. Home delivery services have become particularly popular due to the busy lifestyles of South Koreans and the rapid adoption of mobile technology. Although alcohol can be purchased online, it must be picked up at convenience stores that provide the service.",
+    "sip-content4": "An app dedicated to online alcohol home delivery has the potential to become an instant-hit",
+  
+    "sip-subtitle3": "Business Requests",
+    "sip-content5": "Like any project, clients or stakeholders have specific requests during the development process. My client requested several key features for the platform: filters for the drink catalog based on alcohol type, ingredient, and taste; a comprehensive design system defining colors, typography, etc; an appealing design suitable for all adults legally allowed to drink; and a responsive design that would enable easy transition to a mobile application in the future.",
+    "sip-content6": "Now that I have thoroughly understood the project's overview and business demands, I set out to conduct user research to better understand the needs, behaviors, and pain points of the target audience. This will help me minimize design decisions based on assumption and ultimately deliver a data-driven user experience.",
+  
+    "sip-title2": "User Research",
+    "sip-subtitle4": "Quantitative Research: User Survey",
+    "sip-content7": "In order to better understand the scope of the work, I wanted to know how users felt about current e-commerce for alcohol sale.",
+    "survey": {
+      "scope": "Scope:",
+      "description": "75 participants undertook an online survey, that consisted of 5 questions which they answered in Likert scale (strongly disagree → strongly agree). All of the participants were adults over the age of 18, and had a history of drinking alcohol at home. The questions in this survey were formulated based on the business goals I need to accomplish and experience/emotion of our target users."
+    },
+  
+    "findings": {
+      "title": "Key Findings:",
+      "description": "Based on the survey data we can infer the following insights:",
+      "list": {
+        "point1": "The current e-commerce experience for alcohol is good, as only 12% of participants felt difficulty using their services.",
+        "point2": "Roughly half of participants had regrets when purchasing alcohol online which is an interesting statistic and requires more research. If the current user experience for e-commerce is good why are half of users not satisfied with their purchase?",
+        "point3": "73% of participants think having a taste filter for alcohol would be helpful, which proves the client's business demand matches the user's demand.",
+        "point4": "All participants felt home delivery would be more convenient than pick-up services as was expected. This assures the client the business idea has value in today's market.",
+        "point5": "The current user interface of existing products is generally favorable, although the remaining 31% of participants perhaps felt there could be improvements made."
+      }
+    },
+  
+    "qualitativeResearch": {
+      "title": "Qualitative Research: User Interview",
+      "scope": {
+        "title": "Scope:",
+        "description": "3 participants who undertook the initial survey were asked questions and provide insight into their answers. I asked questions regarding the feeling of regret after buying alcohol online, the use of the taste filter, and the UI of existing products for alcohol e-commerce."
+      },
+      "keyFindings": {
+        "title": "Key Findings:",
+        "list": {
+          "point1": "Users expressed frustration over spending significant amounts of money on alcohol they ultimately didn't enjoy, indicating a need for better information or guidance before making purchasing decisions.",
+          "point2": "Many users highlighted the challenge of buying alcohol without sufficient knowledge, emphasizing that the difficulty lies not in the buying process itself but in the risk associated with choosing unfamiliar products.",
+          "point3": "Users found reviews crucial for understanding the taste of drinks, suggesting that incorporating filters based on taste preferences could enhance their shopping experience significantly.",
+          "point4": "Users expressed reservations about alcohol apps linked primarily to convenience stores, which are not particularly tailored towards the alcohol industry."
+        }
+      },
+      "highlight": "Despite the ease of online alcohol purchasing, some struggle with drink selection."
+    },
+  
+    "userPersona": {
+      "title": "User Persona",
+      "meetMike": {
+        "title": "Meet Mike",
+        "description": "The data and insights gathered through quantitative and qualitative methods gave birth to Mike Kim. Like many young adults in their 20s (Gen Z) and 30s (Millennial), Mike appreciates the convenience of online shopping, yet still faces difficulties making the right selection of alcoholic drinks. Mike wishes to be able to purchase alcohol quickly and efficiently, without having to regret spending money on a drink he might not like."
+      }
+    },
+    "definingMVP": {
+      "title": "Defining the MVP",
+      "description1": "At this point, I was ready to start defining the platform's features. I had gotten to know my target users and reaffirmed the business demands set by the client through UX research. With this information in hand, I set out to define the MVP (minimum viable product).",
+      "description2": "The MVP for Sip at Home should include essential features like a comprehensive drink catalog, search navigation, payment gateway, and more. All of this requires it to be planned out through user journey flows and wireframes as part of the product's architecture."
+    },
+  
+    "productArchitecture": {
+      "title": "Product Architecture"
+    },
+    "visualSitemap": {
+      "title": "Visual Sitemap",
+      "description": "With the features of the platform decided, I constructed a visual sitemap of the main pages. This sitemap was created with developers in mind, instructing them when to keep the user interface elements in the same page without reloading new pages through dynamic updates, or in more technical terms AJAX updates. This should help the design and development team be in sync and reduce miscommunication issues."
+    },
+    "userJourney": {
+      "title": "User Journey",
+      "description": "To further help define the structure and architecture of the website, I created a User Journey flow of what a typical user of the platform might go through during his experience with the product. User flow-charts help me visualize and understand the paths users take while interacting with the product user interface."
+    },
+    "customFilter": {
+      "title": "The Custom Filter",
+      "description": "With the help of my client, liquor experts, and alcohol enthusiasts, I was able to create the requested \"taste\" filter for different types of drinks. Users can select their combination of flavor notes and will be given the selection of alcohol that best matches the combination based on other user reviews. For the MVP, this feature is available for wine, beer, and whiskey as these were the most popular drinks sold in liquor shops nationwide. Filters for other fermented or distilled alcohols will be considered in the future."
+    },
+  
+    "midFidelityWireframe": {
+      "title": "Mid-fidelity Wireframe",
+      "description": "Now that the structure and architecture of the product has been set along with the requested taste filter, I created mid-fidelity responsive wireframes that will act as blueprints for the final UI designs."
+    },
+  
+    "uiBranding": {
+      "title": "UI and Branding"
+    },
+    "styleGuide": {
+      "title": "Style Guide",
+      "description": "With the mid-fidelity wireframes ready, I made sure that the design of the site matched the client's vision and the message he wanted to send to the users. He specifically requested to make the platform look welcoming/accessible to all adults who are able to drink alcohol. This was done through a style guide, a design system, and finally the high-fidelity designs of the product."
+    },
+  
+    "prototypeTesting": {
+      "title": "Prototype/Testing",
+      "problemTitle": "Problem:",
+      "problemDescription": "During the testing phase I noticed that the drink type selection in mobile screen was unintuitive and confusing. Since you can only select either distilled or fermented drinks, it made little sense for the UI to be two selectable dropdowns. The user should only have the choice to select one or the other.",
+      "solutionTitle": "Solution:",
+      "solutionDescription": "To fix this issue, the two selectable buttons were given radio inputs so only one or the other could be selected. Once it is selected, the desired drink in the category can be picked. Although a fairly simple fix, this was not easy to notice amongst the hundreds of screens that I had to work with when handling the prototypes. This is one of the many cases of usability testing that was conducted to create the final designs for the MVP.",
+      "finalProtoCaption": "Responsive prototype of user purchase and checkout flow"
+    },
+    "finalThoughts": {
+      "title": "Final Thoughts"
+    },
+    "conclusion": {
+      "title": "Conclusion",
+      "paragraph1": "Throughout the project, I learned the critical importance of thorough user research and iterative testing. These were essential in refining features to meet user expectations and business demands effectively. Constant communication with the client was also necessary to align with his vision. Overall, it was a significant project given the three-month timeframe, and I'm proud I completed it on time.",
+      "paragraph2": "By the end of the project, I was able to successfully deliver a user-centered e-commerce platform for alcoholic beverages that met both business demands and modern UI/UX standards. For pre-seed startups or entrepreneurs, acquiring funding is a key success metric. My client was thoroughly satisfied with the initial iterations and was pleased to share the design prototypes with liquor shop owners, who expressed interest in investing in the product."
+    },
+    "nextSteps": {
+      "title": "Next Steps",
+      "paragraph1": "My client has expressed that he would like me to work on the mobile app version of the product in the future. For now, he is planning to hire developers to handle the server side and frontend application, and wants me to collaborate with them as much as possible for a smooth design to developer handover.",
+      "paragraph2": "For the meantime, I will continue to occasionally refine and reiterate the designs through multiple rounds of usability tests and make sure the user experience is as smooth and intuitive as it can be."
+    },
+  
+    "esports": {
+      "role": "Role: UI/UX Designer (Responsive Web)",
+      "responsibility": "Responsibility: UX Research and UI Design",
+      "timeline": "Timeline: March 2021 - September 2021",
+      "overviewTitle": "Overview",
+      "overviewText": "Esportsmaestro is a platform for Esports professionals seeking careers in League of Legends, the world's largest Esport. It facilitates networking between Esports talent and organizations, enabling job seekers to share their resumes and employers to list job openings. As one of the UI/UX designers of this project, I worked closely with the stakeholders to conduct user research and create responsive designs for the platform.",
+      "problemTitle": "Problem",
+      "problemText": "League of Legends is one of the largest Esports with various annual tournaments taking place worldwide. On average, 4000 Esports professionals compete in a global circuit to have a chance at securing their careers in the field. However, the employment process for these professionals has largely relied on networking through social media sites, most notably Twitter (now known as X). Esports professionals face a wide range of risks and challenges when job hunting through social media sites.",
+      "problemImageCaption": "Every month, 100s of Esports talent post their notices on Twitter for job recruitment.",
+      "objectiveTitle": "Objective",
+      "objectiveText": "Esportsmaestro was designed to address the challenges Esports professionals face when job hunting through social media by providing a dedicated, secure, and professional environment tailored specifically to the Esports industry. My primary objective was to design an intuitive, user-centered experience that connects Esports professionals with job opportunities. This involves understanding the unique needs and pain points of job seekers and designing interfaces that simplify the job search, application, and recruitment processes.",
+      "approachTitle": "Approach",
+      "approachText": "My design approach focuses on creating a user-centered platform through a structured process.",
+      "approachSteps": {
+        "step1": "Discovery, where I identify the target users and conduct thorough user research to understand their needs and challenges.",
+        "step2": "In the Define phase, I develop user personas, create a visual sitemap, and outline user flows to ensure the platform's structure aligns with user goals.",
+        "step3": "During Ideation, I produce wireframes and design essential UI elements, iterating on these concepts to refine the user experience.",
+        "step4": "Finally, in the Design phase, I create high-fidelity designs and interactive prototypes that effectively address the users' needs and simulate interactions on the platform."
+      },
+      "discoveryTitle": "DISCOVERY",
+      "targetUserTitle": "Understanding Target User",
+      "targetUserText": "Esportsmaestro's target user is professional gamers, coaches, and team managers; this has been very clear since the inception of the project. The target audience predominantly comprises males aged 16 to 30, all with a deep-rooted passion for video games. Key traits of our audience include an appreciation for simplicity, a preference for dark mode, and a love for minimalist design. Accordingly, design elements should incorporate a futuristic vibe/motif that resonates with the world of technology and gaming.",
+      "targetUserImageCaption": "The League of Legends (LoL) Esports scene is one of the most established and globally recognized competitive gaming ecosystems.",
+      "designEmphasis": "Design a product that resonates with gamers while filling the void present in Esports recruitment.",
+      "userResearchTitle": "User Research",
+      "userResearchText": "To understand the user's needs and pain points, I conducted user interviews with Esports professionals. A number of these interviews were done in group settings of 5 - 7 people, while some were done on a 1-on-1 basis. There were a total of 25 participants. This high participant count was made possible through my connections as a former Esports coach for 3 League of Legends teams. The key moments of the interviews were summarized into the user interview log below.",
+      "userResearchChallenges": "Esports talent faced noticeable pain points when it comes to job searching on Twitter but had no better alternative.",
+      "definePhaseTitle": "DEFINE",
+      "userPersonaTitle": "User Persona",
+      "userPersonaText": "Tim is the culmination of the qualitative data I gathered through the user interviews. He is a prime example of the typical Esports player looking to accelerate his career to the next level. However, the pain points he currently faces serve as a significant obstacle to his goals of securing a career in Esports. It was clear from the user research that there was a need for a platform where Esports talent can find organized job openings and post their own availability for recruitment.",
+      "visualSitemapTitle": "Visual Sitemap",
+      "visualSitemapText": "Having done the research, I constructed a visual sitemap of the main pages. A lot of the features in this product involve in-page dynamic updates and booleans that would be better represented in user journey flowcharts. The actual number of pages are kept to a minimum to increase the overall simplicity and accessibility of the product.",
+      "userJourneyFlowTitle": "User Journey Flow",
+      "userJourneyFlowText": "With the sitemap done, I created user journey flows for different use-cases. The flow above begins with the user's onboarding process, both applicants and employers, where they create a profile and input their information. It then guides them through exploring available job listings, filtering opportunities based on their skills and interests, and matching each other through the messaging system of the platform.",
+      "ideationTitle": "Ideation",
+      "midFidelityWireframesTitle": "Mid-fidelity Wireframes",
+      "midFidelityWireframesText": "Mid fidelity wireframes provide detailed yet simplified visual representations of the platform's layout and functionality. These wireframes go beyond simple sketches but do not offer the same level of detail of high fidelity designs, allowing us to focus on the big picture first.",
+      "uiElementsTitle": "UI elements",
+      "uiElementsText": "The base UI foundations of the platform such as the colors and typography set a guideline to ensure uniformity across the platform's interface.",
+      "designsTitle": "Designs",
+      "finalDesignsTitle": "Final Designs",
+      "finalDesignsText": "Based on the sitemap, user journey flows, wireframes, and UI elements, I designed the final UI of the platform for stakeholder's review and developer handover.",
+      "prototypeTitle": "Prototype",
+      "prototypeText1": "Responsive prototype of user job application",
+      "prototypeText2": "Responsive prototype of a user sending job application on Esportsmaestro demonstrates how the user navigates through job listings, reviews the job details, and sends the filled-out application form. This can be viewed dynamically in desktop and mobile interfaces.",
+      "conclusionTitle": "Conclusion",
+      "finalThoughtsTitle": "Final Thoughts",
+      "finalThoughtsText": "Esportsmaestro is a project that I am incredibly proud to have contributed to, marking my first experience in real product design within a field I'm deeply passionate about. While I encountered challenges in aligning the design style with the diverse opinions of stakeholders, our focus on the target user led us to the conclusion that a \"fast, simple, and modern\" approach was ideal. This led us to designing a platform that eliminates the frustrations of esports job hunting, and making sure Esports talent are no longer compelled to use social media sites for their job hunting purposes."
+    },
+  
+    "footer-text": "Let's Work Together!"
+  }
+  

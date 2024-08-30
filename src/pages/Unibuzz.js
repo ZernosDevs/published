@@ -12,9 +12,10 @@ import SliderReverse from '../components/SliderReverse';
 import UnibuzzProto from '../resources/unibuzz/unibuzz-proto-final.gif'
 import UnibuzzTokens from '../resources/unibuzz/unibuzz-tokens.png'
 import UnibuzzMode from '../resources/unibuzz/unibuzz-modes.mp4'
+import { Trans, useTranslation } from 'react-i18next';
 
 const Unibuzz = () => {
-
+  const { t } = useTranslation();
 
   return (
     <main className='fade-in'>
@@ -23,45 +24,40 @@ const Unibuzz = () => {
       </div> 
       <div className='case-study'>
         <div className='overview'>
-            <h5>Role: Lead Designer</h5>
-            <h5>Responsibility: Responsive Web and Mobile App design</h5>
-            <h5>Timeline: May 2022 - Present</h5>
+            <h5>{t('unibuzz-role')}</h5>
+            <h5>{t('unibuzz-responsibility')}</h5>
+            <h5>{t('unibuzz-timeline')}</h5>
         </div>
         <section className='baby'>
           <div className='case-p'>
-            <h2>Overview</h2>
-            <p>Unibuzz is a social network platform for university students that helps with all university related matters from peer networking, online messaging, forums for academic and non-academic purposes, and more. Its goal is to revolutionize university life for the 235 million students across 30,000 universities globally. 
-            </p>
+            <h2>{t('overview')}</h2>
+            <p>{t('unibuzz-overview-1')}</p>
             <span className='space'></span>
-            <p>
-              As the lead designer of this massive startup project I worked closely with the stakeholders to deliver designs and prototypes for responsive web and mobile application. A large part of my responsibilities also included being involved in other sectors of the team such as marketing, development, and administration. 
-            </p>      
+            <p>{t('unibuzz-overview-2')}</p>      
           </div>
         </section>
         <section className='baby'>
           <div className='case-p'>
-            <h2>Problem</h2>
+            <h2>{t('problem')}</h2>
             <div className='img-container'>
               <img className='width-1200' src={UnibuzzProblem} alt="Unibuzz problem statement image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} loading="lazy" />
             </div>
-            <p>Many students face significant challenges when navigating the transition to university life which includes finding authentic firsthand information about universities and career paths. They often rely on scattered information from various online sources, leading to frustration and inefficiency in managing academic and social interactions. Once enrolled, university students struggle to balance their personal and university lives. Lacking a clear distinction between the two can lead to confusion and missed opportunities. Currently the market is overcrowded with numerous unfocused platforms, and no single solution effectively addresses the needs of university life.</p>
+            <p>{t('unibuzz-problem')}</p>
           </div>
         </section>
         <section className='baby'>
           <div className='case-p'>
-            <h2>Objective</h2>
+            <h2>{t('objective')}</h2>
             <div className='img-container'>
               <img className='width-1200' src={UnibuzzObjective} alt="Unibuzz project objective image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} loading="lazy" />
             </div>
-            <p>As a UX/Product Designer, my objective with Unibuzz is to design a platform that meets the unique needs of university students and faculty. My primary focus is on designing a user experience that minimizes the need for multiple apps, and facilitates both academic and non-academic interactions. From a business standpoint, my goal is to output high fidelity designs that can be used to attract possible investors to kickstart the project. With investments acquired, success will be measured by user engagement metrics, retention rates, and positive feedback on the user experience after MVP launch.</p>
+            <p>{t('unibuzz-objective')}</p>
           </div>
         </section>
         <section className='parent'>  
           <div className='case-p'>
-            <h2>Approach</h2> 
-            <p>
-              In developing Unibuzz, our approach is rooted in Agile UX principles. Design and user experience are iteratively refined through continuous feedback and collaboration. Feedback from each iteration will directly inform adjustments and improvements, allowing me to remain responsive to user needs and business goals. Throughout the process, cross-functional collaboration with development, marketing, and design teams will ensure that design decisions align with technical feasibility and project timelines.
-            </p>
+            <h2>{t('approach')}</h2> 
+            <p>{t('unibuzz-approach')}</p>
           </div>
         </section>   
       </div>
@@ -71,8 +67,8 @@ const Unibuzz = () => {
       <div className='case-study'>
         <section className='parent'>
           <div className='unibuzz-case'>
-            <h3 className='step-title'>UX RESEARCH</h3>
-            <h4 className='section-title'>Target User Interview</h4> 
+            <h3 className='step-title'>{t('unibuzz-step-title1')}</h3>
+            <h4 className='section-title'>{t('unibuzz-section-title1')}</h4> 
             <span className='space'></span>
           </div>
           <section className='child'>
@@ -80,39 +76,39 @@ const Unibuzz = () => {
               <img className='width-1200' src={UnibuzzInterview} alt="Unibuzz target user interview image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} loading="lazy" />
             </div>
             <div className='case-p'>
-              <p>User interviews were conducted to understand the demand of the product as well as specific user pain points and needs. University students participated in 1-on-1 on-site or remote interviews. The results of these interviews informed and affected all future design decisions.</p>
+              <p>{t('unibuzz-research')}</p>
             </div>
           </section>
           <section className='child'>
             <div className='unibuzz-case'>
-              <h3 className='step-title'>Product Architecture</h3>
-              <h4 className='section-title'>User Journey Flows</h4> 
+              <h3 className='step-title'>{t('unibuzz-step-title2')}</h3>
+              <h4 className='section-title'>{t('unibuzz-section-title2')}</h4> 
               <span className='space'></span>
             </div>
             <div className='img-container'>
               <img className='width-1200' src={UnibuzzFlow} alt="Unibuzz user journey flow image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} loading="lazy" />
             </div>
             <div className='case-p'>
-              <p>When I mapped the user journey flow for Unibuzz I focused on understanding every step a student takes while using the app. By mapping out their journey—from logging in and joining groups to posting updates and managing notifications—I was able to pinpoint areas where the user experience could be improved. Detailed user journey flows allows me to streamline interactions and address any potential issues students might face.</p>
+              <p>{t('unibuzz-flow')}</p>
             </div>
           </section>
           <section className='child'>
             <div className='unibuzz-case'>
-              <h3 className='step-title'>Design System</h3>
-              <h4 className='section-title'>Visual Identity</h4> 
+              <h3 className='step-title'>{t('unibuzz-step-title3')}</h3>
+              <h4 className='section-title'>{t('unibuzz-section-title3')}</h4> 
               <span className='space'></span>
             </div>
             <div className='img-container'>
               <img className='width-1200' src={UnibuzzSystem} alt="Unibuzz design system visual identity image" style={{ boxShadow: '0px 6px 15px -2px rgba(16, 24, 40, 0.08), 0px 6px 15px -2px rgba(16, 24, 40, 0.08)' }} loading="lazy" />
             </div>
             <div className='case-p'>
-              <p>Unibuzz's design system can be quickly summarized into the foundations of color and typography. We believe that in order to reach as many students around the world as possible, the platform has to be visually accessible to all young adults around the world. By prioritizing clear and inclusive design elements, we strive to make the platform easily accessible and engaging for young adults everywhere.</p>
+              <p>{t('unibuzz-system')}</p>
             </div>
           </section>
           <section className='child'>
             <div className='unibuzz-case'>
-              <h3 className='step-title'>High Fidelity & Prototype</h3>
-              <h4 className='section-title'>Design Showcase</h4> 
+              <h3 className='step-title'>{t('unibuzz-step-title4')}</h3>
+              <h4 className='section-title'>{t('unibuzz-section-title4')}</h4> 
             </div>
           </section>
         </section>
@@ -123,13 +119,13 @@ const Unibuzz = () => {
         <section className='child'>
           <div className='img-container'>
             <img className='width-1200' src={UnibuzzProto} alt="Unibuzz high fidelity prototype" loading="lazy" />
-            <h6>User onboarding sign up prototype flow for web desktop and mobile application.</h6>
+            <h6>{t('unibuzz-image-text1')}</h6>
           </div>
         </section>
         <section className='child'>
           <div className='unibuzz-case'>
-            <h3 className='step-title'>Design Tokens</h3>
-            <h4 className='section-title'>Super Fast Designing</h4> 
+            <h3 className='step-title'>{t('unibuzz-step-title5')}</h3>
+            <h4 className='section-title'>{t('unibuzz-section-title5')}</h4> 
             <span className='space'></span>
           </div>
           <div className='img-container'>
@@ -142,17 +138,17 @@ const Unibuzz = () => {
             </video>
           </div>
           <div className='case-p'>
-            <p>Utilizing variables and tokens allows us to maintain a cohesive visual identity while quickly adapting to different contexts and needs. By defining color tokens, we ensure that our color palette remains consistent across various parts of the app. Typography tokens help us apply consistent text styles, which improves readability and user experience. They also allow for some really cool and super time efficient design hacks, such as fast dark mode transitions.</p>
+            <p>{t('unibuzz-tokens')}</p>
           </div>
         </section>
         <section className='child'>
           <div className='unibuzz-case'>
-            <h3 className='step-title'>Next Steps</h3>
-            <h4 className='section-title'>Product Launch: Q1 2025</h4> 
+            <h3 className='step-title'>{t('unibuzz-step-title6')}</h3>
+            <h4 className='section-title'>{t('unibuzz-section-title6')}</h4> 
             <span className='space'></span>
           </div>
           <div className='case-p'>
-            <p>As the UX designer for Unibuzz, I'm thrilled about our upcoming launch in 2025. We've been working diligently to create a platform that truly resonates with university students globally. So much time and labor has been poured on this project to ensure that the platform is easy to use and navigate. We've also integrated a lot of feedback from potential users to refine features and interactions. Our goal is to ultimately deliver a platform that supports both academic and social connections effectively to all university students around the world. We're looking forward to seeing how students will engage with Unibuzz and how it can enhance their university experience.</p>
+            <p>{t('unibuzz-thoughts')}</p>
           </div>
         </section>
       </div>

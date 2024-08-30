@@ -5,12 +5,14 @@ import Linkedin from '../resources/linkedin.png';
 import Dribbble from '../resources/dribbble.png';
 import Instagram from '../resources/instagram.png';
 import X from '../resources/x.png';
+import { Trans, useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer>
       <div className='profile-frame2'>
-          <h4>Let's Work Together!</h4>
+          <h4>{t('footer-text')}</h4>
       </div>
       <div className='socials'>
         <a  target='_blank' href='https://www.linkedin.com/in/robinpark-designs/'><div className='media-icon'><img src={Linkedin} ></img></div></a>
