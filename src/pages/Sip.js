@@ -294,20 +294,20 @@ const Sip = () => {
             </div>
           </section>
           <section className='child'>
-            <div className='case-p'>
-              <h4>Design System</h4>
-              <p>A design system with the base foundations are set to create the UIs for responsive platform. This is essential to any product as it provides a cohesive set of standards, guidelines, and reusable components. This will help main visual and functional uniformity as well as help streamline the design and development process. </p>
-            </div>
-            <div className='img-container'>
-              <img className='width-1200' src={DesignSystem} alt="Design System" loading="lazy"></img>
-            </div>
-          </section>
-          <section className='child'>
-            <div className='case-p'>
-              <h4>UI: Responsive Web</h4>
-              <p>Based on the style guide and design system I built, I designed the user interface of the platform for both desktop and mobile web screens. With this, all of the business requests were completed before entering the prototype and testing phase. </p>
-            </div>
-          </section>   
+        <div className='case-p'>
+          <h4>{t('designSystem.title')}</h4>
+          <p>{t('designSystem.description')}</p>
+        </div>
+        <div className='img-container'>
+          <img className='width-1200' src={DesignSystem} alt={t('altText.designSystem')} loading="lazy"></img>
+        </div>
+      </section>
+      <section className='child'>
+        <div className='case-p'>
+          <h4>{t('responsiveUI.title')}</h4>
+          <p>{t('responsiveUI.description')}</p>
+        </div>
+      </section>
         </section>
       </div>
         
