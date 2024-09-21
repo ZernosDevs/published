@@ -205,7 +205,17 @@
       "title": "Style Guide",
       "description": "With the mid-fidelity wireframes ready, I made sure that the design of the site matched the client's vision and the message he wanted to send to the users. He specifically requested to make the platform look welcoming/accessible to all adults who are able to drink alcohol. This was done through a style guide, a design system, and finally the high-fidelity designs of the product."
     },
-  
+  "designSystem": {
+    "title": "Design System",
+    "description": "A design system has been set up as the basis for creating a responsive platform UI. This is critical to the product and provides consistent standards, guidelines, and reusable components. This streamlines the design and development process while maintaining visual and functional uniformity."
+  },
+  "responsiveUI": {
+    "title": "UI: Responsive Web",
+    "description": "Based on the style guide and design system I created, I designed the user interface for the platform for both desktop and mobile web screens. This ensured that all business requirements were completed before entering the prototyping and testing phase."
+  },
+  "altText": {
+    "designSystem": "Design System"
+  },
     "prototypeTesting": {
       "title": "Prototype/Testing",
       "problemTitle": "Problem:",
