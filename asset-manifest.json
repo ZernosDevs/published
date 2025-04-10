@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.df03a921.css",
-    "main.js": "/static/js/main.6ec76f90.js",
+    "main.js": "/static/js/main.1b37e688.js",
     "static/js/453.7b11a977.chunk.js": "/static/js/453.7b11a977.chunk.js",
     "static/media/unibuzz-proto-final.gif": "/static/media/unibuzz-proto-final.dc04626451c13a08a352.gif",
     "static/media/final-proto2.gif": "/static/media/final-proto2.0511276b5ca5d4a2bb2c.gif",
@@ -29,26 +29,27 @@
     "static/media/esports-elements.png": "/static/media/esports-elements.29eccb58b0b098f243a0.png",
     "static/media/sipbanner.png": "/static/media/sipbanner.17659c8519955f83101d.png",
     "static/media/persona.png": "/static/media/persona.0e1dc9ac27c591803b08.png",
-    "static/media/esportsvid.mp4": "/static/media/esportsvid.883acf92eeeb80c15323.mp4",
     "static/media/esports-wireframe.png": "/static/media/esports-wireframe.e01e2138e11c351ce431.png",
-    "static/media/sipvid.mp4": "/static/media/sipvid.fdaee397217fee096cbc.mp4",
-    "static/media/unibuzzvid.mp4": "/static/media/unibuzzvid.e7fd53a862522b68c620.mp4",
     "static/media/unibuzz-objective.png": "/static/media/unibuzz-objective.3aeb1337fa9accf68c32.png",
     "static/media/unibuzz-banner.png": "/static/media/unibuzz-banner.490cca0733096daa134b.png",
     "static/media/user-journey.png": "/static/media/user-journey.7126a26ae06e58485c32.png",
     "static/media/esports-approach.png": "/static/media/esports-approach.bc0242316a9e8b97cc95.png",
-    "static/media/kongomi.mp4": "/static/media/kongomi.1601484f1f8f3a16c1db.mp4",
     "static/media/esports-sitemap.png": "/static/media/esports-sitemap.e9ddd966f9bf60e0157c.png",
     "static/media/wireframe.png": "/static/media/wireframe.c566392bd86e0a293eae.png",
     "static/media/unibuzz-flow.png": "/static/media/unibuzz-flow.362949073440f3ff3225.png",
     "static/media/esports-persona.png": "/static/media/esports-persona.5ffbfd9786e60cffc94c.png",
     "static/media/esports-flow.png": "/static/media/esports-flow.848caec724d316d01da9.png",
     "static/media/user-interview.png": "/static/media/user-interview.98e0345c257339f92dd6.png",
+    "static/media/kongomi.png": "/static/media/kongomi.1a1dc34c0d00a64017db.png",
     "static/media/unibuzz-interview.png": "/static/media/unibuzz-interview.5e3878da4ad8b8f78259.png",
+    "static/media/sip-marketing.png": "/static/media/sip-marketing.9e127897b812e45e3953.png",
+    "static/media/esports-marketing.png": "/static/media/esports-marketing.ec5882c7b76c9eabdd2f.png",
     "static/media/approach.png": "/static/media/approach.b9935b8f914d26253e4c.png",
     "static/media/sitemap.png": "/static/media/sitemap.b3a852a805f4a22cef90.png",
     "static/media/survey-data.png": "/static/media/survey-data.5f11ecc7d00b103ac6e8.png",
+    "static/media/unibuzz-marketing.png": "/static/media/unibuzz-marketing.f39508640cba165a939b.png",
     "static/media/unibuzz-tokens.png": "/static/media/unibuzz-tokens.e4488997a1bb4dedc2e9.png",
+    "static/media/axa-marketing.png": "/static/media/axa-marketing.db26d255c8867d6b8f9b.png",
     "static/media/survey-insight.png": "/static/media/survey-insight.d73f7499adf149a13379.png",
     "static/media/stats.png": "/static/media/stats.863a725c0ce26eb4f1e8.png",
     "static/media/esports-problem.png": "/static/media/esports-problem.5d40961ac7fe3e4b95e5.png",
@@ -64,11 +65,11 @@
     "static/media/filter.png": "/static/media/filter.10bf4a45035162e2edc9.png",
     "index.html": "/index.html",
     "main.df03a921.css.map": "/static/css/main.df03a921.css.map",
-    "main.6ec76f90.js.map": "/static/js/main.6ec76f90.js.map",
+    "main.1b37e688.js.map": "/static/js/main.1b37e688.js.map",
     "453.7b11a977.chunk.js.map": "/static/js/453.7b11a977.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df03a921.css",
-    "static/js/main.6ec76f90.js"
+    "static/js/main.1b37e688.js"
   ]
 }
