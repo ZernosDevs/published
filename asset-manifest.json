@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9cdf9a9d.css",
-    "main.js": "/static/js/main.50d0eea2.js",
+    "main.js": "/static/js/main.9b96f05c.js",
     "static/js/453.7b11a977.chunk.js": "/static/js/453.7b11a977.chunk.js",
     "static/media/unibuzz-proto-final.gif": "/static/media/unibuzz-proto-final.dc04626451c13a08a352.gif",
     "static/media/final-proto2.gif": "/static/media/final-proto2.0511276b5ca5d4a2bb2c.gif",
@@ -51,7 +51,7 @@
     "static/media/unibuzz-tokens.png": "/static/media/unibuzz-tokens.e4488997a1bb4dedc2e9.png",
     "static/media/axa-marketing.png": "/static/media/axa-marketing.db26d255c8867d6b8f9b.png",
     "static/media/survey-insight.png": "/static/media/survey-insight.d73f7499adf149a13379.png",
-    "static/media/stats.png": "/static/media/stats.863a725c0ce26eb4f1e8.png",
+    "static/media/stats.png": "/static/media/stats.bf73fa632b328b4692fe.png",
     "static/media/esports-problem.png": "/static/media/esports-problem.5d40961ac7fe3e4b95e5.png",
     "static/media/unibuzz-agile.png": "/static/media/unibuzz-agile.84a0be52417e4a3155c8.png",
     "static/media/conbini.png": "/static/media/conbini.84bb4823bf63276402d0.png",
@@ -64,11 +64,11 @@
     "static/media/filter.png": "/static/media/filter.10bf4a45035162e2edc9.png",
     "index.html": "/index.html",
     "main.9cdf9a9d.css.map": "/static/css/main.9cdf9a9d.css.map",
-    "main.50d0eea2.js.map": "/static/js/main.50d0eea2.js.map",
+    "main.9b96f05c.js.map": "/static/js/main.9b96f05c.js.map",
     "453.7b11a977.chunk.js.map": "/static/js/453.7b11a977.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9cdf9a9d.css",
-    "static/js/main.50d0eea2.js"
+    "static/js/main.9b96f05c.js"
   ]
 }
