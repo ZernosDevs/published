@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9cdf9a9d.css",
+    "main.css": "/static/css/main.ad9b53ba.css",
     "main.js": "/static/js/main.9b96f05c.js",
     "static/js/453.7b11a977.chunk.js": "/static/js/453.7b11a977.chunk.js",
     "static/media/unibuzz-proto-final.gif": "/static/media/unibuzz-proto-final.dc04626451c13a08a352.gif",
@@ -63,12 +63,12 @@
     "static/media/javascript.png": "/static/media/javascript.cf7522f436d6510da302.png",
     "static/media/filter.png": "/static/media/filter.10bf4a45035162e2edc9.png",
     "index.html": "/index.html",
-    "main.9cdf9a9d.css.map": "/static/css/main.9cdf9a9d.css.map",
+    "main.ad9b53ba.css.map": "/static/css/main.ad9b53ba.css.map",
     "main.9b96f05c.js.map": "/static/js/main.9b96f05c.js.map",
     "453.7b11a977.chunk.js.map": "/static/js/453.7b11a977.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cdf9a9d.css",
+    "static/css/main.ad9b53ba.css",
     "static/js/main.9b96f05c.js"
   ]
 }
